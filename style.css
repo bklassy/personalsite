@@ -1,0 +1,37 @@
+@media only screen and (min-width:768px) {
+    .responsive {
+        max-width: fit-content;
+    }
+
+    :root {
+        font-size: 18px;
+
+    }
+}
+
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url("background.png");
+            background-color: white;
+            background-repeat: no repeat;
+            background-size: cover;
+            margin: 1.5rem;
+        }
+
+.home {
+            width: 128px;
+            height: 128px;
+            border-radius: 50%;
+            border-style: solid;
+            border-color: rgb(82, 23, 5);
+            border-width: 6px;
+            background: url("Icon.png") no-repeat;
+            background-size: contain;
+            display: inline-block;
+        }
+
+.home:hover {
+            background: url("FingerPoint.png") no-repeat;
+            background-size: contain;
+        }
+

@@ -1,0 +1,18 @@
+body {visibility:hidden;}
+.home {display: none !important;}
+.print {
+    visibility:visible;
+    font-size: 10px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    }
+
+.smalltext {font-size: 10.5px !important;}
+.sectionName {font-size: 14px !important;}
+h3 {font-size: 11px !important;}
+.date {
+        font-size: 10px !important;}
+i {font-size: 10.5px !important;}
+a {text-decoration: none;
+color: black;}
+#printbutton {display: none;}
