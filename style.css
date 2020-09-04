@@ -1,6 +1,7 @@
 @media only screen and (min-width:768px) {
     .responsive {
         max-width: fit-content;
+        min-width: fit-content;
     }
 
     :root {
@@ -9,9 +10,14 @@
     }
 }
 
- body {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-image: url("background.png");
+            background-image: url(../assets/background.png);
+            background-image: url("../assets/background.svg");
             background-color: white;
             background-repeat: no repeat;
             background-size: cover;
@@ -19,19 +25,137 @@
         }
 
 .home {
-            width: 128px;
             height: 128px;
+            width: 128px;
             border-radius: 50%;
             border-style: solid;
             border-color: rgb(82, 23, 5);
             border-width: 6px;
-            background: url("Icon.png") no-repeat;
+            background: url("../assets/Icon.png") no-repeat;
             background-size: contain;
             display: inline-block;
         }
 
 .home:hover {
-            background: url("FingerPoint.png") no-repeat;
+            transition-delay: 0.25s;
+            background: url("../assets/FingerPoint.png") no-repeat;
             background-size: contain;
         }
 
+#nav {
+            width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding-top: 4rem;
+            padding-left: 0rem;
+        }
+
+#nav li {
+            /* background-color:rgb(204, 159, 61); */
+            background-image: url(../assets/campfirenoflame.png);
+            background-image: url(../assets/campfireNoFlame.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-x: center;
+            background-position-y: top;
+            /* padding top right bottom left */
+            padding: 7rem 2rem 2.75rem 2rem;
+            text-indent: 2rem;
+            /* padding: .5rem 1.5rem; */
+            /* border-style: solid; */
+            /* border-radius: 5px; */
+            /* border-color: rgb(82, 23, 5); */
+            /* border-width: 6px; */
+
+        }
+
+#nav li:hover { 
+            background-image: url(../assets/campfire.png);
+            background-image: url(../assets/campfire.svg);
+            /* transition-delay: .3s; */
+            cursor: url(../assets/CursorBurnt.png), pointer;
+        }
+
+#nav a {
+            text-decoration: none; 
+            font-weight: bold;
+            color: rgb(235, 221, 192);
+            text-shadow: 2px 2px 3px rgb(82, 80, 80);
+        }
+
+.resumecontainer {
+            background-color: rgb(255, 255, 255);
+            border-radius: 2px;
+            box-shadow: 3px 3px 10px black, 0 0 25px gray;
+            margin: auto;
+            max-width: 48rem;
+            padding: 2rem 4rem;
+            margin-top: 4rem;
+            animation-name: fadeIn;
+            animation-duration: .5s;
+            transition-timing-function: ease-in;
+            animation-fill-mode: both;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+.coffee {
+            float: right;
+            background-color: rgb(112, 83, 2);
+            border-radius: 4px;
+            padding: .25rem .45rem;
+            margin: 0;
+            box-shadow: 1px 1px 1px .5px rgb(37, 36, 36);
+        }
+
+.coffee:hover {
+            background-color: rgb(182, 136, 11);
+            transition-delay: .2s;
+}
+.coffee a {
+            text-decoration: none; 
+            font-size: 12px;
+            font-weight: bold;
+            color: rgb(240, 238, 233);
+            text-shadow: 2px 2px 3px rgb(46, 34, 2);
+        }
+
+
+
+.red {
+            background-color: rgba(238, 238, 238, 0.95);
+            box-shadow: 3px 3px 10px rgb(255, 58, 58), 0 0 25px rgb(250, 109, 109);
+        }
+
+.orange {
+            background-color: rgba(238, 238, 238, 0.95);
+            box-shadow: 3px 3px 10px rgb(252, 164, 0), 0 0 25px rgb(243, 151, 65);
+        }
+
+.yellow {
+            background-color: rgba(238, 238, 238, 0.95);
+            box-shadow: 3px 3px 10px rgb(252, 227, 0), 0 0 25px rgb(255, 238, 80);
+        }
+
+.green {
+            background-color: rgba(238, 238, 238, 0.95);
+            box-shadow: 3px 3px 10px rgb(38, 236, 38), 0 0 25px rgb(142, 245, 116);
+        }
+
+.blue {
+            background-color: rgba(238, 238, 238, 0.95);
+            box-shadow: 3px 3px 10px rgb(38, 140, 236), 0 0 25px rgb(116, 129, 245);
+        }
+
+.purple {
+            background-color: rgba(238, 238, 238, 0.95);
+            box-shadow: 3px 3px 10px rgb(120, 26, 243), 0 0 25px rgb(231, 62, 203);
+        }

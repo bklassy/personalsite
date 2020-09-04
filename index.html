@@ -5,6 +5,10 @@
     <meta name=viewport content="width=device-width,initial-scale=1">
     <title>Beth Klassen</title>
     <style>
+        body {
+            cursor: url(../assets/cursor.png), pointer;
+        }
+
         #container {
             margin: auto;
         }
@@ -27,46 +31,12 @@
 
         }
 
-        #header img {
-            margin-bottom: 4rem;
-            border-radius: 50%;
-            border-style: solid;
-            border-color: rgb(92, 67, 14);
-            border-width: 6px;
-        }
-
-        #nav {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            list-style: none;
-            padding-top: 5rem;
-            padding-left: 0;
-            align-items: center;
-        }
-
-        #nav li {
-            background-color: rgb(204, 159, 61);
-            padding: .5rem 1rem;
-            border-style: solid;
-            border-radius: 5px;
-            border-color: rgb(82, 23, 5);
-            border-width: 6px;
-        }
-
-        #nav a {
-            text-decoration: none;
-            font-weight: bold;
-            color: rgb(82, 23, 5);
-        }
-
         #bottom {
             background-color: rgba(204, 159, 61, .9);
             padding: .25rem 1rem 1rem 1rem;
             /* padding top right bottom left */
             border-radius: 7px;
         }
-
     </style>
 </head>
 
@@ -80,10 +50,10 @@
                     <a href="#about">
                         <li>About</li>
                     </a>
-                    <a href="resume.html">
+                    <a href="resume">
                         <li>Resume</li>
                     </a>
-                    <a href="projects copy.html">
+                    <a href="projects">
                         <li>Projects</li>
                     </a>
                 </ul>
@@ -91,16 +61,30 @@
         </div>
         <div id="bottom">
             <h2 id="about">About</h2>
-            <p>By day, Beth works with hospitals and
-                clinics to make decisions and configure workflows for patient care. By night, she
+            <p>By day, Beth works in health care software implementation. By night, she
                 explores different design styles in the world of web and digital illustration. Originally from
                 Wisconsin, she now lives in
                 Austin, TX. Beth
-                enjoys going to concerts, painting, modestly playing musical instruments, and occasionally hiking
+                enjoys painting, gaming, modestly playing musical instruments, and occasionally hiking
                 in the great outdoors.
             </p>
         </div>
     </div>
+    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+    <script>
+        (function (f, a, t, h, o, m) {
+            a[h] = a[h] || function () {
+                (a[h].q = a[h].q || []).push(arguments)
+            };
+            o = f.createElement('script'),
+                m = f.getElementsByTagName('script')[0];
+            o.async = 1; o.src = t; o.id = 'fathom-script';
+            m.parentNode.insertBefore(o, m)
+        })(document, window, '//fathom.joshcorp.co/tracker.js', 'fathom');
+        fathom('set', 'siteId', 'VKCHM');
+        fathom('trackPageview');
+    </script>
+    <!-- / Fathom -->
 </body>
 
 </html>
