@@ -34,7 +34,6 @@ body {
             border-width: 6px;
             background: url("../assets/Icon.png") no-repeat;
             background-size: 100% auto;
-            display: inline-block;
         }
 
 .home:hover {
