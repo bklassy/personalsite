@@ -27,12 +27,13 @@ body {
 .home {
             height: 128px;
             width: 128px;
+            min-height: 128px;
             border-radius: 50%;
             border-style: solid;
             border-color: rgb(82, 23, 5);
             border-width: 6px;
             background: url("../assets/Icon.png") no-repeat;
-            background-size: contain;
+            background-size: 100% auto;
             display: inline-block;
         }
 
