@@ -22,6 +22,9 @@ body {
     margin: 1.5rem;
 }
 
+
+/* Icon that switches from smile to pointing finger upon hovering */
+
 .home {
     min-height: 128px;
     min-width: 128px;
@@ -30,7 +33,7 @@ body {
     border-color: rgb(82, 23, 5);
     border-width: 6px;
     background: url("../assets/Icon.png") no-repeat;
-    background-size: contain;
+    background-size: 100% auto;
     display: inline-block;
 }
 
@@ -39,6 +42,9 @@ body {
     background: url("../assets/FingerPoint.png") no-repeat;
     background-size: contain;
 }
+
+
+/* Home page - menu buttons for About, Resume, and Projects. Logs in background image that show an animated fire when hovering */
 
 #nav {
     width: 100%;
@@ -60,11 +66,6 @@ body {
     /* padding top right bottom left */
     padding: 7rem 2rem 2.75rem 2rem;
     text-indent: 2rem;
-    /* padding: .5rem 1.5rem; */
-    /* border-style: solid; */
-    /* border-radius: 5px; */
-    /* border-color: rgb(82, 23, 5); */
-    /* border-width: 6px; */
 }
 
 #nav li:hover {
@@ -86,6 +87,9 @@ body {
         padding: 1rem 1rem;
     }
 }
+
+
+/* Resume- white page with fade in */
 
 .resumecontainer {
     background-color: rgb(255, 255, 255);
@@ -110,6 +114,9 @@ body {
     }
 }
 
+
+/* Projects page - Buy me a coffee hyperlink */
+
 .coffee {
     float: right;
     background-color: rgb(112, 83, 2);
@@ -131,6 +138,9 @@ body {
     color: rgb(240, 238, 233);
     text-shadow: 2px 2px 3px rgb(46, 34, 2);
 }
+
+
+/* Projects page- different shadows for each project - RGB, baby! */
 
 .red {
     background-color: rgba(238, 238, 238, 0.95);
