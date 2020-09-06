@@ -48,7 +48,8 @@
         }
         
         .column img,
-        embed {
+        embed,
+        object {
             max-width: 100%;
             height: auto;
             object-fit: contain;
@@ -85,18 +86,6 @@
                 </div>
             </div>
         </div>
-        <div class="orange">
-            <div class="artboard">
-                <h2 class="projectname">Revolution</h2>
-                <div class="content">
-                    <div class="column">
-                        <div class="shadowed">
-                            <embed src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="yellow">
             <div class="artboard">
                 <h2 class="projectname">Fall</h2>
@@ -109,6 +98,23 @@
                 </div>
             </div>
         </div>
+        <div class="orange">
+            <div class="artboard">
+                <h2 class="projectname">Revolution</h2>
+                <div class="content">
+                    <div class="column">
+                        <div class="shadowed">
+                            <!-- tried <embed src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" 
+                            check out https://graphicdesign.stackexchange.com/questions/106200/svg-xlinkhref-path-to-jpg-not-working-inside-my-website-project/> and https://vecta.io/blog/best-way-to-embed-svg-->
+                            <object type="image/svg+xml" data="revolution_poster.svg">
+                                <img src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" />
+                            </object>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!--
             <div class="green">
                 <div class="artboard">
@@ -160,7 +166,7 @@
         <script>
             new Zooming({
                 bgColor: 'rgb(0, 0, 0)'
-            }).listen('img');
+            }).listen('img', );
         </script>
         <!--  -->
 </body>
