@@ -11,7 +11,7 @@
             color: rgb(245, 234, 210);
             text-shadow: 2px 2px 3px rgb(82, 80, 80);
         }
-
+        
         #Projects {
             border-radius: 5px;
             text-align: center;
@@ -19,26 +19,26 @@
             max-width: 100rem;
             padding: .017px;
         }
-
+        
         #projectscontainer {
             max-width: 1200px;
             margin: auto;
-            animation-name: fadeIn; 
+            animation-name: fadeIn;
             animation-duration: .5s;
             transition-timing-function: ease-in;
         }
-
+        
         .artboard {
             padding: 1rem;
             margin-bottom: 4rem;
             border-radius: 5px;
         }
-
+        
         .content {
             display: flex;
             justify-content: space-around;
         }
-
+        
         .column {
             display: flex;
             flex-direction: column;
@@ -46,7 +46,7 @@
             height: auto;
             margin-bottom: 2rem;
         }
-
+        
         .column img {
             max-width: 100%;
             height: auto;
@@ -55,12 +55,11 @@
             object-position: top;
             box-shadow: 2px 2px 18px rgb(124, 118, 90, .3);
         }
-
+        
         .projectname {
             display: flex;
             justify-content: center;
         }
-
     </style>
 
 </head>
@@ -80,8 +79,7 @@
                 <h2 class="projectname"> Raspberry Pi&#174 poster</h2>
                 <div class="content">
                     <div class="column">
-                        <a href="raspberrypiposterlowfi.png"><img src="raspberrypiposterlowfi.png"
-                                alt="raspberry pi vector image on blue poster"></a>
+                        <a href="raspberrypiposterlowfi.png"><img src="raspberrypiposterlowfi.png" alt="raspberry pi vector image on blue poster"></a>
                     </div>
                 </div>
             </div>
@@ -92,27 +90,25 @@
                 <div class="content">
                     <div class="column">
                         <div class="shadowed">
-                            <a href="revolution_poster.png"><img src="revolution_poster.png"
-                                    alt="Poster with vinyl"></a>
+                            <embed src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-            <div class="yellow">
-                <div class="artboard">
-                    <h2 class="projectname">Fall</h2>
-                    <div class="content">
-                        <div class="column">
-                            <div class="shadowed">
-                                <a href="fallposter.png"><img src="fallposter.png"
-                                        alt="Poster with fall text"></a>
-                            </div>
+        <div class="yellow">
+            <div class="artboard">
+                <h2 class="projectname">Fall</h2>
+                <div class="content">
+                    <div class="column">
+                        <div class="shadowed">
+                            <a href="fallposter.png"><img src="fallposter.png" alt="Poster with fall text"></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--
+        </div>
+        <!--
             <div class="green">
                 <div class="artboard">
                     <h2 class="projectname">Project name</h2>
@@ -140,27 +136,32 @@
             </div>
         </div> -->
 
-    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-    <script>
-        (function (f, a, t, h, o, m) {
-            a[h] = a[h] || function () {
-                (a[h].q = a[h].q || []).push(arguments)
-            };
-            o = f.createElement('script'),
-                m = f.getElementsByTagName('script')[0];
-            o.async = 1; o.src = t; o.id = 'fathom-script';
-            m.parentNode.insertBefore(o, m)
-        })(document, window, '//fathom.joshcorp.co/tracker.js', 'fathom');
-        fathom('set', 'siteId', 'VKCHM');
-        fathom('trackPageview');
-    </script>
-    <!-- / Fathom -->
-    <!-- smooth zoom: https://www.cssscript.com/smooth-image-zoom-medium/  -->
-    <script src="./zooming.min.js">
-    </script>
-    <script>new Zooming({bgColor: 'rgb(0, 0, 0)'}).listen('img');
-    </script>
-    <!--  -->
+        <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+        <script>
+            (function(f, a, t, h, o, m) {
+                a[h] = a[h] || function() {
+                    (a[h].q = a[h].q || []).push(arguments)
+                };
+                o = f.createElement('script'),
+                    m = f.getElementsByTagName('script')[0];
+                o.async = 1;
+                o.src = t;
+                o.id = 'fathom-script';
+                m.parentNode.insertBefore(o, m)
+            })(document, window, '//fathom.joshcorp.co/tracker.js', 'fathom');
+            fathom('set', 'siteId', 'VKCHM');
+            fathom('trackPageview');
+        </script>
+        <!-- / Fathom -->
+        <!-- smooth zoom: https://www.cssscript.com/smooth-image-zoom-medium/  -->
+        <script src="./zooming.min.js">
+        </script>
+        <script>
+            new Zooming({
+                bgColor: 'rgb(0, 0, 0)'
+            }).listen('img');
+        </script>
+        <!--  -->
 </body>
 
 </html>

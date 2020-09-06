@@ -1,0 +1,401 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="792" height="1224" viewBox="0 0 792 1224">
+    <defs>
+        <clipPath id="clip-path">
+            <path
+                d="M397,269c-140.2,0-253.7,113.6-253.7,253.7S256.8,776.4,397,776.4,650.7,662.8,650.7,522.7,537.1,269,397,269Zm0,263.8a10.1,10.1,0,1,1,10-10.1A10.1,10.1,0,0,1,397,532.8Z"
+                fill="none" />
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <rect x="138.3" y="264" width="517.4" height="517.41" fill="none" />
+        </clipPath>
+        <style>
+            #record {
+                animation: spin 6s infinite linear;
+                transform-origin: 50% 42.7%;
+            }
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </defs>
+    <title>revolution_poster</title>
+    <g id="backgroundColor">
+        <image width="3601" height="5400" transform="translate(-35 -36) scale(0.24)"
+            href="Revolution_Simpler21.png" />
+    </g><text transform="translate(129.9 504.4) rotate(-82.4)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">T</text><text
+        transform="matrix(0.26, -0.97, 0.97, 0.26, 134.44, 470.14)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">h</text><text transform="translate(143.5 436.9) rotate(-68.1)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
+        transform="translate(154.4 410.2) rotate(-63.1)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations"> </text><text
+        transform="matrix(0.54, -0.84, 0.84, 0.54, 161.77, 394.46)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">R</text><text
+        transform="matrix(0.63, -0.77, 0.77, 0.63, 180.73, 365.09)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">e</text><text
+        transform="matrix(0.71, -0.7, 0.7, 0.71, 197.58, 344.19)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">v</text><text
+        transform="matrix(0.78, -0.62, 0.62, 0.78, 218.1, 323.68)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">o</text><text
+        transform="matrix(0.83, -0.55, 0.55, 0.83, 242.47, 304.61)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">l</text><text transform="translate(254.2 296.3) rotate(-28.8)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">u</text><text
+        transform="translate(282.8 280.8) rotate(-22.7)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">t</text><text
+        transform="matrix(0.95, -0.31, 0.31, 0.95, 305.98, 271.34)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(320.9 266.1) rotate(-13.1)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
+        transform="translate(351.3 258.9) rotate(-6.2)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(383.5 255.8) rotate(-0.9)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+        transform="translate(401.3 255.5) rotate(2.6)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(418.1 256.1) rotate(7.2)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">s</text><text
+        transform="translate(442.6 259.3) rotate(11.8)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(460 262.9) rotate(15.3)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">i</text><text
+        transform="translate(477 267.2) rotate(21)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(507 279) rotate(26.3)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+        transform="translate(522.8 286.5) rotate(31.5)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">y</text><text transform="translate(547.7 301.6) rotate(37.7)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
+        transform="translate(571.9 320.2) rotate(44.4)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">u</text><text
+        transform="matrix(0.63, 0.78, -0.78, 0.63, 595.31, 343.13)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">r</text><text transform="translate(613.4 365.9) rotate(56)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+        transform="matrix(0.46, 0.89, -0.89, 0.46, 623.81, 379.6)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">M</text><text
+        transform="matrix(0.35, 0.94, -0.94, 0.35, 645.05, 423.1)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(651.4 439.4) rotate(75.5)"
+        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
+        transform="translate(659.7 471.5) rotate(82.5)" font-size="74.98" fill="#231f20"
+        font-family="GoodVibrations, Good Vibrations">d</text>
+    <path
+        d="M37.5,1145.4l-1.1-.6a3.7,3.7,0,0,1-1.7-1.8,6.1,6.1,0,0,1-.6-2.8,5.7,5.7,0,0,1,.6-2.7,3.7,3.7,0,0,1,1.7-1.8,5.4,5.4,0,0,1,2.7-.6,5.4,5.4,0,0,1,2.7.6,3.3,3.3,0,0,1,1.7,1.8,5.7,5.7,0,0,1,.6,2.7,6.1,6.1,0,0,1-.6,2.8,3.3,3.3,0,0,1-1.7,1.8,5.4,5.4,0,0,1-2.7.6Zm2.8-1.4.8-.4a3.7,3.7,0,0,0,1.2-1.3,4.6,4.6,0,0,0,.5-2.1,3.9,3.9,0,0,0-.5-2,2.8,2.8,0,0,0-1.2-1.4,4.2,4.2,0,0,0-2-.4,4.2,4.2,0,0,0-2,.4,3.3,3.3,0,0,0-1.2,1.4,4,4,0,0,0-.4,2,4.6,4.6,0,0,0,.4,2.1,3.7,3.7,0,0,0,1.2,1.3,4.2,4.2,0,0,0,2,.4Zm-2.2-1.1-.7-.6a3,3,0,0,1-.6-2v-.3a2.9,2.9,0,0,1,.6-1.9,2.9,2.9,0,0,1,1.9-.6,2,2,0,0,1,1.1.2,1.6,1.6,0,0,1,.8.6l-.7,1-.6-.4h-.6a1,1,0,0,0-.8.3,1.6,1.6,0,0,0-.3.9v.3a1.5,1.5,0,0,0,.3,1,1,1,0,0,0,.8.3h.6l.6-.5.8,1a1.6,1.6,0,0,1-.9.7,2,2,0,0,1-1.1.2Z"
+        fill="#231f20" />
+    <path
+        d="M50.3,1137.5h1.8v10.7H50.3Zm1,9h1.6l.5-.2a.8.8,0,0,0,.2-.5v-1.4a.7.7,0,0,0-.1-.5c0-.1-.1-.2-.2-.3h-2v-1.7h1.5c.2,0,.4,0,.5-.2a.8.8,0,0,0,.2-.6v-1.1a.8.8,0,0,0-.2-.5l-.5-.2H51.3v-1.7H53a2.1,2.1,0,0,1,1.2.3c.4.2.7.4.8.7a2.7,2.7,0,0,1,.3,1.2v1.2a1.9,1.9,0,0,1-.2.8,1,1,0,0,1-.5.6,1.2,1.2,0,0,1-.9.3l1,.4a1,1,0,0,1,.5.6,1.5,1.5,0,0,1,.2.9v1.5a5,5,0,0,1-.2,1.2,2.7,2.7,0,0,1-.8.7,2.1,2.1,0,0,1-1.2.3H51.3Z"
+        fill="#231f20" />
+    <path
+        d="M57.6,1148c-.4-.2-.7-.4-.8-.8a2.4,2.4,0,0,1-.3-1.2v-3.1a4.4,4.4,0,0,1,.2-1.3,2.4,2.4,0,0,1,.8-.9,3,3,0,0,1,2.6,0,2,2,0,0,1,.8.8,2.9,2.9,0,0,1,.3,1.4v2.1H57.9v-1.3h1.5v-.9a.7.7,0,0,0-.1-.5c-.1-.2-.3-.2-.5-.2s-.3,0-.4.2a.8.8,0,0,0-.2.5v3.2a.8.8,0,0,0,.2.5l.5.2a.7.7,0,0,0,.6-.6v-.2h1.7v.2a2.1,2.1,0,0,1-.6,1.6,2.4,2.4,0,0,1-1.7.6A2.5,2.5,0,0,1,57.6,1148Z"
+        fill="#231f20" />
+    <path
+        d="M61.9,1140.6h3.5v1.6H61.9Zm1.2,7.1a1.7,1.7,0,0,1-.5-1.5v-7.8h1.8v7.5c0,.2,0,.3.1.4h.9v1.8h-.8A2.1,2.1,0,0,1,63.1,1147.7Z"
+        fill="#231f20" />
+    <path
+        d="M66.4,1137.5h1.9v10.7H66.4Zm3,5.4c0-.3,0-.5-.1-.6l-.5-.2-.4.2a.7.7,0,0,0-.1.5l-.2-.9a3,3,0,0,1,.7-1.1,1.8,1.8,0,0,1,1-.4,1.6,1.6,0,0,1,1.1.5,3.1,3.1,0,0,1,.3,1.5v5.8H69.4Z"
+        fill="#231f20" />
+    <path d="M72.6,1137.5h1.8v10.7H72.6Zm1.5,5.8,2-5.8h2.1l-4.1,9Zm.6-.9,1.3-1.1,2.5,6.9h-2Z" fill="#231f20" />
+    <path
+        d="M82,1137.5h1.9v10.7H82Zm1.3,8.9h1.3c.3,0,.4,0,.6-.2a.8.8,0,0,0,.2-.6v-5.5a1.1,1.1,0,0,0-.2-.6c-.2-.2-.3-.2-.6-.2H83.3v-1.8h1.5a2.8,2.8,0,0,1,1.3.3,2,2,0,0,1,.8.8,2.8,2.8,0,0,1,.3,1.3v5.9a2.8,2.8,0,0,1-.3,1.3,2,2,0,0,1-.8.8,2.8,2.8,0,0,1-1.3.3H83.3Z"
+        fill="#231f20" />
+    <path
+        d="M89.5,1148a2,2,0,0,1-.8-.8,2.4,2.4,0,0,1-.3-1.2v-3.1a2.5,2.5,0,0,1,.3-1.3,2.4,2.4,0,0,1,.8-.9,3,3,0,0,1,2.6,0l.8.8a2.9,2.9,0,0,1,.3,1.4v2.1H89.9v-1.3h1.5v-.9a.8.8,0,0,0-.2-.5c-.1-.2-.2-.2-.4-.2s-.4,0-.5.2a.7.7,0,0,0-.1.5v3.2a.8.8,0,0,0,.2.5.5.5,0,0,0,.4.2l.5-.2c.1-.1.1-.2.1-.4v-.2h1.8v.2a2.1,2.1,0,0,1-.6,1.6,2.4,2.4,0,0,1-1.8.6A2.8,2.8,0,0,1,89.5,1148Z"
+        fill="#231f20" />
+    <path
+        d="M95.2,1148l-.8-.8a2.7,2.7,0,0,1-.3-1.2v-.2h1.7c0,.3,0,.4.2.6l.5.2.5-.2a.9.9,0,0,0,.1-.5c0-.2,0-.3-.1-.4l-.3-.3-.6-.2h-.3l-.8-.4a1.3,1.3,0,0,1-.6-.7,3.6,3.6,0,0,1-.2-1.1,2.7,2.7,0,0,1,.3-1.2,1.8,1.8,0,0,1,.7-.8,2.6,2.6,0,0,1,2.4,0l.8.8a3.7,3.7,0,0,1,.2,1.2H96.9a.7.7,0,0,0-.1-.5H96a1.3,1.3,0,0,0,0,1l.4.2.6.3h.1l.9.4.6.7a2.2,2.2,0,0,1,.2,1.2,2.7,2.7,0,0,1-.3,1.2,1.5,1.5,0,0,1-.8.8,2.7,2.7,0,0,1-1.2.3A2.8,2.8,0,0,1,95.2,1148Z"
+        fill="#231f20" />
+    <path d="M99.7,1137.5h1.8v1.8H99.7Zm0,3.1h1.8v7.6H99.7Z" fill="#231f20" />
+    <path
+        d="M103.4,1148.1a1.2,1.2,0,0,1-.5-.7,2.3,2.3,0,0,1-.2-1.2v-3.7a2,2,0,0,1,.2-1.1,1.2,1.2,0,0,1,.5-.7,1.1,1.1,0,0,1,.8-.2,1.6,1.6,0,0,1,.9.3,3.6,3.6,0,0,1,.7,1l-.2,1c0-.2,0-.3-.1-.4a.3.3,0,0,0-.1-.2H105l-.4.2a.7.7,0,0,0-.1.5v3.2a.7.7,0,0,0,.1.5h.8c0-.1.1-.2.1-.3a.4.4,0,0,0,.1-.3v1a2.1,2.1,0,0,1-.6,1,1.4,1.4,0,0,1-.9.3Zm-.1,2.6a2.1,2.1,0,0,1-.6-1.6v-.4h1.8v.4c0,.1.1.3.2.3l.4.2h.4a.6.6,0,0,0,.1-.4v-8.5h1.8v8.5a2.7,2.7,0,0,1-.3,1.2c-.1.3-.4.5-.8.7a2.5,2.5,0,0,1-1.3.3A2.4,2.4,0,0,1,103.3,1150.7Z"
+        fill="#231f20" />
+    <path
+        d="M108.9,1140.6h1.8v7.6h-1.8Zm3,2.2a.8.8,0,0,0-.2-.5c-.1-.2-.2-.2-.4-.2s-.4,0-.4.2a.8.8,0,0,0-.2.5v-.9a2,2,0,0,1,.6-1.1,1.8,1.8,0,0,1,1-.4,1.4,1.4,0,0,1,1.1.5,2.4,2.4,0,0,1,.4,1.5v5.8h-1.8Z"
+        fill="#231f20" />
+    <path
+        d="M115.9,1148a2,2,0,0,1-.8-.8,2.7,2.7,0,0,1-.3-1.2v-.2h1.6a1.1,1.1,0,0,0,.2.6l.5.2.5-.2a.6.6,0,0,0,.2-.5c0-.2,0-.3-.1-.4l-.4-.3-.5-.2h-.4l-.8-.4a1.8,1.8,0,0,1-.5-.7,2,2,0,0,1-.3-1.1,2.7,2.7,0,0,1,.3-1.2l.8-.8a2.1,2.1,0,0,1,1.2-.3,2,2,0,0,1,1.1.3,2,2,0,0,1,.8.8,2.1,2.1,0,0,1,.3,1.2h-1.7a.7.7,0,0,0-.1-.5h-.8c-.1.2-.2.3-.2.5s.1.3.2.5l.4.2.6.3h.1l.9.4.6.7a3.7,3.7,0,0,1,.2,1.2,2.7,2.7,0,0,1-.3,1.2l-.8.8a2.8,2.8,0,0,1-1.3.3A2.7,2.7,0,0,1,115.9,1148Z"
+        fill="#231f20" />
+    <path d="M120.2,1146.4H122v1.8h-1.8Z" fill="#231f20" />
+    <path d="M128,1137.5h1.3l2.6,10.7h-1.8l-1.4-7-1.4,7h-1.8Zm-.8,7.3h2.9v1.7h-2.9Z" fill="#231f20" />
+    <path d="M134.5,1145.9a.8.8,0,0,0,.2.4h.6v1.8h-.7a1.7,1.7,0,0,1-1.4-.6,2,2,0,0,1-.5-1.4v-8.7h1.8Z" fill="#231f20" />
+    <path d="M138,1145.9v.4h.6v1.8h-.6a1.7,1.7,0,0,1-1.4-.6,2,2,0,0,1-.5-1.4v-8.7H138Z" fill="#231f20" />
+    <path
+        d="M142.6,1137.5h1.8v10.7h-1.8Zm.8,4.4h2.3c.2,0,.2-.1.3-.2s.1-.2.1-.4V1140a.6.6,0,0,0-.1-.4c-.1-.1-.1-.2-.3-.2h-2.3v-1.8h1.8a3.3,3.3,0,0,1,1.5.3,2.4,2.4,0,0,1,.9.8,2.8,2.8,0,0,1,.4,1.3v1.3a2.5,2.5,0,0,1-.4,1.3,2,2,0,0,1-.9.9,3.3,3.3,0,0,1-1.5.3h-1.8Zm1.5,1.4,1.7-.3,1.7,5.2h-2Z"
+        fill="#231f20" />
+    <path d="M149.2,1137.5H151v1.8h-1.8Zm0,3.1H151v7.6h-1.8Z" fill="#231f20" />
+    <path
+        d="M152.8,1148.1a1.8,1.8,0,0,1-.5-.7,4.3,4.3,0,0,1-.2-1.2v-3.7a3.6,3.6,0,0,1,.2-1.1,1.8,1.8,0,0,1,.5-.7,1.1,1.1,0,0,1,.8-.2,1.4,1.4,0,0,1,.9.3,3.6,3.6,0,0,1,.7,1l-.2,1v-.4c-.1-.1-.1-.2-.2-.2h-.3l-.5.2a.7.7,0,0,0-.1.5v3.2a.7.7,0,0,0,.1.5h.8l.2-.3v.7a3.1,3.1,0,0,1-.5,1,1.7,1.7,0,0,1-1,.3Zm0,2.6a2.1,2.1,0,0,1-.6-1.6v-.4H154v.4c0,.1,0,.3.1.3l.4.2h.4a.6.6,0,0,0,.1-.4v-8.5h1.9v8.5a2.7,2.7,0,0,1-.3,1.2,2.7,2.7,0,0,1-.8.7,2.8,2.8,0,0,1-1.3.3A2.2,2.2,0,0,1,152.8,1150.7Z"
+        fill="#231f20" />
+    <path
+        d="M158.3,1137.5h1.8v10.7h-1.8Zm3,5.4c0-.3,0-.5-.1-.6l-.5-.2-.4.2a.8.8,0,0,0-.2.5v-.9a2.1,2.1,0,0,1,.7-1.1,1.5,1.5,0,0,1,.9-.4,1.3,1.3,0,0,1,1.1.5,2.2,2.2,0,0,1,.4,1.5v5.8h-1.8Z"
+        fill="#231f20" />
+    <path
+        d="M164,1140.6h3.4v1.6H164Zm1.1,7.1a2.1,2.1,0,0,1-.5-1.5v-7.8h1.8v7.5a.5.5,0,0,0,.2.4c0,.1.2.1.3.1h.5v1.8h-.8A2.1,2.1,0,0,1,165.1,1147.7Z"
+        fill="#231f20" />
+    <path
+        d="M169.3,1148a2.4,2.4,0,0,1-.9-.8,2.7,2.7,0,0,1-.3-1.2v-.2h1.7a1.1,1.1,0,0,0,.2.6l.5.2.5-.2c.1-.2.2-.3.2-.5s-.1-.3-.1-.4l-.4-.3-.6-.2h-.3l-.8-.4-.6-.7a3.6,3.6,0,0,1-.2-1.1,2.7,2.7,0,0,1,.3-1.2,2,2,0,0,1,.8-.8,2,2,0,0,1,1.1-.3,2.1,2.1,0,0,1,1.2.3l.8.8a2.1,2.1,0,0,1,.3,1.2H171a.8.8,0,0,0-.2-.5h-.7c-.1.2-.2.3-.2.5s.1.3.2.5l.3.2.6.3h.2l.8.4a1.3,1.3,0,0,1,.6.7,2.1,2.1,0,0,1,.3,1.2,2.7,2.7,0,0,1-.3,1.2l-.8.8a2.8,2.8,0,0,1-1.3.3A2.1,2.1,0,0,1,169.3,1148Z"
+        fill="#231f20" />
+    <path
+        d="M176.9,1137.5h1.7v10.7h-1.7Zm.8,4.4H180l.3-.2v-2l-.3-.2h-2.3v-1.8h1.8a3.7,3.7,0,0,1,1.5.3,2.4,2.4,0,0,1,.9.8,2.8,2.8,0,0,1,.3,1.3v1.3a2.5,2.5,0,0,1-.3,1.3,2,2,0,0,1-.9.9l-1.5.3h-1.8Zm1.4,1.4,1.7-.3,1.7,5.2h-1.9Z"
+        fill="#231f20" />
+    <path
+        d="M184.4,1148a1.8,1.8,0,0,1-.9-.8,2.3,2.3,0,0,1-.2-1.2v-3.1a2.5,2.5,0,0,1,.2-1.3,2.4,2.4,0,0,1,.8-.9,3,3,0,0,1,2.6,0l.8.8a2.9,2.9,0,0,1,.3,1.4v2.1h-3.3v-1.3h1.5v-.9a.7.7,0,0,0-.1-.5.6.6,0,0,0-.5-.2c-.2,0-.3,0-.4.2a.8.8,0,0,0-.2.5v3.2a.8.8,0,0,0,.2.5.6.6,0,0,0,.5.2l.4-.2c.1-.1.1-.2.1-.4v-.2H188v.2a2.1,2.1,0,0,1-.6,1.6,2.4,2.4,0,0,1-1.7.6A2.3,2.3,0,0,1,184.4,1148Z"
+        fill="#231f20" />
+    <path
+        d="M190,1148l-.8-.8a2.7,2.7,0,0,1-.3-1.2v-.2h1.7a1.1,1.1,0,0,0,.2.6l.5.2.5-.2c.1-.2.2-.3.2-.5a.5.5,0,0,0-.2-.4l-.3-.3-.6-.2h-.3l-.8-.4-.6-.7a3.6,3.6,0,0,1-.2-1.1,2.7,2.7,0,0,1,.3-1.2,2,2,0,0,1,.8-.8,2,2,0,0,1,1.1-.3,2.1,2.1,0,0,1,1.2.3l.8.8a2.1,2.1,0,0,1,.3,1.2h-1.7a.8.8,0,0,0-.2-.5h-.8a1.3,1.3,0,0,0,0,1l.4.2.6.3h.1l.9.4a1.3,1.3,0,0,1,.6.7,2.1,2.1,0,0,1,.3,1.2,2.7,2.7,0,0,1-.3,1.2,2.4,2.4,0,0,1-.9.8,2.1,2.1,0,0,1-1.2.3A2.8,2.8,0,0,1,190,1148Z"
+        fill="#231f20" />
+    <path
+        d="M195.6,1148a2,2,0,0,1-.8-.8,2.4,2.4,0,0,1-.3-1.2v-3.1a2.5,2.5,0,0,1,.3-1.3,2.4,2.4,0,0,1,.8-.9,3,3,0,0,1,2.6,0l.8.8a2.9,2.9,0,0,1,.3,1.4v2.1H196v-1.3h1.5v-.9a.8.8,0,0,0-.2-.5c-.1-.2-.2-.2-.4-.2s-.4,0-.5.2a.7.7,0,0,0-.1.5v3.2c0,.2,0,.4.2.5a.5.5,0,0,0,.4.2l.5-.2c.1-.1.1-.2.1-.4v-.2h1.8v.2a2.1,2.1,0,0,1-.6,1.6,2.4,2.4,0,0,1-1.8.6A2.8,2.8,0,0,1,195.6,1148Z"
+        fill="#231f20" />
+    <path
+        d="M200.6,1140.6h1.8v7.6h-1.8Zm3.5,1.8h-.4a1.7,1.7,0,0,0-1,.3,2,2,0,0,0-.3,1.1l-.2-1.9a2.4,2.4,0,0,1,.9-1.1,2.1,2.1,0,0,1,1.1-.4v2Z"
+        fill="#231f20" />
+    <path d="M208.4,1140.6h1.7l-2,7.6h-1.4l-2-7.6h1.8l.9,5Z" fill="#231f20" />
+    <path
+        d="M211.9,1148a1.8,1.8,0,0,1-.9-.8,4.3,4.3,0,0,1-.2-1.2v-3.1a4.4,4.4,0,0,1,.2-1.3,2.4,2.4,0,0,1,.8-.9,3,3,0,0,1,2.6,0l.8.8a2.9,2.9,0,0,1,.3,1.4v2.1h-3.3v-1.3h1.5v-.9a.7.7,0,0,0-.1-.5c-.1-.2-.3-.2-.5-.2s-.3,0-.4.2a.8.8,0,0,0-.2.5v3.2a.8.8,0,0,0,.2.5l.5.2a.7.7,0,0,0,.6-.6v-.2h1.7v.2a2.1,2.1,0,0,1-.6,1.6,2.4,2.4,0,0,1-1.7.6A2.5,2.5,0,0,1,211.9,1148Z"
+        fill="#231f20" />
+    <path
+        d="M217.3,1148.1a1.8,1.8,0,0,1-.5-.7,4.3,4.3,0,0,1-.2-1.2v-3.7a3.6,3.6,0,0,1,.2-1.1,1.8,1.8,0,0,1,.5-.7,1.1,1.1,0,0,1,.8-.2,1.2,1.2,0,0,1,.9.3,2.3,2.3,0,0,1,.7,1v1c0-.2-.1-.3-.1-.4a.2.2,0,0,0-.2-.2H219l-.4.2a.8.8,0,0,0-.2.5v3.2a.8.8,0,0,0,.2.5h.7c.1-.1.2-.2.2-.3v.7l-.6,1a1.7,1.7,0,0,1-1,.3Zm2.3-10.6h1.8v10.7h-1.8Z"
+        fill="#231f20" />
+    <path d="M222.5,1146.4h1.8v1.8h-1.8Z" fill="#231f20" />
+    <g id="record">
+        <g clip-path="url(#clip-path)">
+            <g clip-path="url(#clip-path-2)">
+                <image width="1078" height="1078" transform="translate(138.2 264) scale(0.48)"
+                    xlink:href="Revolution_Simpler22.png" />
+            </g>
+        </g>
+        <path
+            d="M397,433.6a89.2,89.2,0,1,0,89.1,89.1A89.1,89.1,0,0,0,397,433.6Zm0,98.7a9.6,9.6,0,1,1,9.5-9.6A9.6,9.6,0,0,1,397,532.3Z"
+            fill="#ffeb74" /><text transform="matrix(0.3, -0.95, 0.95, 0.3, 325.73, 503.35)" font-size="12.53"
+            fill="#231f20" font-family="GoodVibrations, Good Vibrations">T</text><text
+            transform="translate(327.5 497.8) rotate(-68)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">h</text><text transform="translate(329.7 492.3) rotate(-63.7)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
+            transform="matrix(0.49, -0.87, 0.87, 0.49, 331.89, 487.96)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(333.3 485.3) rotate(-57)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">R</text><text
+            transform="translate(336.5 480.4) rotate(-53)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">e</text><text
+            transform="matrix(0.65, -0.76, 0.76, 0.65, 339.27, 476.72)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">v</text><text transform="translate(342.5 473) rotate(-45.6)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
+            transform="translate(346.2 469.3) rotate(-42.5)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">l</text><text
+            transform="matrix(0.77, -0.64, 0.64, 0.77, 347.96, 467.55)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">u</text><text
+            transform="matrix(0.81, -0.59, 0.59, 0.81, 352.25, 464.05)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">t</text><text transform="translate(355.7 461.6) rotate(-33.1)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">i</text><text
+            transform="translate(357.9 460.1) rotate(-29.9)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">o</text><text transform="translate(362.5 457.4) rotate(-25.7)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
+            transform="translate(367.5 455.1) rotate(-22.4)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(370.3 453.9) rotate(-20.2)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">i</text><text
+            transform="translate(373 452.9) rotate(-17.3)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">s</text><text transform="translate(377 451.7) rotate(-14.5)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(379.9 451) rotate(-12.3)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text
+            transform="matrix(0.99, -0.15, 0.15, 0.99, 382.82, 450.29)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(388.2 449.5) rotate(-5.5)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(391.2 449.2) rotate(-2.4)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">y</text><text transform="translate(396.1 448.9) rotate(1.4)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
+            transform="translate(401.3 449.1) rotate(5.5)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">u</text><text transform="translate(406.9 449.6) rotate(9.6)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">r</text><text
+            transform="translate(411.7 450.4) rotate(12.7)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(414.6 451) rotate(16.9)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">M</text><text
+            transform="translate(422.4 453.5) rotate(21.2)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(425.2 454.5) rotate(24.7)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
+            transform="translate(430.4 456.9) rotate(29.1)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">d</text><text transform="translate(435 459.5) rotate(32.3)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(438.6 461.8) rotate(35.6)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(444.2 466.1) rotate(41.1)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(446.5 468) rotate(44.4)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">T</text><text
+            transform="matrix(0.66, 0.75, -0.75, 0.66, 450.69, 472.14)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">h</text><text transform="translate(454.5 476.6) rotate(53.2)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
+            transform="matrix(0.56, 0.83, -0.83, 0.56, 457.43, 480.48)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="matrix(0.5, 0.86, -0.86, 0.5, 459.14, 482.94)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">R</text><text transform="translate(462.1 488.1) rotate(63.9)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
+            transform="translate(464.1 492.2) rotate(67.6)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">v</text><text transform="translate(466 496.7) rotate(71.4)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
+            transform="translate(467.7 501.7) rotate(74.5)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">l</text><text
+            transform="matrix(0.22, 0.98, -0.98, 0.22, 468.37, 504.03)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">u</text><text transform="translate(469.5 509.4) rotate(81.2)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">t</text><text
+            transform="matrix(0.1, 0.99, -0.99, 0.1, 470.17, 513.64)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text
+            transform="matrix(0.05, 1, -1, 0.05, 470.48, 516.33)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">o</text><text
+            transform="matrix(-0.02, 1, -1, -0.02, 470.75, 521.63)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(470.6 527.1) rotate(94.5)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(470.4 530.1) rotate(96.7)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(470 533) rotate(99.6)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">s</text><text
+            transform="translate(469.3 537.1) rotate(102.4)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="matrix(-0.25, 0.97, -0.97, -0.25, 468.68, 540.05)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(468 543) rotate(108.1)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
+            transform="translate(466.2 548.1) rotate(111.4)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="matrix(-0.42, 0.91, -0.91, -0.42, 465.17, 550.95)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">y</text><text
+            transform="matrix(-0.48, 0.88, -0.88, -0.48, 463.13, 555.44)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">o</text><text transform="translate(460.7 560) rotate(122.5)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">u</text><text
+            transform="translate(457.7 564.7) rotate(126.7)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">r</text><text transform="translate(454.7 568.6) rotate(129.7)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="matrix(-0.69, 0.72, -0.72, -0.69, 452.88, 570.98)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">M</text><text
+            transform="matrix(-0.75, 0.67, -0.67, -0.75, 447.12, 576.81)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(444.9 578.8) rotate(141.6)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
+            transform="translate(440.5 582.3) rotate(145.9)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">d</text><text
+            transform="matrix(-0.86, 0.51, -0.51, -0.86, 436.11, 585.26)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(433.5 586.8) rotate(151.4)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="matrix(-0.9, 0.44, -0.44, -0.9, 430.86, 588.26)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(428.2 589.6) rotate(156.2)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(425.4 590.8) rotate(158.5)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="matrix(-0.94, 0.33, -0.33, -0.94, 422.59, 591.92)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(419.7 592.9) rotate(163.3)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(415.7 594.1) rotate(167.6)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">T</text><text transform="translate(409.9 595.4) rotate(172.1)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">h</text><text
+            transform="translate(404.1 596.2) rotate(176.4)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">e</text><text transform="translate(399.2 596.4) rotate(179.1)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(396.3 596.5) rotate(-177)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">R</text><text
+            transform="matrix(-0.99, -0.12, 0.12, -0.99, 390.34, 596.23)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">e</text><text
+            transform="translate(385.8 595.7) rotate(-169.3)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">v</text><text
+            transform="matrix(-0.97, -0.25, 0.25, -0.97, 380.98, 594.79)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">o</text><text
+            transform="matrix(-0.95, -0.3, 0.3, -0.95, 375.91, 593.44)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">l</text><text
+            transform="matrix(-0.94, -0.35, 0.35, -0.94, 373.55, 592.74)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">u</text><text
+            transform="translate(368.4 590.8) rotate(-155.6)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">t</text><text
+            transform="matrix(-0.89, -0.46, 0.46, -0.89, 364.52, 588.99)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text
+            transform="matrix(-0.86, -0.5, 0.5, -0.86, 362.12, 587.8)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">o</text><text
+            transform="matrix(-0.82, -0.57, 0.57, -0.82, 357.51, 585.11)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(353 582) rotate(-142.2)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(350.6 580.1) rotate(-140)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text
+            transform="translate(348.4 578.3) rotate(-137.2)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">s</text><text
+            transform="matrix(-0.7, -0.71, 0.71, -0.7, 345.36, 575.44)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(343.2 573.3) rotate(-132.2)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text
+            transform="translate(341.2 571.1) rotate(-128.8)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">n</text><text
+            transform="translate(337.8 566.8) rotate(-125.5)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(336 564.4) rotate(-122.4)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">y</text><text
+            transform="matrix(-0.48, -0.88, 0.88, -0.48, 333.39, 560.23)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">o</text><text
+            transform="matrix(-0.41, -0.91, 0.91, -0.41, 330.9, 555.67)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">u</text><text
+            transform="matrix(-0.35, -0.94, 0.94, -0.35, 328.61, 550.59)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">r</text><text transform="translate(326.9 546) rotate(-107.1)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
+            transform="translate(326 543.2) rotate(-103)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">M</text><text
+            transform="matrix(-0.15, -0.99, 0.99, -0.15, 324.25, 535.16)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(323.8 532.2) rotate(-95.1)"
+            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
+            transform="translate(323.3 526.6) rotate(-90.9)" font-size="12.53" fill="#231f20"
+            font-family="GoodVibrations, Good Vibrations">d</text>
+        <g id="recordLines">
+            <circle cx="397" cy="522.7" r="196.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.7" />
+            <circle cx="397" cy="522.7" r="145.2" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.7" />
+            <circle cx="397" cy="522.7" r="136.6" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="132.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="128.6" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="124.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.7" />
+            <circle cx="397" cy="522.7" r="243.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.5" />
+            <circle cx="397" cy="522.7" r="236.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.5" />
+            <circle cx="397" cy="522.7" r="229.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="222.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.7" />
+            <circle cx="397" cy="522.7" r="215.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="209.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="203" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="191" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="185.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="179.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="174.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.7" />
+            <circle cx="397" cy="522.7" r="169.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="164" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="159.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.7" />
+            <circle cx="397" cy="522.7" r="154.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="149.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="140.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="121" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="117.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="113.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="110.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="107.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="103.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="100.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.4" />
+        </g>
+        <circle cx="397" cy="522.7" r="89.2" fill="none" stroke="#00adee" stroke-miterlimit="10" stroke-width="0.21" />
+    </g>
+</svg>
