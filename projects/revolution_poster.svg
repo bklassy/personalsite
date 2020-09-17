@@ -3,14 +3,14 @@
     <defs>
         <clipPath id="clip-path">
             <path
-                d="M397,269c-140.2,0-253.7,113.6-253.7,253.7S256.8,776.4,397,776.4,650.7,662.8,650.7,522.7,537.1,269,397,269Zm0,263.8a10.1,10.1,0,1,1,10-10.1A10.1,10.1,0,0,1,397,532.8Z"
+                d="M397,225.4c-164.3,0-297.4,133.1-297.4,297.3S232.7,820.1,397,820.1,694.3,687,694.3,522.7,561.2,225.4,397,225.4Zm0,309.1a11.8,11.8,0,0,1,0-23.6,11.8,11.8,0,0,1,0,23.6Z"
                 fill="none" />
         </clipPath>
         <clipPath id="clip-path-2">
-            <rect x="138.3" y="264" width="517.4" height="517.41" fill="none" />
+            <rect x="94.6" y="220.4" width="604.7" height="604.72" fill="none" />
         </clipPath>
         <style>
-            #record {
+        #record {
                 animation: spin 6s infinite linear;
                 transform-origin: 50% 42.7%;
             }
@@ -24,62 +24,86 @@
                     transform: rotate(360deg);
                 }
             }
+
+            /* @font-face {
+                font-family: 'Corben';
+                font-style: bold;
+                font-weight: 700;
+                src: local('Corben Regular'), local('Corben-Regular'), url(data:font/woff2;base64,d09GMgABAAAAAB50ABAAAAAAOLwAAB4bAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGigbIBwqBmAAgQwIBBEICtR0yAILgmYAATYCJAOFSAQgBYNuB4opDAcbyy9VRoaNAxBoaFEU1Ys7wf8fErQxQqTvSN0KJi8WgaApo+5nNvNK1NP9GxNtXE64dgXNGXyL4zBmhUtyQThopZJQ558RGr0bx3djsGhM1y29H2BHSDJ7Mbf/n4ggopFIJrRBI5rUCCuJI3K0zIZgmx0hRhJKGSgoBqmNhQUTERUQpQUUdFbNvfbCXpe1TF2WsUgX71z8u3RVgzVVqWXJLhpK7GSABYSDAvJ9pOYn2cPQko1t3tgQKAAIAkXc42P4/9gP2rnP/l/RUEST5c07G5o3rJEIiZCJREIikhg6ngJR9N3+9ye4PrjNca0ZFfU/t6HvT1MnhZUyxzR3euGAmht7XkZO1nzTSDWIwmQ2sIfK+fu50mabnwNXYHdAssIlrTW9l6XkLwaOIMVsOcerDiFbBazrgNwB8vgC2loCBeQra0ytJVXbygppKlyvls5+svszS+5eHK2nbj506TCSL0k/WksBVKsKhEJjFEb2IlzTTUSMpf7dBooTb303f6ufBM6U6yzZEkpIU0HOvuSJRgEEQDXAMoI9kAEZo5Jla/qWPdkL9OHJ5HEF8uIlpwELWAAg+4cw0UKaeAM9O7tPP9gGgCOzwbrNnVqIGcB92QEAvNVVmV8xBoLomhkMmgr7uUDjvXZ3n5wb4AqUb1tb/QoBuADYZRZVYL7t2iuxDEwPhi52NQEsg/OIj3FIBi/LHuIhT7E0Q2nKUb0WaxoacpuEHSJ4UxRR5S+hpMqtoA95/AwDHc08lj6oPKE60OynCwGENn7ZyFoI+i9tl6SB+DGxcsmvbID2WwD/XGS+BieZaidkYmV0iKKKDMVCLdT9dfpeiUKAyDKAMhJVmA0mM/61FNzhMQzoaUuKjpAH0QzBQTaYGJtIWozYn8GyIdn44SwiLGwiLCkWnonkcDsL3yBPRnJgpKWljY2VG9Uu2N4rEIW0s7KwQTrY2DjwKAIFO20PrXa3dtkKUo25SQRikPpvOEQgxNSAGkg1pB/hxW3qiNdX0l8Cghik2nYqIMXcPCTNTOKwe/MWIk35pZ3i1aQTFg+Dj1VDUaOt3dyUkgg2QCkUfJpvvEpZysVAy1BeHiEM4VJfDFZ9qB3z52BLap2voH8NuYDdX65yOBFoO+sVVxotVaKvlCi2nyk1qmjXNk3cZR9rzIGGBzyufK5mbVNaNxY1PsEi9gek/hHm9gqohONRFZcHKPpXbW7IBT5IAhIu9ghhLkqLfgKvjGOw0RW09oK/FjZtJ3JMeiPk94FngxNuODRI9iZG2JMGap9PQpKmhhYxPstUddZTBYonrrwqLEd2MzirnZWpWC72vSLnmXOZjDdx9NJ4VbqTfAWtrI0FchjbfNR3tIQ0sGZj6nYCbg68dWM9ObtbgUlqVb4hGtGLNSkaHZCFlNAfLmWCFIc9xQONp8a+W2ZJSUS35y0hR/udRQy+towmxEwMkbTyeDi9YhHLTx5IY2UB/fFvoh0etaKQ2nGBmMKD9j1hz++gCOZPAmXarx1y4ABLHW5BZFE5OVBYs/DWsDVVtLI2J/Rm5IXwEPQtqiAdoXEIIMCLR6EnjUUNj4MP645YVGtbu0OmNCUgdQ9R0HqclwgxUxhmQp6ShVLiBCBoYbXYcjUhUoLkNcHOnj+fHVBDrwSCehRNXbmQKHdIKmEhrcvJBwVo4g45zBCAFEpTPpJylAREGAIFreuK6pITuskaUiFdXWPtwkrYo3HIvFRmUls2L3ElW0cJGredsPADUK/5UaHVrUhZKOF0+Gwkvc/JTHWCCAHiksC1zqGsVEXoY+dowpGVUnRKXaX5YzhfyVOFRMEHh94sSbWQ1uZygdzRYv/M3fAO/i2YsjYfFIhZFR8dTqrrNJWrznpk/+ruxUKAQ87luew7fz45y20y47CS2mqkPRtj2IkhLKb6UA2bWs+t0vF4nJyOjGLPQM+mDan8MSIEOtgf5IFGW6GV3YRxlJ2meozGO7jpi5g4jadPR1760j5ha/xAUa1naMwlWEgKSwYtYdUSgqmC9YwMdorW/jI9gs4/zQTonF4lhBgqAIn9Bg4HeETwOWxU0i1wqSAmjqQmMZZXCbwPGdKw6WouhzVdYh2+fwPz/tWgyYeJTKTEW/IPCL6fiz0veqE1j/ObgNrIM+UKrwbKGmRblGLCwNwhRphX+aAAZNAlqezDaoNneVlK7eNpP72fmhOxJcHzLQbW5KDY4IT8XxDJNVUHudaQuhiX0tFgH63QuFq4ZAgKSeebFEfqxDQi4NY7CXdiejiwDkWNJfJOtkCD89AxlTRXuzvijQDf4Pz5Q6b6ILVzQzSkyteneWwuZyKMYoSYW0Lh1J1Vaz+BqajxXtNYAROGse6WlJnIqDwvErtHq8UGCG4acJM5Z/e1zAL0ekbc4LdAbRQRkcqaxkrexsqAezaiCK2LVLC82097PHq5BlLMbLJsT48oYk144tZwCCU7WQ3OoEM/P0RKQoqYEMxImpMKJTmFhc/dGt7ORJalJwL6r6Yj+YsAJj9GqhBaSDBP2KLSwA1EFt4qQXhh4OCBxq+BZcQ8FyFDr7LTsJIK9FGcBzbdQLGfRztUCMOoKxh9sKW+xXXG31WsNFnxp2+5eg/0qRpI3YWaOz7wLCD1n+olKTd6wgbZFPnhh+5y0Y4HtGbA+myKS9Lv7FVRZywUJdAdl921rV6rZE30fBbSZyWYcWf1Dgd06iSGViELWSuvXClbey/QXaPIQAP3xPHxbWx4GcDaYmNsecHNDzIYcxuUae2E2EbEajJe/bqG3sBuXk2uIlc+BiOzTPVB2vhg8+zcCD+7Qt+rQdr+3ASGF8odho12HKSpfQlfSiWfetkqurK9zUwCMDW9pHh66ow1MX7svUa7Xoh0A4tb5yXIxgFH+61kdB4UUHTlmi5tztuizD2ziDUh3d9qiKhuh2A3Tu0Hs0TbS6iRR8Swre0rg3N+0po/69wvaw0HoqFhQ0x0RN2O17UVyJjmnBFaBxwhgsrCO1DqX321ac3kyS2u6W1m83gRfwp6neUN2ndsLMYKQC5x++N5xLW/f85PY8IzIAH8E9fShWLgwX9rfG3XOoM/ItSMyAQAWW9IDmyOWKfi8vKH9YqT2PRrVRTS2XHAwHA/AQDmlWWVlZiDIAXFeT2RjDexk8BwhW82qncsHpilk+yv1MO4lddXgmFCBVwWkBHCabCuk5c2SahYhylvoAJyRqlvvE1zPFp+kO0008zNmgIpNEueifc/Cwx9sfZo+b+DcvQ8T6IALyWvxiSvq6doCdmh5PRE6xcOXN21P7BLwPLxPN1EevLBHs69e9We1t4DEEGLZlcJXf1qZ5udpAlXqvzveP7p7eEZrkVlS5X82stWa9at2GAv4IDUhX8GYBHiqwubC7zPJ0UtwKrXOZRT0PdLHuNl06v3zIy8VUsxQkCGEE0nx1l8DBeHDgsFZpODjFtGXHsQkvAQpC3KFl3q32D8BmMyEYZMfOogZGSGwHKsbFoyDxPhO7nzycUIVdWypSYuK7XFvOfjTiOErnIsPSVmVAUQqRR53Q6XBmRCTaIUeN3YczelaO+/k77j67ZarV63cq15cPif7UtwVlv6SzLwvSxIohW12sGaz6SfT7Zncc8OxfpfN6qRCfaDk/vEaBIfKKBOnC7h4MnUXu0AUD4FeWARYcI/9uJBXdBJ+UnaZByiuZd7q8oHN0d28hb4bGBNKShXSoL5RE9x6Dr5OoEAQTH5uJQI3D3IXgu7RUSmU+qdHl3ICG0yFrF4WdBb8X0ICoQ9VJjwHIjzdUl95/YiSdzGJek7j5wLyxrg3u0NclmsYIsBdq51ifsb0o+xfS6kEtBJmAjQ3ekpDn33fnD8QdOx+SW8FGl8c53HhsJzQcX6+tligQBRAdpNYDFnwj/21YHikJHEJPM5/NPUN6Qfp8+4kEq5dob9iiNj7F8BTlvBZopf+7ZN+rl8qNT6LbXep3S/t855lSohzLqp02i5UAcT92FUVMwXofCcTwu0ZP2BpVlJSWbsp3MDd1JaueG8pf/aYkHK3mzema5ezSRsbZsUHey47sDXREeri+G2Ld9qU/AyfHAy0jqsLR0dhP2tryxbvr+F2rm3cD1dfT3KNeKJj5LiIwT6hZlFMf785DvP6PvdZiMlHhIPpNt74TL2ENOI5+Nk2HQCEYneQfN6iyKebuHaFvVDOGd/tiAu226Ptqd2i8IrSc22vTG2YJeV69o0THcvVLmF6LEsx3bhCgvxA+M8yfeVR00xYy0e9iP5TyskV+gFTf8/1P9z9ANqrFh9DEh61jtrm1jVInGJgdNGCOALEwyt0eIOTlytpg1gU5LFIZDm/O1R4hWOJ1ESvMTJ3v3LiszehXtir1g4cIPfS6DeXjgJWuLgs0v8z6It0p1gN6GcmOYpCl1iwQsuzIiOQRWSbJOCMpfYtQOv2/az493qwrQB14WptSECkrPJQJ+dXKPNblZnL5PQdqgf+Q6ZJlIK65L4XSJdiptkRfLOVfn02YEtbcjcUS3pbJw+YLrhtFLXlebdm/bYbKOsnqevk6U23rbZ3VYBIqYVeImdxJ4goQB26iOmSNUoayzjRQohRjh+II8uEwW4F11mxrtRgMRlmzOO7FN38dMih0DgcL6WxBXBr0yk+ErQEjQGqe1Y/iRlcq/PghTJHCkcK8ZIkOT2tGTTUtbChUFcHnxwc5THfzvwcEbj9hn3su9u4AVKN2ShsOkYGZK8tbn24vSWAKDP0Qf6viXlE6qJBCkMebUtm5jqkGqNJe88Xjl2xuAwA/oqZypsxK0MLyf2CGdLFbViOVkW9gV9FhW+rFAZUnAfT/zEyO8gbPRJ/9mfNuZGXiBCzZrmOMehuY5IYk+o08chWsFH3Wb7w3cS1qK+xQM19CugMZNLKIEd0arf6axy1/Hlv5c1oyVYiSMyQozk2xXC+mo9oeTtlp7N8w+aGbJqOtROIjei6lscvAKjtW5kSS267Mqf7gLpp5tGNPR2mck/LhUiDDB23P2OVRdo7Y++gyTZVoYL8Enpc8hVixLD9x+AbJfYgfqAiKzQRIG+5kx976vyuC0WRfxuT649uFij4miDJOmBTSbSrCuH9g0Dr/xtRkGOGzLvbhqLD9HQUg8bbiwKUszqdJN+F9P5hHaJfamNQ2qtTcAJn9PDxtwys6XHu+Jw21A6PDTJL3/HpZ30HoIahG08S/fFPp7TNe1h+3hR5//TLUtHimcOCOmCyNxcRIlolnrljtMzxj8MGBYkvAMsstda7pm4kJaC2737Jt3qq9o70M9iN/u+TFHyEVlpCycMHjmMV3XaHGsslVdcsqDw8oG539C+mV5LYkJwgrSF8FE4+og7Ebh9OuOEu7f9//H+tMY4yKbrj9bl6iKiXYSOIZ2qrTTus8P1kLLyBU/6NsCN/68FkfoiZXz8vHk/2IWoMUhSNIu26/x9WA20yzLf+aWWPUuhbhNR16beH+oOEBLlBcLubqGUEJP5N+0hNUNfsV/cEufVJtrGQrAc5HaZjUb2QPL+S355fqPL64ZXtzxtn31hebfZgQOrN3AjpeH/PJ4PSxLyhoBHOmh5ORZQDqklAY8jfjKmbuXG6Oww9X5XTiOCFXLtaFrPIcZw+NbYWNoS3ElBbVLC/FUbN9+6B0zXz2foPrCWvqRJhTmaSGNKfIU02hZzmCGJoORFsFX/bOa9Lm3mm/5k6rHL1435rNGGmMS8cnGcQsS3e+EaoXLMzVU7BpIxEuLC4DPW+vt6enPO8V1okrm5HihCVUE64urkJ83TWZ5EYZOwUEVv6y9n29bR2G3yWtWOhrCkdlVUMioXfSzHHstaw9LyHCqXdj7kbC07Oz3zGIYPReTfcao/JScgONymBtjkLfs9MltXvz87+Fw8NPjRfTNbJx/zTWdmLdodpeJknDb70wCOuAm088PFi559m7Vq3AV5f/niV99rPYr6Lqee/EjfdF10/APwuGb7Vr716pgOlXpXaVfmnr5W1zuTV5jANc4I2rYEudaElvjt/a74tz33CkehySbQM9xrmuTlD1asWdESzCWkanPFkfJTbqevp9cJIjRng19mOCU6pbrK2UPcmMGouNo5U6sa2TH4FGVuTKh0S3J+nhew2BJxytOFnt0WT+wjxMT20LEIPQxixLwB5GnOO/I78Od+oWslBeXD9DyVeLVsXRNI2dPmV3J4kX1d+xaxYAZ88T4b/4qATR1i0BDPh3toQhD9xy+ZZu3+fr7n5qMMAQ+++UeinFjz2yeJdP48HKVxvCxFkl1mmnANI36eBIFVUjwuJnLzvjPRLDHD01fVAJ38ti5Lujt2nP3W9WAo5Q01am0rBJtms8qNjdK04tHucy26PfxPvO1TnGrkkdKWNFpYB3ZQKQpE8KsvL8mGOi+QfO2XU8ThRQkID+Vd7yxxZPDtB8NhdfOZdO2do+78mZrFBTPK42NzxQGOKfUEnk+5b7xbbB67Wm1JkL1e1C0iMtyqnEhwD0WZDwgpjdUnOmXvYrV4rY2XwCz6EFpIYjDr1l/v6qOcBIWl1LB5i88QxNXhDFR4JpV81l2qXhW9N98nUL92WKo/Ozp8Mi0xqqwszRwy7mdkpQK2p8w/Pk4Sm2AQhOsSox8V+sbF6ZIiFPEJ+sQIsPrLSBiG/MDjSRiG8gA4eOXHR2gTQ4wNvSe+CB6ZMepXg+PL06MN6gSVJtJPrnBZCRwNPgEbt4vc5C75mGIYhNkBhfEQWlcuL1jSrTAxeQ69nhz0Ucpni9cgteTOmX2qaos1fQ2/UyK48JhNzv6nVoPtXz/Twonh5+6sCKSGeYScafJ7u7PulVJMWC9CEkMyueZ9nFx+ts1GIPufjHeDZjwCxrgSXMC8VSsCEKuTrAxjws64p7LH1m9Z5rv8yfGes4MkKUGyGajj9tSDXnTRxihXH0Gw41L91+bTRT1L+Zkh+cmJ/pIZi+lSDsw+zpYvMfLotJAz29J8F0f9upR4J+QGMKP8/Lx2dMex0MQl65IW31oYAql2UsWx11feAUyvDfiY57Y5WU5V+demPdOGUDc7DTHoVYuN6X6pIKxpE2zb46Ol9wdhA3PNJevURZtFiokAcPiFNDpbFa9Oys5WYLcMv74g87gRhud5oRnvjuvbjfmbwmcGsrM6s8GnhrmRJ+dLNlXWkOMCWrk+t+U5Ud5vDCoSMJ/z7R/1Gnd5YgadG+wlaNX0PM80Sf1OexWCqI04EKl0Apc/R3QsnKqmd1R3NbscR2Co/G4c82+xJ9loTpmgW5QufPhEWaHPsXH3lcUitkNYrWeCo5iMsVb4PQTDwU02kbaaAznQvUrcOUhMnFnI8A3ij2S1wT5sLiV/YBDAybtSMYL3X/s3b9rNICz0ogSdVR81eHdPUfCrqH8qu8DhEaCJ3daoARzOjzYWpgTC/a087QsU3kpU2dl26IK/Xi8NKJofh8LYpMdi7WkYvAttqvd3iPb7FSN0w/0wrOJtgW0ibxMcls0Dmi/M6AEqrIYJEJLg9bb+uz4bl04INkUINnMwiSJ5Mgu8TR/NiLyNj2mw7dAZf7wedHwH3R53JYEBxPIABtQ5C8BoSqrTTaU8CtFQakNcgZgXEYHSuvTZRonvjvhtdwPBUlNWW5VuFKbth50T5gH6Xp8cCu+0Qa2G4jkVxTAkZZoPWqcVUFWZVkpAWI/KWN+azc5DsOPyp1PXVVdfdNHEYpkOUDZtogtAIUVlt6A7Z4qLwuOotu0qcv1SrHjbU9KwTU92jVH2On79gQz1No5oWlf8ViZ3E4V3k7A9Nngvqv7rRTlnwlRHPu4zdNeH/PcZkQKAMD1ddVYbIpSHf+mqaLV920xjZc/2IA8EWtT4gHDOcusWLphmsTkHWBOqQJNgZZF3Rab28C5h/KWBHqfAaqBLpOtylWiXoUWMZ4EHdEgYHiDeijA9MNqvbW7V6p/Q2O/nnJyA+wm1hplK9Utmcs7PeUBWEOzFAeqt9VdegKJTZYp5841u0qtPhCG4WVRT+TbUzPJO6as94BoPC+9PsSV0AF3BDmyh0CUUWQpvDyjkYXw7P8LdzQXwTBeifOAdYfN3YtAOJXj8+nJ/ulS/BJ7Q/FIbhKzQF6ihw36MsqNMjwoREDTQtbHUXYmkH1nkbfJKHQ9opjA8wHIryth5WPchQWd8nf69YNbxr7+78MeB1z4A9900EuVXFVmX3PIw/UPvBrZhfaFr4S6ponMUiif7vzMTNz/Pi7PJbR2n0FLO1PkdSNtc++8sIjvWU5PTVw7/atM0QqJKb10CeZhk77ZmangA6g1qY9fSus7lqB+eWh0L0PJTw8RA/qbAVcNAk+zb1kwZclrUTM+VF1iZi0NKjZ9QoF7aV3wEQD/NY9fAFguaAjn81TR6MmyoC74U/sfc5PafG+qdBG5w5HQttA0NbmehAdAnM4XW/w/crI6Snc7xPGdHSVl9nNqpKzQ2CJAsrf/WDvKW3Py+4oW/PCbzr445M0nw3xg4V4PWh7p2bWmBgZHRfliYtc7lYz8X3CYwmpruKzN65rfWf9NDi6ReQ0ubzVtgHTeP24CBX86RvOy8rKi6gC64IHunODNHpsx6ZH4/mIiv/6aK1oW6lpY2m5dpDnx4HQEGflUvTiUiv8hNs6WxjrOGNa0TdQct5ty8CZf+HV5mves6EOvMkzUCAow4TmHpt6V/64OnZmweA/Hz2tsUNzbKuiAPk9U7zVYclmcmzXra+9R1tK7fznPe77cXkccp3/SruTCIv4P+3c/c3btmpavzBAHf2m1nJmJ/zfuzHuRMyWbL41TrIMAm6XJ216E9dfFA1wIBHl77f38Yto343fuCBbgX/nzTCnDl98EV4p+pkJezz9XYESHA0//c06T6RYmsAMNNwXtR0nhNPDJ+9tDzPYq+If6bAmUuoOl1aAYPdb4BTZxDk5uwGxfULUM2X0D6/A99PJE1AgzqvIfnjT9c+M/7e9CDfRZB5RNVUFCqk6DzGaSqhN8OxMV6yiLKX9sIL1QkNIWE0kHK2fgWHKziGYh6A2QO+mbl0GDJiPMrKM9EisIe7PSC3EjDWTKEsnS1N4FVCVwdEL5YCBqViQWrE+QV3hw2D7UbrAANRTZgEWiLtrlt4pyPhMQ1HAiZmAz0JaI9CoGxHlrjmpAQMc5oy5kSWxWN75S1YAk8BIvBGnM30zwnIwfdAXnOq2cijCXQ8gD2FdpAbsDSQhHyBTYXipBDsL5YCPmFvAAq5YJlriFHJUfiLdQF5BNqA3JqrhHIbaHdRa1E4JcXo734Dm12II7vwCanMOo6hjhNQfjhnSdITwVFNfuSZbJ/adw7gACQ0gKCM/B6x4w7QWTrcJelrHoDwhCVdxih8wtjWDBRnqWGccRyDePJK3ShdOaSEkcxJdRQRh4mcqmAhDcGfCDhDwu2ddKQY894PTUcX0VON76IYhtEQkd2YiHlLGaKgavmUE1FM6iEYkycLuBy43gGBsnIoJJ8fAJFrSaPCnI5cRuXXwMjl02YFw4kYhEQOaAg+l6mJ6ciwwk8qolKCjrOMg7MIxImVhXHkCOR4PBVRuLAMjHJ5eTpTWTDMKYi23tjdDCTq2CVAxPmEWwwOb6EiggzWLkCbxSVlUkKPIT74DlCljByLyDljwtCggKDOl5Q8cYXP2jQYcCEjT9BBBNCKBwiiCQeHnxmICAJIcmISCENMenIyCATBSrUdPOALnad7TGYYVq20//9YelyezKkvT4/JBQ0DEdOsHDwCH3rOyJnLly5IXHngYzCkxcq7350lw9ffmjoGJhY2PwFCBQkWEgTPRMqDEe4CJGiROOCIVAYHIFEoTFYHL58v5rsORGRRKZQaXQGk8XmcHl8gVDEjhjU0kMplEE5eM4LooxQCep4RCN3ucdD6nmgChyR9xF0YwjurT+3leImGXDyD1iKiNvNJX78zDgxGdFXon9ojPkfutLJ1KUVaLbd1v92Gc60VYCldmicPZYJD0jlCCdzncCZ/HOZcBkol4Azk7lekqLoJY30L2MU+ee3GJ/US2oIWtVFUyX2BL0Nc4ioH8tEy6dqRNtqoyga1ZetaKaqG8mMQ2v0ipXiq9on2Q9+m/6vDXEeHO967ojusY/i6PauYSONOLKLFZxmd9O9SRDY0MAQGAMSbEO6KJEakUiOD6TF6lmzPZ9lts+tR6cEJSxaGApjQQq5SFC9yVUv1QjSV4ZWYWNFGtpsegrRTunUjnRyF1r9WxCEdu/4al0fY5dJT7V9Xwx0s/zpotu0W4KjlHx0wilS/yeuwhzdwEP7MHQB/sEWOXylwGt8/Z27x10=) format('woff2');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+
+            
+            @font-face {
+                font-family: 'Corben-Bold';
+                font-style: bold;
+                font-weight: 700;
+                src: local('Corben Regular'), local('Corben-Regular'), url(data:font/woff2;base64,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) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            } */
+
+
         </style>
     </defs>
-    <title>revolution_poster</title>
+    <title>Revolution_Simpler_Corben</title>
     <g id="backgroundColor">
         <image width="3601" height="5400" transform="translate(-35 -36) scale(0.24)"
-            href="Revolution_Simpler21.png" />
-    </g><text transform="translate(129.9 504.4) rotate(-82.4)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">T</text><text
-        transform="matrix(0.26, -0.97, 0.97, 0.26, 134.44, 470.14)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">h</text><text transform="translate(143.5 436.9) rotate(-68.1)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
-        transform="translate(154.4 410.2) rotate(-63.1)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations"> </text><text
-        transform="matrix(0.54, -0.84, 0.84, 0.54, 161.77, 394.46)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">R</text><text
-        transform="matrix(0.63, -0.77, 0.77, 0.63, 180.73, 365.09)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">e</text><text
-        transform="matrix(0.71, -0.7, 0.7, 0.71, 197.58, 344.19)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">v</text><text
-        transform="matrix(0.78, -0.62, 0.62, 0.78, 218.1, 323.68)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">o</text><text
-        transform="matrix(0.83, -0.55, 0.55, 0.83, 242.47, 304.61)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">l</text><text transform="translate(254.2 296.3) rotate(-28.8)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">u</text><text
-        transform="translate(282.8 280.8) rotate(-22.7)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">t</text><text
-        transform="matrix(0.95, -0.31, 0.31, 0.95, 305.98, 271.34)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(320.9 266.1) rotate(-13.1)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
-        transform="translate(351.3 258.9) rotate(-6.2)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(383.5 255.8) rotate(-0.9)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-        transform="translate(401.3 255.5) rotate(2.6)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(418.1 256.1) rotate(7.2)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">s</text><text
-        transform="translate(442.6 259.3) rotate(11.8)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(460 262.9) rotate(15.3)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">i</text><text
-        transform="translate(477 267.2) rotate(21)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(507 279) rotate(26.3)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-        transform="translate(522.8 286.5) rotate(31.5)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">y</text><text transform="translate(547.7 301.6) rotate(37.7)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
-        transform="translate(571.9 320.2) rotate(44.4)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">u</text><text
-        transform="matrix(0.63, 0.78, -0.78, 0.63, 595.31, 343.13)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">r</text><text transform="translate(613.4 365.9) rotate(56)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-        transform="matrix(0.46, 0.89, -0.89, 0.46, 623.81, 379.6)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">M</text><text
-        transform="matrix(0.35, 0.94, -0.94, 0.35, 645.05, 423.1)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(651.4 439.4) rotate(75.5)"
-        font-size="74.98" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
-        transform="translate(659.7 471.5) rotate(82.5)" font-size="74.98" fill="#231f20"
-        font-family="GoodVibrations, Good Vibrations">d</text>
+            xlink:href="Revolution_Simpler_Corben1.png" />
+    </g><text transform="translate(83.2 525.7) rotate(-86.9)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">T</text><text
+        transform="matrix(0.19, -0.98, 0.98, 0.19, 85.34, 484.39)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">h</text><text
+        transform="translate(94.7 439.3) rotate(-71.7)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">e</text><text
+        transform="matrix(0.38, -0.92, 0.92, 0.38, 105.32, 408.35)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700"> </text><text
+        transform="matrix(0.47, -0.88, 0.88, 0.47, 109.53, 396.05)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">R</text><text transform="translate(133 353.5) rotate(-54.4)"
+        font-size="47.48" fill="#231f20" font-family="Corben-Bold, Corben" font-weight="700">e</text><text
+        transform="translate(151.8 327) rotate(-48)" font-size="47.48" fill="#231f20" font-family="Corben-Bold, Corben"
+        font-weight="700">v</text><text transform="translate(177.2 299) rotate(-41.2)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">o</text><text
+        transform="matrix(0.81, -0.58, 0.58, 0.81, 205.84, 274.39)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">l</text><text
+        transform="matrix(0.87, -0.48, 0.48, 0.87, 225.87, 259.47)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">u</text><text
+        transform="translate(266.6 237.7) rotate(-22.2)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">t</text><text transform="translate(292 227.4) rotate(-17.4)"
+        font-size="47.48" fill="#231f20" font-family="Corben-Bold, Corben" font-weight="700">i</text><text
+        transform="translate(315.9 219.6) rotate(-11.6)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">o</text><text
+        transform="matrix(1, -0.07, 0.07, 1, 352.61, 211.89)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">n</text><text
+        transform="matrix(1, 0.03, -0.03, 1, 399.47, 209.56)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700"> </text><text transform="translate(412.7 209.8) rotate(5)"
+        font-size="47.48" fill="#231f20" font-family="Corben-Bold, Corben" font-weight="700">i</text><text
+        transform="matrix(0.98, 0.18, -0.18, 0.98, 437.77, 211.88)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">s</text><text
+        transform="translate(468.6 217.8) rotate(14.2)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700"> </text><text
+        transform="translate(481.5 220.9) rotate(17.8)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">i</text><text transform="translate(505.4 228) rotate(24.4)"
+        font-size="47.48" fill="#231f20" font-family="Corben-Bold, Corben" font-weight="700">n</text><text
+        transform="translate(547.8 248.2) rotate(29.9)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700"> </text><text
+        transform="matrix(0.82, 0.57, -0.57, 0.82, 559.34, 254.26)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">y</text><text
+        transform="translate(591.7 276.8) rotate(41.7)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">o</text><text
+        transform="matrix(0.65, 0.76, -0.76, 0.65, 619.85, 301.66)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">u</text><text
+        transform="matrix(0.55, 0.83, -0.83, 0.55, 649.53, 336.95)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">r</text><text
+        transform="matrix(0.49, 0.87, -0.87, 0.49, 667.3, 364.51)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700"> </text><text
+        transform="translate(674.5 375.3) rotate(66.7)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">M</text><text
+        transform="translate(694.4 423.9) rotate(73.8)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">i</text><text
+        transform="translate(701.9 447.7) rotate(80.4)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">n</text><text
+        transform="matrix(0.03, 1, -1, 0.03, 709.45, 493.77)" font-size="47.48" fill="#231f20"
+        font-family="Corben-Bold, Corben" font-weight="700">d</text>
     <path
         d="M37.5,1145.4l-1.1-.6a3.7,3.7,0,0,1-1.7-1.8,6.1,6.1,0,0,1-.6-2.8,5.7,5.7,0,0,1,.6-2.7,3.7,3.7,0,0,1,1.7-1.8,5.4,5.4,0,0,1,2.7-.6,5.4,5.4,0,0,1,2.7.6,3.3,3.3,0,0,1,1.7,1.8,5.7,5.7,0,0,1,.6,2.7,6.1,6.1,0,0,1-.6,2.8,3.3,3.3,0,0,1-1.7,1.8,5.4,5.4,0,0,1-2.7.6Zm2.8-1.4.8-.4a3.7,3.7,0,0,0,1.2-1.3,4.6,4.6,0,0,0,.5-2.1,3.9,3.9,0,0,0-.5-2,2.8,2.8,0,0,0-1.2-1.4,4.2,4.2,0,0,0-2-.4,4.2,4.2,0,0,0-2,.4,3.3,3.3,0,0,0-1.2,1.4,4,4,0,0,0-.4,2,4.6,4.6,0,0,0,.4,2.1,3.7,3.7,0,0,0,1.2,1.3,4.2,4.2,0,0,0,2,.4Zm-2.2-1.1-.7-.6a3,3,0,0,1-.6-2v-.3a2.9,2.9,0,0,1,.6-1.9,2.9,2.9,0,0,1,1.9-.6,2,2,0,0,1,1.1.2,1.6,1.6,0,0,1,.8.6l-.7,1-.6-.4h-.6a1,1,0,0,0-.8.3,1.6,1.6,0,0,0-.3.9v.3a1.5,1.5,0,0,0,.3,1,1,1,0,0,0,.8.3h.6l.6-.5.8,1a1.6,1.6,0,0,1-.9.7,2,2,0,0,1-1.1.2Z"
         fill="#231f20" />
@@ -161,241 +185,234 @@
     <g id="record">
         <g clip-path="url(#clip-path)">
             <g clip-path="url(#clip-path-2)">
-                <image width="1078" height="1078" transform="translate(138.2 264) scale(0.48)"
-                    xlink:href="Revolution_Simpler22.png" />
+                <image width="1260" height="1260" transform="translate(94.6 220.3) scale(0.48)"
+                    xlink:href="Revolution_Simpler_Corben2.png" />
             </g>
         </g>
         <path
-            d="M397,433.6a89.2,89.2,0,1,0,89.1,89.1A89.1,89.1,0,0,0,397,433.6Zm0,98.7a9.6,9.6,0,1,1,9.5-9.6A9.6,9.6,0,0,1,397,532.3Z"
-            fill="#ffeb74" /><text transform="matrix(0.3, -0.95, 0.95, 0.3, 325.73, 503.35)" font-size="12.53"
+            d="M397,418.3A104.5,104.5,0,1,0,501.4,522.7,104.4,104.4,0,0,0,397,418.3Zm0,115.6a11.2,11.2,0,1,1,11.1-11.2A11.2,11.2,0,0,1,397,533.9Z"
+            fill="#ffeb74" /><text transform="matrix(0.25, -0.97, 0.97, 0.25, 312.56, 503.78)" font-size="12"
             fill="#231f20" font-family="GoodVibrations, Good Vibrations">T</text><text
-            transform="translate(327.5 497.8) rotate(-68)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">h</text><text transform="translate(329.7 492.3) rotate(-63.7)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
-            transform="matrix(0.49, -0.87, 0.87, 0.49, 331.89, 487.96)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(333.3 485.3) rotate(-57)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">R</text><text
-            transform="translate(336.5 480.4) rotate(-53)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">e</text><text
-            transform="matrix(0.65, -0.76, 0.76, 0.65, 339.27, 476.72)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">v</text><text transform="translate(342.5 473) rotate(-45.6)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
-            transform="translate(346.2 469.3) rotate(-42.5)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">l</text><text
-            transform="matrix(0.77, -0.64, 0.64, 0.77, 347.96, 467.55)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">u</text><text
-            transform="matrix(0.81, -0.59, 0.59, 0.81, 352.25, 464.05)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">t</text><text transform="translate(355.7 461.6) rotate(-33.1)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">i</text><text
-            transform="translate(357.9 460.1) rotate(-29.9)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">o</text><text transform="translate(362.5 457.4) rotate(-25.7)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
-            transform="translate(367.5 455.1) rotate(-22.4)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(370.3 453.9) rotate(-20.2)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">i</text><text
-            transform="translate(373 452.9) rotate(-17.3)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">s</text><text transform="translate(377 451.7) rotate(-14.5)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(379.9 451) rotate(-12.3)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text
-            transform="matrix(0.99, -0.15, 0.15, 0.99, 382.82, 450.29)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(388.2 449.5) rotate(-5.5)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(391.2 449.2) rotate(-2.4)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">y</text><text transform="translate(396.1 448.9) rotate(1.4)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
-            transform="translate(401.3 449.1) rotate(5.5)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">u</text><text transform="translate(406.9 449.6) rotate(9.6)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">r</text><text
-            transform="translate(411.7 450.4) rotate(12.7)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(414.6 451) rotate(16.9)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">M</text><text
-            transform="translate(422.4 453.5) rotate(21.2)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(425.2 454.5) rotate(24.7)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
-            transform="translate(430.4 456.9) rotate(29.1)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">d</text><text transform="translate(435 459.5) rotate(32.3)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(438.6 461.8) rotate(35.6)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(444.2 466.1) rotate(41.1)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(446.5 468) rotate(44.4)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">T</text><text
-            transform="matrix(0.66, 0.75, -0.75, 0.66, 450.69, 472.14)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">h</text><text transform="translate(454.5 476.6) rotate(53.2)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
-            transform="matrix(0.56, 0.83, -0.83, 0.56, 457.43, 480.48)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="matrix(0.5, 0.86, -0.86, 0.5, 459.14, 482.94)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">R</text><text transform="translate(462.1 488.1) rotate(63.9)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">e</text><text
-            transform="translate(464.1 492.2) rotate(67.6)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">v</text><text transform="translate(466 496.7) rotate(71.4)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">o</text><text
-            transform="translate(467.7 501.7) rotate(74.5)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">l</text><text
-            transform="matrix(0.22, 0.98, -0.98, 0.22, 468.37, 504.03)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">u</text><text transform="translate(469.5 509.4) rotate(81.2)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">t</text><text
-            transform="matrix(0.1, 0.99, -0.99, 0.1, 470.17, 513.64)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text
-            transform="matrix(0.05, 1, -1, 0.05, 470.48, 516.33)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">o</text><text
-            transform="matrix(-0.02, 1, -1, -0.02, 470.75, 521.63)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(470.6 527.1) rotate(94.5)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(470.4 530.1) rotate(96.7)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(470 533) rotate(99.6)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">s</text><text
-            transform="translate(469.3 537.1) rotate(102.4)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="matrix(-0.25, 0.97, -0.97, -0.25, 468.68, 540.05)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(468 543) rotate(108.1)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
-            transform="translate(466.2 548.1) rotate(111.4)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="matrix(-0.42, 0.91, -0.91, -0.42, 465.17, 550.95)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">y</text><text
-            transform="matrix(-0.48, 0.88, -0.88, -0.48, 463.13, 555.44)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">o</text><text transform="translate(460.7 560) rotate(122.5)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">u</text><text
-            transform="translate(457.7 564.7) rotate(126.7)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">r</text><text transform="translate(454.7 568.6) rotate(129.7)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="matrix(-0.69, 0.72, -0.72, -0.69, 452.88, 570.98)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">M</text><text
-            transform="matrix(-0.75, 0.67, -0.67, -0.75, 447.12, 576.81)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(444.9 578.8) rotate(141.6)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
-            transform="translate(440.5 582.3) rotate(145.9)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">d</text><text
-            transform="matrix(-0.86, 0.51, -0.51, -0.86, 436.11, 585.26)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(433.5 586.8) rotate(151.4)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="matrix(-0.9, 0.44, -0.44, -0.9, 430.86, 588.26)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(428.2 589.6) rotate(156.2)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(425.4 590.8) rotate(158.5)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="matrix(-0.94, 0.33, -0.33, -0.94, 422.59, 591.92)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(419.7 592.9) rotate(163.3)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(415.7 594.1) rotate(167.6)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">T</text><text transform="translate(409.9 595.4) rotate(172.1)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">h</text><text
-            transform="translate(404.1 596.2) rotate(176.4)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">e</text><text transform="translate(399.2 596.4) rotate(179.1)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(396.3 596.5) rotate(-177)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">R</text><text
-            transform="matrix(-0.99, -0.12, 0.12, -0.99, 390.34, 596.23)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">e</text><text
-            transform="translate(385.8 595.7) rotate(-169.3)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">v</text><text
-            transform="matrix(-0.97, -0.25, 0.25, -0.97, 380.98, 594.79)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">o</text><text
-            transform="matrix(-0.95, -0.3, 0.3, -0.95, 375.91, 593.44)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">l</text><text
-            transform="matrix(-0.94, -0.35, 0.35, -0.94, 373.55, 592.74)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">u</text><text
-            transform="translate(368.4 590.8) rotate(-155.6)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">t</text><text
-            transform="matrix(-0.89, -0.46, 0.46, -0.89, 364.52, 588.99)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text
-            transform="matrix(-0.86, -0.5, 0.5, -0.86, 362.12, 587.8)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">o</text><text
-            transform="matrix(-0.82, -0.57, 0.57, -0.82, 357.51, 585.11)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">n</text><text transform="translate(353 582) rotate(-142.2)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(350.6 580.1) rotate(-140)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text
-            transform="translate(348.4 578.3) rotate(-137.2)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">s</text><text
-            transform="matrix(-0.7, -0.71, 0.71, -0.7, 345.36, 575.44)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(343.2 573.3) rotate(-132.2)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text
-            transform="translate(341.2 571.1) rotate(-128.8)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">n</text><text
-            transform="translate(337.8 566.8) rotate(-125.5)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations"> </text><text transform="translate(336 564.4) rotate(-122.4)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">y</text><text
-            transform="matrix(-0.48, -0.88, 0.88, -0.48, 333.39, 560.23)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">o</text><text
-            transform="matrix(-0.41, -0.91, 0.91, -0.41, 330.9, 555.67)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">u</text><text
-            transform="matrix(-0.35, -0.94, 0.94, -0.35, 328.61, 550.59)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">r</text><text transform="translate(326.9 546) rotate(-107.1)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations"> </text><text
-            transform="translate(326 543.2) rotate(-103)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">M</text><text
-            transform="matrix(-0.15, -0.99, 0.99, -0.15, 324.25, 535.16)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">i</text><text transform="translate(323.8 532.2) rotate(-95.1)"
-            font-size="12.53" fill="#231f20" font-family="GoodVibrations, Good Vibrations">n</text><text
-            transform="translate(323.3 526.6) rotate(-90.9)" font-size="12.53" fill="#231f20"
-            font-family="GoodVibrations, Good Vibrations">d</text>
+            transform="translate(313.8 498.7) rotate(-71.3)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">h</text><text transform="translate(316.2 491.7) rotate(-67.1)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">e</text><text
+            transform="translate(318.4 486.6) rotate(-64.5)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(319.1 484.8) rotate(-60.9)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">R</text><text
+            transform="matrix(0.56, -0.83, 0.83, 0.56, 323.54, 477)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">e</text><text transform="translate(326.6 472.4) rotate(-52.1)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">v</text><text
+            transform="translate(330.8 467.1) rotate(-47.8)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">o</text><text transform="matrix(0.71, -0.7, 0.7, 0.71, 335.04, 462.4)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">l</text><text
+            transform="translate(337.3 460) rotate(-41.1)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">u</text><text
+            transform="matrix(0.79, -0.61, 0.61, 0.79, 342.75, 455.37)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">t</text><text transform="translate(346 452.9) rotate(-34.9)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">i</text><text
+            transform="matrix(0.85, -0.52, 0.52, 0.85, 349.01, 450.73)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">o</text><text transform="translate(354.4 447.4) rotate(-27)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">n</text><text
+            transform="translate(361.1 444.1) rotate(-23.8)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(362.9 443.3) rotate(-21.9)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">i</text><text
+            transform="matrix(0.95, -0.32, 0.32, 0.95, 366.29, 441.84)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">s</text><text transform="translate(371.8 440) rotate(-16.2)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="translate(373.7 439.4) rotate(-14.3)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">i</text><text transform="translate(377.2 438.5) rotate(-10.6)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">n</text><text
+            transform="translate(384.6 437.2) rotate(-7.4)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(386.5 436.9) rotate(-4.7)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">y</text><text
+            transform="matrix(1, -0.02, 0.02, 1, 392.88, 436.35)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">o</text><text transform="translate(399.2 436.2) rotate(3.9)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">u</text><text
+            transform="translate(406.3 436.8) rotate(7.8)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">r</text><text
+            transform="matrix(0.98, 0.18, -0.18, 0.98, 411.23, 437.46)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text
+            transform="matrix(0.97, 0.25, -0.25, 0.97, 413.13, 437.6)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">M</text><text transform="translate(424.3 440.7) rotate(19.8)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">i</text><text
+            transform="translate(427.8 441.9) rotate(23.5)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">n</text><text
+            transform="matrix(0.88, 0.47, -0.47, 0.88, 434.62, 444.83)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">d</text><text transform="translate(440.7 448.1) rotate(31.2)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="matrix(0.84, 0.55, -0.55, 0.84, 443.44, 449.83)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text
+            transform="matrix(0.78, 0.63, -0.63, 0.78, 450.22, 454.64)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(451.8 455.8) rotate(41.7)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">T</text><text
+            transform="matrix(0.69, 0.72, -0.72, 0.69, 456.91, 460.35)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">h</text><text transform="translate(462 465.7) rotate(50.6)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">e</text><text
+            transform="matrix(0.6, 0.8, -0.8, 0.6, 465.5, 470.04)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(466.7 471.5) rotate(56.7)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">R</text><text
+            transform="matrix(0.48, 0.88, -0.88, 0.48, 471.59, 479)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">e</text><text transform="translate(474.3 483.9) rotate(65.6)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">v</text><text
+            transform="translate(477 490) rotate(69.9)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">o</text><text
+            transform="matrix(0.29, 0.96, -0.96, 0.29, 479.19, 495.97)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">l</text><text transform="translate(480.2 499.1) rotate(76.6)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">u</text><text
+            transform="translate(481.8 506.1) rotate(80.4)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">t</text><text transform="translate(482.5 510.1) rotate(83)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">i</text><text
+            transform="matrix(0.06, 1, -1, 0.06, 483, 513.77)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">o</text><text transform="translate(483.5 520.1) rotate(90.9)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">n</text><text
+            transform="matrix(-0.07, 1, -1, -0.07, 483.27, 527.55)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(483.2 529.5) rotate(95.7)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">i</text><text
+            transform="matrix(-0.15, 0.99, -0.99, -0.15, 482.83, 533.19)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">s</text><text transform="translate(481.9 538.9) rotate(101.5)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="translate(481.5 540.9) rotate(103.4)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">i</text><text
+            transform="matrix(-0.29, 0.96, -0.96, -0.29, 480.73, 544.48)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">n</text><text transform="translate(478.5 551.6) rotate(110.2)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="translate(477.8 553.5) rotate(113)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">y</text><text
+            transform="matrix(-0.46, 0.89, -0.89, -0.46, 475.38, 559.28)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">o</text><text transform="translate(472.5 564.9) rotate(121.7)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">u</text><text
+            transform="translate(468.7 571) rotate(125.7)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">r</text><text
+            transform="matrix(-0.62, 0.79, -0.79, -0.62, 465.81, 575.01)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text
+            transform="matrix(-0.67, 0.74, -0.74, -0.67, 464.78, 576.65)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">M</text><text
+            transform="matrix(-0.74, 0.68, -0.68, -0.74, 456.84, 585.1)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">i</text><text transform="translate(454.2 587.6) rotate(141.1)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">n</text><text
+            transform="matrix(-0.83, 0.56, -0.56, -0.83, 448.4, 592.3)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">d</text><text transform="translate(442.7 596.1) rotate(148.8)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="translate(441 597.2) rotate(150.1)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(439.2 598.2) rotate(151.4)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="translate(437.5 599.1) rotate(152.7)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text
+            transform="matrix(-0.9, 0.44, -0.44, -0.9, 435.68, 600.04)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(433.9 600.9) rotate(155.4)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="matrix(-0.92, 0.39, -0.39, -0.92, 432.06, 601.76)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(428.2 603.4) rotate(161.2)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">T</text><text
+            transform="translate(421.7 605.7) rotate(165.9)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">h</text><text
+            transform="matrix(-0.99, 0.17, -0.17, -0.99, 414.6, 607.42)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">e</text><text transform="translate(409.1 608.3) rotate(172.7)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="translate(407.2 608.7) rotate(176.3)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">R</text><text transform="matrix(-1, -0.02, 0.02, -1, 398.24, 609.21)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">e</text><text
+            transform="translate(392.7 609.1) rotate(-174.9)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">v</text><text
+            transform="matrix(-0.99, -0.16, 0.16, -0.99, 386, 608.54)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">o</text><text transform="translate(379.8 607.5) rotate(-167.4)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">l</text><text
+            transform="translate(376.5 606.8) rotate(-163.9)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">u</text><text
+            transform="matrix(-0.94, -0.34, 0.34, -0.94, 369.68, 604.81)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">t</text><text
+            transform="matrix(-0.92, -0.38, 0.38, -0.92, 365.8, 603.41)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">i</text><text transform="translate(362.4 602) rotate(-154.2)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">o</text><text
+            transform="translate(356.7 599.3) rotate(-149.7)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">n</text><text transform="translate(350.3 595.5) rotate(-146.5)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="translate(348.6 594.4) rotate(-144.6)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">i</text><text
+            transform="matrix(-0.78, -0.62, 0.62, -0.78, 345.57, 592.31)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">s</text><text
+            transform="matrix(-0.75, -0.66, 0.66, -0.75, 341.04, 588.66)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(339.5 587.4) rotate(-137.1)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">i</text><text
+            transform="translate(336.8 584.9) rotate(-133.4)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">n</text><text transform="translate(331.7 579.4) rotate(-130.3)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben"> </text><text
+            transform="matrix(-0.61, -0.79, 0.79, -0.61, 330.39, 577.97)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">y</text><text transform="translate(326.5 573) rotate(-123.4)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">o</text><text
+            transform="translate(323 567.7) rotate(-118.9)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">u</text><text transform="translate(319.6 561.4) rotate(-114.9)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">r</text><text
+            transform="translate(317.5 556.9) rotate(-112.6)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben"> </text><text transform="translate(316.6 555.2) rotate(-108.1)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">M</text><text
+            transform="matrix(-0.22, -0.97, 0.97, -0.22, 313.17, 544.13)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">i</text><text
+            transform="matrix(-0.16, -0.99, 0.99, -0.16, 312.28, 540.57)" font-size="12" fill="#231f20"
+            font-family="Corben-Regular, Corben">n</text><text transform="translate(311.1 533.2) rotate(-94.6)"
+            font-size="12" fill="#231f20" font-family="Corben-Regular, Corben">d</text>
         <g id="recordLines">
-            <circle cx="397" cy="522.7" r="196.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.7" />
-            <circle cx="397" cy="522.7" r="145.2" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.7" />
-            <circle cx="397" cy="522.7" r="136.6" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="132.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="128.6" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="124.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.7" />
-            <circle cx="397" cy="522.7" r="243.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.5" />
-            <circle cx="397" cy="522.7" r="236.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.5" />
-            <circle cx="397" cy="522.7" r="229.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="222.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.7" />
-            <circle cx="397" cy="522.7" r="215.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="209.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="203" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="191" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="185.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="179.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="174.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.7" />
-            <circle cx="397" cy="522.7" r="169.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="164" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="159.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.7" />
-            <circle cx="397" cy="522.7" r="154.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="149.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="140.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="121" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="117.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="113.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="110.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="107.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="103.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
-            <circle cx="397" cy="522.7" r="100.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
-                stroke-width="0.4" />
+            <circle cx="397" cy="522.7" r="230.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.82" />
+            <circle cx="397" cy="522.7" r="170.2" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.82" />
+            <circle cx="397" cy="522.7" r="160.2" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="155.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="150.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="146.2" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.82" />
+            <circle cx="397" cy="522.7" r="285.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.59" />
+            <circle cx="397" cy="522.7" r="277.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.59" />
+            <circle cx="397" cy="522.7" r="268.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="260.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.82" />
+            <circle cx="397" cy="522.7" r="252.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="245.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="238" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="223.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="217.2" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="210.7" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="204.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.82" />
+            <circle cx="397" cy="522.7" r="198.2" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="192.3" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="186.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.82" />
+            <circle cx="397" cy="522.7" r="180.9" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="175.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="165.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="141.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="137.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="133.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="129.4" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="125.5" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="121.8" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
+            <circle cx="397" cy="522.7" r="118.1" fill="none" stroke="#25a9e0" stroke-miterlimit="10"
+                stroke-width="0.47" />
         </g>
-        <circle cx="397" cy="522.7" r="89.2" fill="none" stroke="#00adee" stroke-miterlimit="10" stroke-width="0.21" />
+        <circle cx="397" cy="522.7" r="104.6" fill="none" stroke="#00adee" stroke-miterlimit="10" stroke-width="0.25" />
     </g>
 </svg>
