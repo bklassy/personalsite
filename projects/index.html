@@ -9,7 +9,7 @@
     <title>Beth Klassen</title>
     <style>
         .titleprojects {
-            color: rgb(245, 234, 210);
+            color: rgb(247, 242, 232);
             text-shadow: 3px 3px 4px rgb(31, 30, 30);
         }
         
@@ -68,11 +68,31 @@
 </head>
 
 <body>
-    <p class="coffee">
-        <a href="https://www.buymeacoffee.com/bethklassen">Buy me a coffee</a>
-    </p>
     <a class="home" href="/">
     </a>
+    <div id="social">
+        <p>
+            <a target="_blank" href="https://linkedin.com/in/beth-klassen">
+                <img height=25px src="../assets/linkedin.svg" alt text="Beth Klassen Linked In"> </a>
+        </p>
+        <p>
+            <a target="_blank" href="https://www.etsy.com/shop/FlyingKiteArts">
+                <img height=30px src="../assets/etsy.png" alt text="Beth Klassen Etsy store"> </a>
+        </p>
+        <p>
+            <a href="mailto:me@bethklassen.com">
+                <img height=30px src="../assets/mail1.png" alt text="email me@bethklassen.com"> </a>
+        </p>
+        <p>
+            <a target="_blank" href="https://github.com/bklassy">
+                <img height=30px src="../assets/github.png" alt text="github"> </a>
+        </p>
+        <p>
+            <a target="_blank" href="https://www.buymeacoffee.com/bethklassen">
+                <img height=28px src="../assets/coffee.png" alt text="buy me a coffee"> </a>
+        </p>
+
+    </div>
     <div id="projectscontainer">
         <div id="Projects">
             <h1 class="titleprojects">Projects</h1>
@@ -167,7 +187,7 @@
         <script>
             new Zooming({
                 bgColor: 'rgb(0, 0, 0)'
-            }).listen('img', );
+            }).listen('#projectscontainer img');
         </script>
         <!--  -->
 </body>

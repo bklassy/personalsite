@@ -26,21 +26,33 @@ body {
 /* Icon that switches from smile to pointing finger upon hovering */
 
 .home {
-    min-height: 128px;
-    min-width: 128px;
-    border-radius: 50%;
+    min-height: 165px;
+    min-width: 165px;
+    /* border-radius: 50%;
     border-style: solid;
     border-color: rgb(82, 23, 5);
-    border-width: 6px;
-    background: url("../assets/Icon.png") no-repeat;
+    border-width: 6px; */
+    background: url("../assets/Icon.svg") no-repeat;
     background-size: 100% auto;
     display: inline-block;
 }
 
 .home:hover {
     transition-delay: 0.25s;
-    background: url("../assets/FingerPoint.png") no-repeat;
+    background: url("../assets/FingerPoint.svg") no-repeat;
     background-size: contain;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+#social a {
+    padding: 5px;
 }
 
 
@@ -117,7 +129,8 @@ body {
 
 /* Projects page - Buy me a coffee hyperlink */
 
-.coffee {
+
+/* .coffee {
     float: right;
     background-color: rgb(112, 83, 2);
     border-radius: 4px;
@@ -137,7 +150,7 @@ body {
     font-weight: bold;
     color: rgb(240, 238, 233);
     text-shadow: 2px 2px 3px rgb(46, 34, 2);
-}
+} */
 
 
 /* Projects page- different shadows for each project - RGB, baby! */
