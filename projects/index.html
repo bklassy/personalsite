@@ -8,61 +8,59 @@
     <meta name=viewport content="width=device-width,initial-scale=1">
     <title>Beth Klassen</title>
     <style>
-        .titleprojects {
+    .titleprojects {
             color: rgb(247, 242, 232);
             text-shadow: 3px 3px 4px rgb(31, 30, 30);
-        }
-        
-        #Projects {
-            border-radius: 5px;
             text-align: center;
-            margin: auto;
-            max-width: 100rem;
-            padding: .017px;
         }
         
         #projectscontainer {
-            max-width: 1200px;
+            max-width: fit-content;
+            background-color: rgb(59, 57, 55);
+            border-radius: 4px;
+            padding: 2rem 0rem;
             margin: auto;
             animation-name: fadeIn;
             animation-duration: .5s;
             transition-timing-function: ease-in;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
         }
         
         .artboard {
-            padding: 1rem;
-            margin-bottom: 4rem;
-            border-radius: 5px;
-        }
-        
-        .content {
+            padding: 1.5rem .5rem;
             display: flex;
+            flex-direction: row;
             justify-content: space-around;
         }
         
-        .column {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: auto;
-            margin-bottom: 2rem;
-        }
-        
-        .column img,
-        embed,
-        object {
+        .artboard img {
             max-width: 100%;
-            height: auto;
+            max-height: 26rem;
             object-fit: contain;
             padding-top: 0;
             object-position: top;
-            box-shadow: 2px 2px 18px rgb(124, 118, 90, .3);
+            opacity: .85;
+            border-radius: 2px;
         }
         
-        .projectname {
+        .artboard img:hover {
+            opacity: 1;
+        }
+        /* .artboard object {
+            height: 45rem;
+            opacity: .8;
+        }
+        
+        .artboard object:hover {
+            opacity: 1; */
+    }
+    /* .projectname {
             display: flex;
             justify-content: center;
-        }
+            font-size: .8rem;
+        } */
     </style>
 
 </head>
@@ -93,65 +91,49 @@
         </p>
 
     </div>
+    <h1 class="titleprojects">Projects</h1>
     <div id="projectscontainer">
-        <div id="Projects">
-            <h1 class="titleprojects">Projects</h1>
-        </div>
-        <div class="red">
-            <div class="artboard">
-                <h2 class="projectname"> Raspberry Pi&#174 poster</h2>
-                <div class="content">
-                    <div class="column">
-                        <a href="raspberrypiposterlowfi.png"><img src="raspberrypiposterlowfi.png" alt="raspberry pi vector image on blue poster"></a>
-                    </div>
-                </div>
+        <div class="artboard">
+            <!-- <h2 class="projectname"> Raspberry Pi&#174 poster</h2> -->
+            <div class="content">
+                <a href="raspberrypiposterlowfi.png"><img src="raspberrypiposterlowfi.png" alt="raspberry pi vector illustration on blue poster"></a>
             </div>
         </div>
-        <div class="yellow">
-            <div class="artboard">
-                <h2 class="projectname">Fall</h2>
-                <div class="content">
-                    <div class="column">
-                        <div class="shadowed">
-                            <a href="fallposter.png"><img src="fallposter.png" alt="Poster with fall text"></a>
-                        </div>
-                    </div>
-                </div>
+        <div class="artboard">
+            <!-- <h2 class="projectname">Mountaintscape</h2> -->
+            <div class="content">
+                <img src="mountainRange.png" alt="mountaing range illustration" />
             </div>
         </div>
-        <div class="orange">
-            <div class="artboard">
-                <h2 class="projectname">Revolution</h2>
-                <div class="content">
-                    <div class="column">
-                        <div class="shadowed">
-                            <!-- tried <embed src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" 
+        <div class="artboard">
+            <div class="content">
+                <a href="fallposter.png"><img src="fallposter.png" alt="Poster with fall text"></a>
+            </div>
+        </div>
+        <div class="artboard">
+            <!-- <h2 class="projectname">Squirrel</h2> -->
+            <div class="content">
+                <img src="oscarWilde.png" alt="squirrel illustration with Oscar Wilde quote" />
+            </div>
+        </div>
+        <!-- <div class="artboard"> -->
+        <!-- <h2 class="projectname">Revolution</h2> -->
+        <!-- <div class="content"> -->
+        <!-- tried <embed src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" 
                             check out https://graphicdesign.stackexchange.com/questions/106200/svg-xlinkhref-path-to-jpg-not-working-inside-my-website-project/> and https://vecta.io/blog/best-way-to-embed-svg-->
-                            <object type="image/svg+xml" data="revolution_poster.svg">
-                                <img src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" />
-                            </object>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- <object type="image/svg+xml" data="revolution_poster.svg">
+                    <img src="revolution_poster.svg" height=1224px alt="Poster with rotating vinyl" />
+                </object>
 
-        <!--
-            <div class="green">
-                <div class="artboard">
-                    <h2 class="projectname">Project name</h2>
-                </div>
             </div>
-            <div class="blue">
-                <div class="artboard">
-                    <h2 class="projectname">Project name</h2>
-                </div>
-            </div>
-            <div class="purple">
-                <div class="artboard">
-                    <h2 class="projectname">Project name</h2>
-                </div>
-            </div>
+        </div> -->
+    </div>
+    <!--
+    <div class="purple">
+        <div class="artboard">
+            <h2 class="projectname">Project name</h2>
+        </div>
+    </div>
             <div class="red">
                 <div class="artboard">
                     <h2 class="projectname"> Project Name</h2>
@@ -164,32 +146,32 @@
             </div>
         </div> -->
 
-        <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-        <script>
-            (function(f, a, t, h, o, m) {
-                a[h] = a[h] || function() {
-                    (a[h].q = a[h].q || []).push(arguments)
-                };
-                o = f.createElement('script'),
-                    m = f.getElementsByTagName('script')[0];
-                o.async = 1;
-                o.src = t;
-                o.id = 'fathom-script';
-                m.parentNode.insertBefore(o, m)
-            })(document, window, '//fathom.joshcorp.co/tracker.js', 'fathom');
-            fathom('set', 'siteId', 'VKCHM');
-            fathom('trackPageview');
-        </script>
-        <!-- / Fathom -->
-        <!-- smooth zoom: https://www.cssscript.com/smooth-image-zoom-medium/  -->
-        <script src="./zooming.min.js">
-        </script>
-        <script>
-            new Zooming({
-                bgColor: 'rgb(0, 0, 0)'
-            }).listen('#projectscontainer img');
-        </script>
-        <!--  -->
+    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+    <script>
+        (function(f, a, t, h, o, m) {
+            a[h] = a[h] || function() {
+                (a[h].q = a[h].q || []).push(arguments)
+            };
+            o = f.createElement('script'),
+                m = f.getElementsByTagName('script')[0];
+            o.async = 1;
+            o.src = t;
+            o.id = 'fathom-script';
+            m.parentNode.insertBefore(o, m)
+        })(document, window, '//fathom.joshcorp.co/tracker.js', 'fathom');
+        fathom('set', 'siteId', 'VKCHM');
+        fathom('trackPageview');
+    </script>
+    <!-- / Fathom -->
+    <!-- smooth zoom: https://www.cssscript.com/smooth-image-zoom-medium/  -->
+    <script src="./zooming.min.js">
+    </script>
+    <script>
+        new Zooming({
+            bgColor: 'rgb(0, 0, 0)'
+        }).listen('#projectscontainer img');
+    </script>
+
 </body>
 
 </html>

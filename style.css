@@ -116,34 +116,3 @@
                                 opacity: 1;
                             }
                         }
-                        /* Projects page- different shadows for each project - RGB, baby! */
-                        
-                        .red {
-                            background-color: rgba(238, 238, 238, 0.95);
-                            box-shadow: 3px 3px 10px rgb(255, 58, 58), 0 0 25px rgb(250, 109, 109);
-                        }
-                        
-                        .orange {
-                            background-color: rgba(238, 238, 238, 0.95);
-                            box-shadow: 3px 3px 10px rgb(252, 164, 0), 0 0 25px rgb(243, 151, 65);
-                        }
-                        
-                        .yellow {
-                            background-color: rgba(238, 238, 238, 0.95);
-                            box-shadow: 3px 3px 10px rgb(252, 227, 0), 0 0 25px rgb(255, 238, 80);
-                        }
-                        
-                        .green {
-                            background-color: rgba(238, 238, 238, 0.95);
-                            box-shadow: 3px 3px 10px rgb(38, 236, 38), 0 0 25px rgb(142, 245, 116);
-                        }
-                        
-                        .blue {
-                            background-color: rgba(238, 238, 238, 0.95);
-                            box-shadow: 3px 3px 10px rgb(38, 140, 236), 0 0 25px rgb(116, 129, 245);
-                        }
-                        
-                        .purple {
-                            background-color: rgba(238, 238, 238, 0.95);
-                            box-shadow: 3px 3px 10px rgb(120, 26, 243), 0 0 25px rgb(231, 62, 203);
-                        }
