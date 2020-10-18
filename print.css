@@ -1,18 +1,57 @@
-body {visibility:hidden;}
-.home {display: none !important;}
+body {
+    visibility: hidden;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.home {
+    display: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
 .print {
-    visibility:visible;
-    font-size: 10px !important;
+    visibility: visible;
+    font-size: 11px !important;
     padding: 0px !important;
     margin: 0px !important;
-    }
+}
 
-.smalltext {font-size: 10.5px !important;}
-.sectionName {font-size: 14px !important;}
-h3 {font-size: 11px !important;}
+.linkedin {
+    display: none !important;
+}
+
+.name {
+    font-size: 20px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.smalltext {
+    font-size: 11px !important;
+}
+
+.sectionName {
+    font-size: 14px !important;
+}
+
+h3 {
+    font-size: 11px !important;
+}
+
 .date {
-        font-size: 10px !important;}
-i {font-size: 10.5px !important;}
-a {text-decoration: none;
-color: black;}
-#printbutton {display: none;}
+    font-size: 10px !important;
+}
+
+i {
+    font-size: 10px !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#printbutton {
+    display: none;
+}
