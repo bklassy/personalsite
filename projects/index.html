@@ -16,33 +16,35 @@
         
         #projectscontainer {
             max-width: fit-content;
-            background-color: rgba(66, 65, 64, 0.98);
-            border-radius: 2px;
             margin: auto;
             animation-name: fadeIn;
             animation-duration: .5s;
             transition-timing-function: ease-in;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: space-around;
         }
         
         .artboard {
-            padding: 1rem 0rem .5rem 0.5rem;
-            display: flex;
-            flex-direction: row;
+            margin: 0.5rem;
+            /* background-color: rgba(66, 65, 64, 0.98); */
         }
         
         .artboard img {
             max-width: 100%;
-            max-height: 18rem;
+            max-height: 25rem;
             object-fit: contain;
-            object-position: top;
-            border-radius: 1px;
+            border-width: 6px;
+            border-style: solid;
+            border-color: rgba(66, 65, 64, 0.98);
         }
         
-        .artboard img:hover {
-            transform: scale(1.02);
+        .artboard:hover {
+            border-color: rgb(247, 242, 232);
+        }
+        
+        .halfcircle {
+            background-color: rgba(66, 65, 64, 0.96);
         }
     </style>
 
@@ -78,42 +80,30 @@
     <div id="projectscontainer">
         <div class="artboard">
             <!-- <h2 class="projectname"> Raspberry Pi&#174 poster</h2> -->
-            <div class="content">
-                <a href="raspberrypiposterlowfi.png"><img src="raspberrypiposterlowfi.png" alt="raspberry pi vector illustration on blue poster"></a>
-            </div>
+            <a href="raspberrypiposterlowfi.png"><img src="raspberrypiposterlowfi.png" alt="raspberry pi vector illustration on blue poster"></a>
         </div>
         <div class="artboard">
             <!-- <h2 class="projectname">Mountaintscape</h2> -->
-            <div class="content">
-                <img src="mountainRange.png" alt="mountaing range illustration" />
-            </div>
+            <img src="mountainRange.png" alt="mountaing range illustration" />
         </div>
         <div class="artboard">
-            <div class="content">
-                <a href="fallposter.png"><img src="fallposter.png" alt="Poster with fall text"></a>
-            </div>
+            <a href="fallposter.png"><img src="fallposter.png" alt="Poster with fall text"></a>
         </div>
         <div class="artboard">
             <!-- <h2 class="projectname">Squirrel</h2> -->
-            <div class="content">
-                <img src="oscarWilde.png" alt="squirrel illustration with Oscar Wilde quote" />
-            </div>
+            <img src="oscarWilde.png" alt="squirrel illustration with Oscar Wilde quote" />
         </div>
         <div class="artboard">
             <!-- <h2 class="projectname">rollerblading</h2> -->
-            <div class="content">
-                <img src="revolution.png" alt="vector illustration of a vinyl with the revolution is in your mind spelled out" />
-            </div>
+            <img src="revolution.png" alt="vector illustration of a vinyl with the revolution is in your mind spelled out" />
         </div>
         <div class="artboard">
             <!-- <h2 class="projectname">rollerblading</h2> -->
-            <div class="content">
-                <img src="rollerblading.png" alt="vector illustration of rollerblading" />
-            </div>
+            <img src="rollerblading.png" alt="vector illustration of rollerblading" />
         </div>
         <div class="artboard">
             <!-- <h2 class="projectname">rollerblading</h2> -->
-            <div class="content">
+            <div class="halfcircle">
                 <img src="lake.png" alt="vector illustration of a lake and hammock" />
             </div>
         </div>
