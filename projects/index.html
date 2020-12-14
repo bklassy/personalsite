@@ -16,9 +16,8 @@
         
         #projectscontainer {
             max-width: fit-content;
-            background-color: rgb(59, 57, 55);
-            border-radius: 4px;
-            padding: 2rem 1.1rem;
+            background-color: rgba(66, 65, 64, 0.98);
+            border-radius: 2px;
             margin: auto;
             animation-name: fadeIn;
             animation-duration: .5s;
@@ -29,19 +28,17 @@
         }
         
         .artboard {
-            padding: 1.3rem .3rem;
+            padding: 1rem 0rem .5rem 0.5rem;
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
         }
         
         .artboard img {
             max-width: 100%;
-            max-height: 15rem;
+            max-height: 18rem;
             object-fit: contain;
-            padding-top: 0;
             object-position: top;
-            border-radius: 2px;
+            border-radius: 1px;
         }
         
         .artboard img:hover {
@@ -105,57 +102,34 @@
         <div class="artboard">
             <!-- <h2 class="projectname">rollerblading</h2> -->
             <div class="content">
-                <img src="rollerblading.png" alt="vector illustration of rollerblading" />
-            </div>
-        </div>
-        <div class="artboard">
-            <!-- <h2 class="projectname">rollerblading</h2> -->
-            <div class="content">
                 <img src="revolution.png" alt="vector illustration of a vinyl with the revolution is in your mind spelled out" />
             </div>
         </div>
         <div class="artboard">
             <!-- <h2 class="projectname">rollerblading</h2> -->
             <div class="content">
-                <img src="cactus.png" alt="vector illustration of a cactus" />
+                <img src="rollerblading.png" alt="vector illustration of rollerblading" />
+            </div>
+        </div>
+        <div class="artboard">
+            <!-- <h2 class="projectname">rollerblading</h2> -->
+            <div class="content">
+                <img src="lake.png" alt="vector illustration of a lake and hammock" />
             </div>
         </div>
     </div>
-    <!--
-    <div class=" purple ">
-        <div class="artboard ">
-            <h2 class="projectname ">Project name</h2>
-        </div>
-    </div>
-            <div class="red ">
-                <div class="artboard ">
-                    <h2 class="projectname "> Project Name</h2>
-                    <div class="content ">
-                        <div class="column ">
-                            <img src="raspberrypiposterlowfi.png " alt="raspberry pi vector image " style="max-width:600px ">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
-    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+
+    <!-- Panelbear Analytics - We respect your privacy -->
+    <script async src="https://cdn.panelbear.com/analytics.js?site=7eMp8te2XhK"></script>
     <script>
-        (function(f, a, t, h, o, m) {
-            a[h] = a[h] || function() {
-                (a[h].q = a[h].q || []).push(arguments)
-            };
-            o = f.createElement('script'),
-                m = f.getElementsByTagName('script')[0];
-            o.async = 1;
-            o.src = t;
-            o.id = 'fathom-script';
-            m.parentNode.insertBefore(o, m)
-        })(document, window, '//fathom.joshcorp.co/tracker.js', 'fathom');
-        fathom('set', 'siteId', 'VKCHM');
-        fathom('trackPageview');
+        window.panelbear = window.panelbear || function() {
+            (window.panelbear.q = window.panelbear.q || []).push(arguments);
+        };
+        panelbear('config', {
+            site: '7eMp8te2XhK'
+        });
     </script>
-    <!-- / Fathom -->
     <!-- smooth zoom: https://www.cssscript.com/smooth-image-zoom-medium/  -->
     <script src="./zooming.min.js ">
     </script>

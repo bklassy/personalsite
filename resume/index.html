@@ -194,23 +194,16 @@
                 </ul>
         </div>
     </div>
-    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+    <!-- Panelbear Analytics - We respect your privacy -->
+    <script async src="https://cdn.panelbear.com/analytics.js?site=7eMp8te2XhK"></script>
     <script>
-        (function(f, a, t, h, o, m) {
-            a[h] = a[h] || function() {
-                (a[h].q = a[h].q || []).push(arguments)
-            };
-            o = f.createElement('script'),
-                m = f.getElementsByTagName('script')[0];
-            o.async = 1;
-            o.src = t;
-            o.id = 'fathom-script';
-            m.parentNode.insertBefore(o, m)
-        })(document, window, '//fathom.joshcorp.co/tracker.js', 'fathom');
-        fathom('set', 'siteId', 'VKCHM');
-        fathom('trackPageview');
+        window.panelbear = window.panelbear || function() {
+            (window.panelbear.q = window.panelbear.q || []).push(arguments);
+        };
+        panelbear('config', {
+            site: '7eMp8te2XhK'
+        });
     </script>
-    <!-- / Fathom -->
 </body>
 
 </html>
