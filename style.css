@@ -1,118 +1,129 @@
-                        @media only screen and (min-width:768px) {
-                            .responsive {
-                                max-width: fit-content;
-                                min-width: fit-content;
-                            }
-                             :root {
-                                font-size: 18px;
-                            }
-                            .resumecontainer {
-                                padding: 3rem 4rem !important;
-                            }
-                        }
-                        
-                        html {
-                            scroll-behavior: smooth;
-                        }
-                        
-                        body {
-                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                            background-image: url(../assets/background.png);
-                            background-image: url("../assets/background.svg");
-                            background-color: rgb(12, 170, 38);
-                            background-repeat: no repeat;
-                            background-size: cover;
-                            margin: 1.5rem;
-                        }
-                        /* Icon that switches from smile to pointing finger upon hovering */
-                        
-                        .home {
-                            min-height: 165px;
-                            min-width: 165px;
-                            /* border-radius: 50%;
+                                    @media only screen and (min-width:768px) {
+                                        .responsive {
+                                            max-width: fit-content;
+                                            min-width: fit-content;
+                                        }
+                                         :root {
+                                            font-size: 18px;
+                                        }
+                                        .resumecontainer {
+                                            padding: 3rem 4rem !important;
+                                        }
+                                        #projectscontainer {
+                                            background-color: transparent;
+                                        }
+                                        .artboard img {
+                                            padding: 0rem;
+                                            max-width: 100%;
+                                            max-height: 25rem;
+                                            object-fit: contain;
+                                            border-style: solid;
+                                            border-color: rgba(66, 65, 64, 0.98);
+                                        }
+                                    }
+                                    
+                                    html {
+                                        scroll-behavior: smooth;
+                                    }
+                                    
+                                    body {
+                                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                        background-image: url(../assets/background.png);
+                                        background-image: url("../assets/background.svg");
+                                        background-color: rgb(12, 170, 38);
+                                        background-repeat: no repeat;
+                                        background-size: cover;
+                                        margin: 1.5rem;
+                                    }
+                                    /* Icon that switches from smile to pointing finger upon hovering */
+                                    
+                                    .home {
+                                        min-height: 165px;
+                                        min-width: 165px;
+                                        /* border-radius: 50%;
     border-style: solid;
     border-color: rgb(82, 23, 5);
     border-width: 6px; */
-                            background: url("../assets/Icon.svg") no-repeat;
-                            background-size: 100% auto;
-                            display: inline-block;
-                        }
-                        
-                        .home:hover {
-                            transition-delay: 0.25s;
-                            background: url("../assets/FingerPoint.svg") no-repeat;
-                            background-size: contain;
-                        }
-                        
-                        #social {
-                            display: flex;
-                            align-items: center;
-                            position: absolute;
-                            right: 15px;
-                            top: 5px;
-                        }
-                        
-                        #social a {
-                            padding: 5px;
-                        }
-                        /* Home page - menu buttons for About, Resume, and Projects. Logs in background image that show an animated fire when hovering */
-                        
-                        #nav {
-                            width: 100%;
-                            display: flex;
-                            list-style: none;
-                            justify-content: center;
-                            padding-top: 4rem;
-                            padding-left: 0rem;
-                        }
-                        
-                        #nav li {
-                            /* background-color:rgb(204, 159, 61); */
-                            background-image: url(../assets/campfirenoflame.png);
-                            background-image: url(../assets/campfireNoFlame.svg);
-                            background-repeat: no-repeat;
-                            background-size: contain;
-                            background-position-x: center;
-                            background-position-y: top;
-                            /* padding top right bottom left */
-                            padding: 7rem 2rem 2.75rem 2rem;
-                            text-indent: 2rem;
-                        }
-                        
-                        #nav li:hover {
-                            background-image: url(../assets/campfire.png);
-                            background-image: url(../assets/campfire.svg);
-                            /* transition-delay: .3s; */
-                            cursor: url(../assets/CursorBurnt.png), pointer;
-                        }
-                        
-                        #nav a {
-                            text-decoration: none;
-                            font-weight: bold;
-                            color: rgb(235, 221, 192);
-                            text-shadow: 2px 2px 3px rgb(82, 80, 80);
-                        }
-                        /* Resume- white page with fade in */
-                        
-                        .resumecontainer {
-                            background-color: rgb(255, 255, 255);
-                            border-radius: 2px;
-                            box-shadow: 3px 3px 10px black, 0 0 25px gray;
-                            margin: auto;
-                            max-width: 48rem;
-                            padding: 1rem 1rem;
-                            margin-top: 4rem;
-                            animation-name: fadeIn;
-                            animation-duration: .5s;
-                            transition-timing-function: ease-in;
-                            animation-fill-mode: both;
-                        }
-                        
-                        @keyframes fadeIn {
-                            0% {
-                                opacity: 0;
-                            }
-                            100% {
-                                opacity: 1;
-                            }
-                        }
+                                        background: url("../assets/Icon.svg") no-repeat;
+                                        background-size: 100% auto;
+                                        display: inline-block;
+                                    }
+                                    
+                                    .home:hover {
+                                        transition-delay: 0.25s;
+                                        background: url("../assets/FingerPoint.svg") no-repeat;
+                                        background-size: contain;
+                                    }
+                                    
+                                    #social {
+                                        display: flex;
+                                        align-items: center;
+                                        position: absolute;
+                                        right: 15px;
+                                        top: 5px;
+                                    }
+                                    
+                                    #social a {
+                                        padding: 5px;
+                                    }
+                                    /* Home page - menu buttons for About, Resume, and Projects. Logs in background image that show an animated fire when hovering */
+                                    
+                                    #nav {
+                                        width: 100%;
+                                        display: flex;
+                                        list-style: none;
+                                        justify-content: center;
+                                        padding-top: 4rem;
+                                        padding-left: 0rem;
+                                    }
+                                    
+                                    #nav li {
+                                        /* background-color:rgb(204, 159, 61); */
+                                        background-image: url(../assets/campfirenoflame.png);
+                                        background-image: url(../assets/campfireNoFlame.svg);
+                                        background-repeat: no-repeat;
+                                        background-size: contain;
+                                        background-position-x: center;
+                                        background-position-y: top;
+                                        /* padding top right bottom left */
+                                        padding: 7rem 2rem 2.75rem 2rem;
+                                        text-indent: 2rem;
+                                    }
+                                    
+                                    #nav li:hover {
+                                        background-image: url(../assets/campfire.png);
+                                        background-image: url(../assets/campfire.svg);
+                                        /* transition-delay: .3s; */
+                                        cursor: url(../assets/CursorBurnt.png), pointer;
+                                    }
+                                    
+                                    #nav a {
+                                        text-decoration: none;
+                                        font-weight: bold;
+                                        color: rgb(235, 221, 192);
+                                        text-shadow: 2px 2px 3px rgb(82, 80, 80);
+                                    }
+                                    /* Resume- white page with fade in */
+                                    
+                                    .resumecontainer {
+                                        background-color: rgb(255, 255, 255);
+                                        border-radius: 2px;
+                                        box-shadow: 3px 3px 10px black, 0 0 25px gray;
+                                        margin: auto;
+                                        max-width: 48rem;
+                                        padding: 1rem 1rem;
+                                        margin-top: 4rem;
+                                        animation-name: fadeIn;
+                                        animation-duration: .5s;
+                                        transition-timing-function: ease-in;
+                                        animation-fill-mode: both;
+                                    }
+                                    
+                                    @keyframes fadeIn {
+                                        0% {
+                                            opacity: 0;
+                                        }
+                                        100% {
+                                            opacity: 1;
+                                        }
+                                    }
