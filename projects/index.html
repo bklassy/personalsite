@@ -14,6 +14,19 @@
             text-align: center;
         }
         
+        @media only screen and (min-width:768px) {
+            #projectscontainer {
+                background-color: transparent !important;
+            }
+            .artboard img {
+                padding: 0rem !important;
+                max-width: 100% !important;
+                max-height: 25rem !important;
+                border-style: solid !important;
+                border-color: rgba(66, 65, 64, 0.98) !important;
+            }
+        }
+        
         #projectscontainer {
             max-width: fit-content;
             margin: auto;
@@ -34,13 +47,12 @@
         .artboard img {
             max-width: 95%;
             max-height: 100%;
-            padding: .5rem;
+            margin: .5rem;
             object-fit: contain;
         }
         
         .artboard img:hover {
-            border-style: hidden;
-            transform: scale(1.04);
+            border-style: hidden !important;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         
