@@ -8,13 +8,12 @@
     <meta name=viewport content="width=device-width,initial-scale=1">
     <title>Beth Klassen</title>
     <style>
-        .titleprojects {
+.titleprojects {
             color: rgb(247, 242, 232);
             text-shadow: 3px 3px 4px rgb(31, 30, 30);
             text-align: center;
         }
-        
-        @media only screen and (min-width:768px) {
+        /* @media only screen and (min-width:768px) {
             #projectscontainer {
                 background-color: transparent !important;
             }
@@ -22,11 +21,13 @@
                 padding: 0rem !important;
                 max-width: 100% !important;
                 max-height: 25rem !important;
-                border-style: solid !important;
-                border-color: rgba(66, 65, 64, 0.98) !important;
-            }
-        }
-        
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+                /* border-style: solid !important;
+                border-color: rgba(66, 65, 64, 0.98) !important; */
+    }
+}
+
+/*
         #projectscontainer {
             max-width: fit-content;
             margin: auto;
@@ -42,8 +43,10 @@
         .artboard {
             margin: 0.75rem;
             /* background-color: rgba(66, 65, 64, 0.98); */
-        }
-        
+
+}
+
+/*
         .artboard img {
             max-width: 95%;
             max-height: 100%;
@@ -52,18 +55,67 @@
         }
         
         .artboard img:hover {
-            border-style: hidden !important;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.29);
         }
-        
-        .halfcircle {
-            background-color: rgba(66, 65, 64, 0.98);
-        }
-        
+                
         .halfcircle img:hover {
             border-style: hidden;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
+        } */
+.artboard {
+    padding: 0;
+    margin: 0;
+}
+.halfcircle {
+    background-color: rgba(70, 70, 70, 0.98);
+    padding: 0px;
+    margin: 0;
+}
+#projectscontainer {
+    /* Prevent vertical gaps */
+    line-height: 0px;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 0px;
+}
+#projectscontainer img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}
+#projectscontainer img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 8px 25px 0 rgba(0, 0, 0, 0.29);
+    cursor: zoom-in;
+}
+@media (max-width: 1000px) {
+    #projectscontainer {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+@media (max-width: 800px) {
+    #projectscontainer {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media (max-width: 400px) {
+    #projectscontainer {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+body {
+    margin: 2rem;
+    padding: 0;
+}
     </style>
 
 </head>
@@ -73,56 +125,50 @@
     </a>
     <div id="social">
         <p>
-            <a target="_blank" href="https://linkedin.com/in/beth-klassen">
-                <img height=25px src="../assets/linkedin.svg" alt text="Beth Klassen Linked In"> </a>
+            <a target="_blank" href="https://github.com/bklassy">
+                <img height=30px src="../assets/github.png" alt text="Beth's github"> </a>
+        </p>
+        <p>
+            <a href="mailto:beth@bethklassen.com">
+                <img height=30px src="../assets/mail.png" alt text="email beth@bethklassen.com"> </a>
+        </p>
+        <p>
+            <a target="_blank" href="https://www.buymeacoffee.com/bethklassen">
+                <img height=28px src="../assets/coffee.png" alt text="link to buy me a coffee"> </a>
         </p>
         <p>
             <a target="_blank" href="https://www.etsy.com/shop/FlyingKiteArts">
                 <img height=30px src="../assets/etsy.png" alt text="Beth Klassen Etsy store"> </a>
         </p>
         <p>
-            <a href="mailto:beth@bethklassen.com">
-                <img height=30px src="../assets/mail1.png" alt text="email me@bethklassen.com"> </a>
-        </p>
-        <p>
-            <a target="_blank" href="https://github.com/bklassy">
-                <img height=30px src="../assets/github.png" alt text="github"> </a>
-        </p>
-        <p>
-            <a target="_blank" href="https://www.buymeacoffee.com/bethklassen">
-                <img height=28px src="../assets/coffee.png" alt text="buy me a coffee"> </a>
+            <a target="_blank" href="https://www.instagram.com/beth_sketches/">
+                <img height=30px src="../assets/instagram.png" alt text="Beth Sketches Instagram site"> </a>
         </p>
 
     </div>
     <h1 class="titleprojects">Projects</h1>
     <div id="projectscontainer">
         <div class="artboard">
-            <!-- <h2 class="projectname"> Raspberry Pi&#174 poster</h2> -->
             <a href="raspberrypiposterlowfi.png"><img src="raspberrypiposterlowfi.png" alt="raspberry pi vector illustration on blue poster"></a>
         </div>
         <div class="artboard">
-            <!-- <h2 class="projectname">Mountaintscape</h2> -->
-            <img src="mountainRange.png" alt="mountaing range illustration" />
+            <a href="mountainRange.png"><img src="mountainRange.png" alt="mountaing range illustration"></a>
         </div>
         <div class="artboard">
             <a href="fallposter.png"><img src="fallposter.png" alt="Poster with fall text"></a>
         </div>
         <div class="artboard">
-            <!-- <h2 class="projectname">Squirrel</h2> -->
-            <img src="oscarWilde.png" alt="squirrel illustration with Oscar Wilde quote" />
+            <a href="oscarWilde.png"><img src="oscarWilde.png" alt="squirrel illustration with Oscar Wilde quote"></a>>
         </div>
         <div class="artboard">
-            <!-- <h2 class="projectname">rollerblading</h2> -->
-            <img src="revolution.png" alt="vector illustration of a vinyl with the revolution is in your mind spelled out" />
+            <a href="revolution.png"><img src="revolution.png" alt="vector illustration of a vinyl with the revolution is in your mind spelled out"></a>
         </div>
         <div class="artboard">
-            <!-- <h2 class="projectname">rollerblading</h2> -->
-            <img src="rollerblading.png" alt="vector illustration of rollerblading" />
+            <a href="rollerblading.png"><img src="rollerblading.png" alt="vector illustration of rollerblading"></a>
         </div>
         <div class="artboard">
-            <!-- <h2 class="projectname">rollerblading</h2> -->
             <div class="halfcircle">
-                <img src="lake.png" alt="vector illustration of a lake and hammock" />
+                <a href="lake.png"><img src="lake.png" alt="vector illustration of a lake and hammock"></a>
             </div>
         </div>
     </div>
@@ -139,13 +185,6 @@
         });
     </script>
     <!-- smooth zoom: https://www.cssscript.com/smooth-image-zoom-medium/  -->
-    <script src="./zooming.min.js ">
-    </script>
-    <script>
-        new Zooming({
-            bgColor: 'rgb(0, 0, 0)'
-        }).listen('#projectscontainer img');
-    </script>
 
 </body>
 
