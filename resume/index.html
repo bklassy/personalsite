@@ -45,6 +45,29 @@
             }
         }
         
+        .resumecontainer {
+            background-color: rgb(255, 255, 255);
+            border-radius: 2px;
+            box-shadow: 3px 3px 10px black, 0 0 25px gray;
+            margin: auto;
+            max-width: 48rem;
+            padding: 1rem 1rem;
+            margin-top: 4rem;
+            animation-name: fadeIn;
+            animation-duration: .5s;
+            transition-timing-function: ease-in;
+            animation-fill-mode: both;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
         .sectionline {
             border-style: dashed;
             border-width: 1px;

@@ -17,6 +17,7 @@
             display: flex;
             justify-content: center;
             height: 100%;
+            margin-bottom: 3rem;
         }
         
         #header {
@@ -27,18 +28,57 @@
             align-items: center;
             flex-direction: column;
         }
+        /* Home page - menu buttons for About, Resume, and Projects. Logs in background image that show an animated fire when hovering */
         
-        #homepagebottom {
-            background-color: rgba(204, 159, 61, .95);
-            padding: .25rem 1rem 1rem 1rem;
-            margin-top: 10rem;
-            /* padding top right bottom left */
-            border-radius: 7px;
-            font-weight: 640;
+        #nav {
+            width: 100%;
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            padding-top: 4rem;
+            padding-left: 0rem;
         }
         
-        #about {
-            font-size: 15px;
+        #nav li {
+            background-image: url(../assets/campfirenoflame.png);
+            background-image: url(../assets/campfireNoFlame.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-x: center;
+            background-position-y: top;
+            /* padding top right bottom left */
+            padding: 7rem 2rem 2.75rem 2rem;
+            text-indent: 2rem;
+        }
+        
+        #nav li:hover {
+            background-image: url(../assets/campfire.png);
+            background-image: url(../assets/campfire.svg);
+            transition-delay: .2s;
+            cursor: url(../assets/CursorBurnt.png), pointer;
+        }
+        
+        #nav a {
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(235, 221, 192);
+            text-shadow: 2px 2px 3px rgb(82, 80, 80);
+        }
+        
+        #homepagebottom {
+            background-color: rgb(1, 65, 1, .91);
+            padding: .01rem 1rem .5rem 1.25rem;
+            /* padding top right bottom left */
+            border-style: solid;
+            border-radius: 7px;
+            border-color: rgb(1, 65, 1, .7);
+            font-weight: 350;
+            color: rgb(235, 221, 192);
+            max-width: 40%;
+            align-content: center;
+            height: auto;
+            cursor: auto;
+            margin-bottom: 8rem;
         }
     </style>
 </head>
