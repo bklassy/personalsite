@@ -5,8 +5,10 @@
     <meta name=viewport content="width=device-width,initial-scale=1">
     <title>Beth Klassen</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Stick&display=swap');
         body {
             cursor: url(../assets/cursor.png), pointer;
+            font-family: 'Lato', sans-serif;
         }
         
         #homepagecontainer {
@@ -27,6 +29,8 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            font-family: 'Stick', sans-serif;
+            font-size: 24px;
         }
         /* Home page - menu buttons for About, Resume, and Projects. Logs in background image that show an animated fire when hovering */
         
@@ -37,6 +41,7 @@
             justify-content: center;
             padding-top: 4rem;
             padding-left: 0rem;
+            text-decoration: none;
         }
         
         #nav li {
@@ -49,6 +54,13 @@
             /* padding top right bottom left */
             padding: 7rem 2rem 2.75rem 2rem;
             text-indent: 2rem;
+            text-decoration: none;
+            color: rgb(243, 235, 217);
+            text-shadow: 2px 2px 3px rgb(94, 68, 12);
+        }
+        
+        a {
+            text-decoration: none;
         }
         
         #nav li:hover {
@@ -56,13 +68,6 @@
             background-image: url(../assets/campfire.svg);
             transition-delay: .2s;
             cursor: url(../assets/CursorBurnt.png), pointer;
-        }
-        
-        #nav a {
-            text-decoration: none;
-            font-weight: bold;
-            color: rgb(235, 221, 192);
-            text-shadow: 2px 2px 3px rgb(82, 80, 80);
         }
         
         @media only screen and (min-width:1040px) {
