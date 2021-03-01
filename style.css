@@ -16,6 +16,17 @@
                                         scroll-behavior: smooth;
                                     }
                                     
+                                    .goback {
+                                        font-family: 'Stick', sans-serif;
+                                        text-decoration: none;
+                                        display: flex;
+                                        justify-content: space-around;
+                                        color: rgb(78, 57, 15);
+                                        text-shadow: 1px 1px .5px rgb(255, 229, 182);
+                                        font-size: 1.9em;
+                                        font-weight: bold;
+                                    }
+                                    
                                     body {
                                         font-family: 'Lato', 'Segoe UI', Tahoma, Verdana, sans-serif;
                                         background-image: url(../assets/background.png);
