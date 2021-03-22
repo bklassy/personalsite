@@ -1,393 +1,151 @@
 <html>
-
-<head>
-    <link rel="stylesheet" href="../style.css" type="text/css">
-    <link rel="stylesheet" href="../print.css" type="text/css" media="print">
-    <meta name=viewport content="width=device-width,initial-scale=1">
-    <title>Beth Klassen</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Stick&display=swap');
-        h1 {
-            margin: 0rem;
-            padding: 0rem;
-        }
-        
-        .sectionName {
-            /* h2 headers (professional experience, other experience, skills, etc) */
-            font-size: 1.3rem;
-            margin: .25rem 0rem 0rem 0rem;
-            /* padding: .25rem; */
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            /* background-color: rgb(209, 209, 209); */
-        }
-        /* margin and padding: top right bottom left or just top+bottom and right+left */
-        
-        h3 {
-            font-size: 1rem;
-            margin: 0.5rem 0rem 0.5rem 0rem;
-            padding: 0rem;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-        
-        @media only screen and (min-width:768px) {
-            h3 {
-                align-items: center;
-                flex-direction: row;
-            }
-            .smalltext {
-                padding-right: 12rem;
-                font-size: .75rem;
-            }
-            .date {
-                font-size: .66rem;
-            }
-        }
-        
-        @media only print {
-            h3 {
-                align-items: center;
-                flex-direction: row;
-            }
-        }
-        
-        .resumecontainer {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: rgb(255, 255, 255);
-            border-radius: 2px;
-            box-shadow: 3px 3px 10px black, 0 0 25px gray;
-            margin: auto;
-            max-width: 48rem;
-            padding: 1rem 1rem;
-            margin-top: 4rem;
-            animation-name: fadeIn;
-            animation-duration: .5s;
-            transition-timing-function: ease-in;
-            animation-fill-mode: both;
-        }
-        
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        
-        .sectionline {
-            border-style: dashed;
-            border-width: 1px;
-            border-color: #cfcfcf;
-            margin: 0.5rem 0rem;
-        }
-        
-        .smalltext {
-            font-size: .95rem;
-        }
-        
-        p {
-            margin: 0rem;
-            padding: 0rem 0rem 0.5rem 0rem;
-        }
-        
-        ul {
-            padding: 0rem 0rem 0rem 2rem;
-            margin: 0rem;
-        }
-        
-        .date {
-            font-size: .8rem;
-        }
-        
-        .name {
-            text-align: center;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            margin: 1px;
-            padding: 0px;
-            font-size: 1.75rem;
-        }
-        
-        .info {
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body class="noSelect">
-    <!-- <a class="home" href="/">
-    </a> -->
-    <!-- <a class="goback" href="/">&#8592 Home</a> -->
-    <!-- <div id="social">
-        <p>
-            <a target="_blank" href="https://github.com/bklassy">
-                <img height=30px src="../assets/github.png" alt text="Beth's github"> </a>
-        </p>
-        <p>
-            <a href="mailto:bklassen30@gmail.com">
-                <img height=30px src="../assets/mail.png" alt text="email beth@bethklassen.com"> </a>
-        </p>
-        <!- <p>
-                <a target="_blank" href="https://www.buymeacoffee.com/bethklassen">
-                    <img height=28px src="../assets/coffee.png" alt text="link to buy me a coffee"> </a>
-            </p> -->
-    <!-- <p>
-                <a target="_blank" href="https://www.etsy.com/shop/FlyingKiteArts">
-                    <img height=30px src="../assets/etsy.png" alt text="Beth Klassen Etsy store"> </a>
-            </p> -->
-    <!-- <p>
-            <a target="_blank" href="https://www.instagram.com/beth_sketches/">
-                <img height=30px src="../assets/instagram.png" alt text="Beth Sketches Instagram site"> </a>
-        </p> -->-->
-
-    </div>
-    <div class="resumecontainer">
-        <div class="print">
-            <h1 class="Name"> Beth Klassen </h1>
-            <p class="info"> <i style='font-size:20px' class='fa'>&#xf0e0;</i> <a class="email" href="mailto:bklassen30@gmail.com">
-                        bklassen30@gmail.com</a> <i style="font-size:22px" class='fa linkedin'>&#xf08c;</i> <a class="linkedin" href=https://www.linkedin.com/in/beth-klassen>LinkedIn</a>
-                <a id="printbutton" href="#" onclick="window.print();return false;"><i style='color:black; font-size: 20px;' class='fa'>&#xf02f;</i> Print resume</a>
-            </p>
-            <h2 class="sectionName">Professional Experience</h2>
-            <div class="sectionline"></div>
-            <h3><span>Boost Consultant @ <a href="https://www.epic.com/">Epic Boost Services
-                    </a></span>
-                <span class="date">January 2021 - present</span></h3>
-            <p class="smalltext">Providing dedicated advisory and technical support to live and installing Epic organizations.
-            </p>
-            <h3><span>Implementation Project Manager @ <a href="https://www.epic.com/">Epic Systems</a></span> <span class="date">October
-                        2016-December 2020</span>
-            </h3>
-            <p class="smalltext">
-                Assisting public and private health care organizations with IT and cultural transformation. Working in various capacities, from ensuring the success of a single Epic application to overseeing larger scale training or technical readiness efforts.
-                <br>
-                <br>
-                <Strong>Accomplishments:</Strong>
-                <ul class="smalltext">
-                    <li>Managed technical implementation of over 11,000 workstations with a 97% success rate during testing.
-                    </li>
-                    <li>Managed 5 concurrent add-on installs budgeted between $300-$700k, closing 100% of projects under budget.</li>
-                    <li>Championed internal development project for standard Diabetes Self-Management Education (DSME) documentation tools, allowing organizations to better serve their patient population.
-                    </li>
-                    <li>Acted as implementation success owner for various outpatient and transplant documentation tools, ensuring materials and recommendations remained up-to-date with industry standards.</li>
-                </ul>
-            </p>
-            <h3><span>Academic Coach @ <a href="https://diversity.wisc.edu/about/about-ddeea/">UW Division of
-                            Diversity</a></span>
-                <span class="date">August 2015-May
-                        2016</span> </h3>
-            <p class="smalltext">Tutored organ chemistry to students in UW-Madison diversity program. Facilitated group discussion and exercises, and helped develop effective studying strategies.</p>
-
-            <h2 class="sectionName">Other Experience</h2>
-            <div class="sectionline"></div>
-            <h3><span>Volunteer Web Editor @ <a href="https://www.roadstolifetanzania.org/">Roads to Life
-                            Tanzania,
-                            Inc</a></span><span class="date">May 2016-present</span>
-            </h3>
-            <p class="smalltext">Designing and maintaining Wix website for Roads to Life Tanzania, Inc, a nonprofit organization dedicated to expanding healthcare facilities in the village of Nkololo, Tanzania.
-                <br>
-            </p>
-            <h2 class="sectionName">
-                Education</h2>
-            <div class="sectionline"></div>
-            <h3>University of Wisconsin-Madison <span class="date">2012-2016</span></h3>
-            <p class="smalltext">
-                <strong>Major:</strong> Biochemistry, B.S.
-                <br>
-                <strong>GPA:</strong> 3.5/4.0
-                <h2 class="sectionName">Skills</h2>
-                <div class="sectionline"></div>
-                <ul class="smalltext">
-                    <li>Project planning, task & budget management
-                    </li>
-                    <li>Product management, information gathering & demoing
-                    </li>
-                    <li>Proficiency in Microsoft products (Outlook, Excel, PowerPoint)
-                    </li>
-                    <li>Curriculum development and end user training
-                    </li>
-                    <li>Proficiency in Adobe Creative Suite products and web design
-                    </li>
-                </ul>
-                <h2 class="sectionName">Languages</h2>
-                <div class="sectionline"></div>
-                <ul class="smalltext">
-                    <li>English <em>(native)</em>
-                    </li>
-                    <li>Spanish <em>(intermediate)</em>
-                    </li>
-                </ul>
-        </div>
-    </div>
-    <!-- Panelbear Analytics - We respect your privacy -->
-    <script async src="https://cdn.panelbear.com/analytics.js?site=7eMp8te2XhK"></script>
-    <script>
-        window.panelbear = window.panelbear || function() {
-            (window.panelbear.q = window.panelbear.q || []).push(arguments);
-        };
-        panelbear('config', {
-            site: '7eMp8te2XhK'
-        });
-    </script>
-</body>
-<!-- <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name=viewport content="width=device-width,initial-scale=1">
-    <title>Beth Klassen</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Stick&display=swap');
+<!-- <link rel="stylesheet" href="../style.css" type="text/css"> -->
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../print.css" type="text/css" media="print">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Beth Klassen</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Sigmar+One&display=swap');
+    @media only screen and (min-width:768px) {
         body {
-            cursor: url(../assets/cursor.png), pointer;
-            font-family: 'Lato', sans-serif;
-        }
-        
-        #homepagecontainer {
-            margin: auto;
-        }
-        
-        #homepagetop {
-            display: flex;
-            justify-content: center;
-            height: 100%;
-            margin-bottom: 3rem;
-        }
-        
-        #header {
-            width: 100%;
-            max-width: 30rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            font-family: 'Stick', sans-serif;
-            font-size: 24px;
-        }
-        /* Home page - menu buttons for About, Resume, and Projects. Logs in background image that show an animated fire when hovering */
-        
-        #nav {
-            max-width: 100%;
-            display: flex;
-            list-style: none;
-            justify-content: center;
-            padding-top: 4rem;
-            padding-left: 0rem;
-            text-decoration: none;
-        }
-        
-        #nav li {
-            background-image: url(../assets/campfirenoflame.png);
-            background-image: url(../assets/campfireNoFlame.svg);
+            background-color: rgb(46, 32, 63);
+            background-image: url(../assets/lines.svg);
+            background-size: cover;
             background-repeat: no-repeat;
-            background-size: contain;
-            background-position-x: center;
-            background-position-y: top;
-            /* padding top right bottom left */
-            padding: 7rem 2rem 2.75rem 2rem;
-            text-indent: 2rem;
-            text-decoration: none;
-            color: rgb(243, 235, 217);
-            text-shadow: 2px 2px 3px rgb(94, 68, 12);
         }
-        
-        a {
-            text-decoration: none;
+        .coming-soon {
+            text-align: center;
+            font-family: 'Sigmar One', sans-serif;
+            color: rgb(228, 228, 228);
+            font-size: 3.5rem;
+            letter-spacing: .5rem;
+            line-height: 70%;
+            margin: 20rem 0rem 2.5rem 0rem;
         }
-        
-        #nav li:hover {
-            background-image: url(../assets/campfire.png);
-            background-image: url(../assets/campfire.svg);
-            transition-delay: .2s;
-            cursor: url(../assets/CursorBurnt.png), pointer;
+        .container {
+            /* z-index: 1; */
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            color: rgb(202, 202, 202);
+            margin: .5rem;
+            font-size: .65rem;
+            line-height: .5rem;
         }
-        
-        @media only screen and (min-width:1040px) {
-            #homepagebottom {
-                max-width: 55% !important;
-            }
+        #countdown {
+            /* z-index: 1; */
+            font-size: .7rem;
         }
-        
-        #homepagebottom {
-            background-color: rgb(1, 65, 1, .91);
-            padding: .01rem 1rem .5rem 1.25rem;
-            /* padding top right bottom left */
-            border-style: solid;
-            border-radius: 7px;
-            border-color: rgb(1, 65, 1, .7);
-            font-weight: 350;
-            color: rgb(235, 221, 192);
-            max-width: 100%;
-            align-content: center;
-            height: auto;
-            cursor: auto;
+    }
+    
+    @media only screen and (max-width:768px) {
+        body {
+            background-color: rgb(46, 32, 63);
+            background-image: url(../assets/lines.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
-    </style>
+        .coming-soon {
+            /* z-index: 1; */
+            text-align: center;
+            font-family: 'Sigmar One', sans-serif;
+            color: rgb(228, 228, 228);
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 70%;
+            /* width: 50%; */
+            margin: 15rem 0rem 2.5rem 0rem;
+        }
+        .container {
+            /* z-index: 1; */
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            color: rgb(202, 202, 202);
+            margin: .5rem;
+            font-size: 12px;
+            line-height: 4px;
+        }
+        #countdown {
+            /* z-index: 1; */
+            font-size: 11px;
+        }
+    }
+</style>
 </head>
 
-<body class="noSelect">
-    <div id="homepagecontainer">
-        <div id="social">
-            <p>
-                <a target="_blank" href="https://github.com/bklassy">
-                    <img height=30px src="../assets/github.png" alt text="Beth's github"> </a>
-            </p>
-            <p>
-                <a href="mailto:bklassen30@gmail.com">
-                    <img height=30px src="../assets/mail.png" alt text="email beth@bethklassen.com"> </a>
-            </p>
-            <p>
-                <a target="_blank" href="https://www.buymeacoffee.com/bethklassen">
-                    <img height=28px src="../assets/coffee.png" alt text="link to buy me a coffee"> </a>
-            </p>
-            <p>
-                <a target="_blank" href="https://www.etsy.com/shop/FlyingKiteArts">
-                    <img height=30px src="../assets/etsy.png" alt text="Beth Klassen Etsy store"> </a>
-            </p>
-            <p>
-                <a target="_blank" href="https://www.instagram.com/beth_sketches/">
-                    <img height=30px src="../assets/instagram.png" alt text="Beth Sketches Instagram site"> </a>
-            </p>
+<body>
+    <div class="text-container">
+        <div class="coming-soon">
+            Under construction
         </div>
-        <div id="homepagetop">
-            <div id="header">
-                <a class="home" href="/">
-                </a>
-                <ul id="nav">
-                    <a href="#about">
-                        <li>About</li>
-                    </a>
-                    <a href="resume">
-                        <li>Resume</li>
-                    </a>
-                    <a href="projects">
-                        <li>Projects</li>
-                    </a>
-                </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div id="main">
+                        <div class="content">
+                            <!-- /.Text Div -->
+                            <div class="counter">
+                                <h3>Check again in:</h3>
+                                <div id="countdown">
+                                </div>
+                                <!-- /#Countdown Div -->
+                            </div>
+                            <!-- /.Counter Div -->
+                        </div>
+                        <!-- /.Content Div -->
+                    </div>
+                    <!-- /#Main Div -->
+                </div>
+                <!-- /.Columns Div -->
             </div>
+            <!-- /.Row Div -->
         </div>
-        <div id="homepagebottom">
-            <h2 id="about">About</h2>
-            <p>By day, Beth works in health care IT. By night, she explores various forms of digital design and illustration, working primarily with Illustrator, Photoshop, and Infinite Painter. Beth is originally from Wisconsin and currently lives in Austin,
-                TX, where she enjoys the bountiful taco selection and nearby hiking trails.
-            </p>
-        </div>
+        <!-- /.Container Div -->
     </div>
-    <!- Panelbear Analytics - We respect your privacy -->
-<!-- <script async src="https://cdn.panelbear.com/analytics.js?site=7eMp8te2XhK"></script>
-    <script>
-        window.location = "http://bethklassen.com/resume/";
-        window.location.href = "http://bethklassen.com/resume/";
-        window.location.assign("http://bethklassen.com/resume/");
-        window.location.replace("http://bethklassen.com/resume/");
-        window.panelbear = window.panelbear || function() {
-            (window.panelbear.q = window.panelbear.q || []).push(arguments);
-        };
-        panelbear('config', {
-            site: '7eMp8te2XhK'
-        });
-    </script> -->
-<!-- </body> -->
+</body>
+<!-- Panelbear Analytics - We respect your privacy  -->
+<script async src="https://cdn.panelbear.com/analytics.js?site=7eMp8te2XhK"></script>
+<script>
+    window.panelbear = window.panelbear || function() {
+        (window.panelbear.q = window.panelbear.q || []).push(arguments);
+    };
+    panelbear('config', {
+        site: '7eMp8te2XhK'
+    });
+
+    // set the date we're counting down to
+    var target_date = new Date('Aug, 31, 2021').getTime();
+
+    // variables for time units
+    var days, hours, minutes, seconds;
+
+    // get tag element
+    var countdown = document.getElementById('countdown');
+
+    // update the tag with id "countdown" every 1 second
+    setInterval(function() {
+
+        // find the amount of "seconds" between now and target
+        var current_date = new Date().getTime();
+        var seconds_left = (target_date - current_date) / 1000;
+
+        // do some time calculations
+        days = parseInt(seconds_left / 86400);
+        seconds_left = seconds_left % 86400;
+
+        hours = parseInt(seconds_left / 3600);
+        seconds_left = seconds_left % 3600;
+
+        minutes = parseInt(seconds_left / 60);
+        seconds = parseInt(seconds_left % 60);
+
+        // format countdown string + set tag value
+        countdown.innerHTML = '<span class="days">' + days + ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b></span> <span class="minutes">' +
+            minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds</b></span>';
+
+    }, 1000);
+</script>
 
 </html>
