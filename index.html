@@ -5,8 +5,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Sigmar+One&display=swap');
     @media only screen and (min-width:760px) {
         body {
-            background-color: rgb(46, 32, 63);
-            background-image: url(../assets/lines.svg);
+            /* background-color: rgb(46, 32, 63); */
+            background-image: url(../assets/background.svg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -37,10 +37,11 @@
     
     @media only screen and (max-width:760px) {
         body {
-            background-color: rgb(46, 32, 63);
-            background-image: url(../assets/lines.svg);
+            /* background-color: rgb(46, 32, 63); */
+            background-image: url(../assets/background.svg);
             background-size: cover;
             background-repeat: no-repeat;
+            background-position: center center;
         }
         .coming-soon {
             /* z-index: 1; */
@@ -68,6 +69,7 @@
         }
     }
 </style>
+<meta name="viewport" content="width=device-width, initial scale=1" />
 </head>
 
 <body>
@@ -140,7 +142,7 @@
         countdown.innerHTML = '<span class="days">' + days + ' <b>Days</b></span> <span class="hours">' + hours + ' <b>Hours</b></span> <span class="minutes">' +
             minutes + ' <b>Minutes</b></span> <span class="seconds">' + seconds + ' <b>Seconds</b></span>';
 
-    }, 1000);
+    });
 </script>
 
 </html>
