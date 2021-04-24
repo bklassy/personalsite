@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>jQuery demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        /* required to make gradient fill the page */
+        body,
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            margin: 2em;
+            font-size: 24px;
+            font-family: sans-serif;
+            text-align: center;
+            background: linear-gradient(0deg, #999 0%, #efefef 100%);
+        }
+
+        #square {
+            display: none;
+            width: 100px;
+            height: 100px;
+            background: #fa0;
+            position: relative;
+            transition: transform 1s;
+            cursor: pointer;
+        }
+
+        .rotated {
+            transform: rotate(1440deg);
+        }
+
+        h1 {
+            font-size: 6em;
+            opacity: 0;
+        }
+
+        h2 {
+            opacity: 0;
+            margin-left: -300px;
+        }
+
+        h3 {
+            opacity: 0;
+            font-size: .1em;
+            transition: transform .5s;
+        }
+
+        #popout {
+            position: absolute;
+            width: 300px;
+            background: #ccc;
+            padding: 1em;
+            box-shadow: 2px 2px 8px #555;
+            bottom: 50px;
+            left: -280px;
+            box-sizing: border-box;
+
+        }
+
+        p {
+            position: absolute;
+            top: 2px;
+            right: 4px;
+            text-align: center;
+            cursor: pointer;
+            transition: all .25s;
+        }
+
+        .flipped{
+            transform: scaleX(-1);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="square"></div>
+
+    <div id="box">
+        <h1>jQuery</h1>
+        <h2>is</h2>
+        <h3>Cool!</h3>
+    </div>
+
+    <div id="popout">
+        <p>&#9656;</p>
+        <h4>...so VERY cool!</h4>
+    </div>
+
+    <script>
+        // function animateSquare() {
+        // $('#square').animate({left:'400px'}, 2000, 'swing');
+        // $('#square').animate({borderRadius:'30px'}, 2000, 'swing', pivot);
+        // }
+
+        // $('#square').click(animateSquare)
+
+        // function pivot(){
+        //     $('#square').addClass('rotated');
+        // }
+
+        // $('h1').animate({ opacity: 1, fontSize: '2em' }, 500);
+        // $('h2').delay(500).animate({ marginLeft: 0, opacity: 1 }, 500, pivot);
+        // $('h3').delay(1000).animate({ fontSize: '1.5em', opacity: 1 }, 500);
+        // function pivot() {
+        //     $('h3').addClass('rotated');
+        // }
+
+            function popOut(){ 
+                if($('#popout').css('left')=='0px'){$('#popout').animate({left:'-280px'}, 500, toggle);}else{
+                $('#popout').animate({left:'0px'}, 500, toggle);}
+            }
+            $('p').click(popOut);
+
+
+            function toggle(){
+                $('p').toggleClass('flipped');
+
+            }
+    </script>
+</body>
+
+</html>

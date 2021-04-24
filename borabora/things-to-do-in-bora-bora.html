@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="images/palmtree.ico" rel="icon" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="interior.css" rel=" stylesheet " />
+    <link href="lightbox/dist/css/lightbox.css" rel="stylesheet" />
+    <title>A South Pacific Paradise</title>
+    <style>
+        #gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #gallery img {
+            max-width: 100%;
+        }
+
+        #gallery a {
+            flex-grow: 1;
+            max-width: 450px;
+            flex-basis: 200px;
+            margin: 5px;
+        }
+    </style>
+    <link href="responsiveMenu/responsiveMenu.css" rel="stylesheet" />
+    <script src="responsiveMenu/responsiveMenu.js"></script>
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+
+</head>
+
+<body>
+
+    <aside>
+        <nav>
+            <!--new link for responsive menu-->
+            <a href="javascript:void(0);" class="responsiveMenuIcon" onclick="responsiveMenu()">
+                &#9776;
+            </a>
+            <a href="index.html" id="home">HOME
+            </a>
+            <a href="getting-to-bora-bora.html" id="plane">Getting there
+            </a>
+            <a href="where-to-stay-in-bora-bora.html" id="bed">Where to stay
+            </a>
+            <a href="things-to-do-in-bora-bora.html" id="camera" class=" active ">Things to do
+            </a>
+        </nav>
+    </aside>
+    <main>
+        <video controls poster="videos/ukelele.jpg">
+            <source src="videos/ukelele.mp4" type="video/mp4" />
+            <source src="videos/ukelele.webm" type="video/webm" />
+
+        </video>
+
+        <div id="gallery">
+            <a href="images/gallery/boat.jpg" data-lightbox="island"><img src="images/gallery/boat.jpg" /></a>
+            <a href="images/gallery/flowers.jpg" data-lightbox="island"><img src="images/gallery/flowers.jpg" /></a>
+            <a href="images/gallery/palm-trees.jpg" data-lightbox="island"><img
+                    src="images/gallery/palm-trees.jpg" /></a>
+            <a href="images/gallery/stingray.jpg" data-lightbox="island"><img src="images/gallery/stingray.jpg" /></a>
+            <a href="images/gallery/tikis.jpg" data-lightbox="island"><img src="images/gallery/tikis.jpg" /></a>
+            <a href="images/gallery/underwater.jpg" data-lightbox="island"><img
+                    src="images/gallery/underwater.jpg" /></a>
+        </div>
+    </main>
+    <script src="lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
