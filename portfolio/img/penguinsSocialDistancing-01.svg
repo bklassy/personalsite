@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 504">
+	<defs>
+		<style>
+			#upperLine {
+			stroke-dasharray: 5;
+			animation: dash 1000s linear;
+			animation-iteration-count: infinite;
+			}
+			
+			#lowerLine {
+			stroke-dasharray: 5;
+			animation: dash 1000s linear;
+			animation-iteration-count: infinite;
+			}
+			
+			@keyframes dash {
+			to {
+			stroke-dashoffset: 15000;
+			}
+			}
+		</style>
+	</defs>
+	<g style="isolation:isolate">
+		<g id="penguinsDistancing">
+			<g id="yellowBackground">
+				<rect x="-4" y="-8" width="730" height="504" fill="#ffea03" />
+			</g>
+			<path id="lowerLine" d="M411-21a432.84,432.84,0,0,0,43,60c21.24,24.85,39.44,46.15,69,64,14.51,8.76,64.31,36.35,126,28,22.67-3.07,46.55-6,56-29,7-17,6-54-29-58-28.43-3.25-45.66,13.8-53,36-11.66,35.28,18.21,71.59,24,77,36.61,34.19,89.2,21.26,94,20" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" />
+			<path id="upperLine" d="M69,443c55.36.39,92-14.05,115-27,35.84-20.18,41.33-38.29,87-69,19.6-13.18,51.75-34.43,97-47,20.45-5.68,93.16-24.84,169,5,36.58,14.39,54,32,78,44,48.69,24.35,96.4,26.79,129,27" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" />
+			<g id="lowerMask">
+				<rect x="249" y="322" width="125" height="21" fill="#ffea03" />
+			</g>
+			<rect id="upperMask" x="605" y="145" width="62" height="18" fill="#ffea03" />
+			<image id="penguinsAndText" width="720" height="504" xlink:href="penguinsAndText.png" />
+		</g>
+	</g>
+</svg>

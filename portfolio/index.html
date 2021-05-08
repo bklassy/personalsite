@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <style>
+        /* PRELOADER */
+        #preloader {
+            height: 100vh;
+            width: 100%;
+            position: fixed;
+            background-color: #000;
+            text-align: center;
+            padding-top: 30%;
+            z-index: 2;
+
+        }
+
+        #preloader img {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* GENERAL LAYOUT */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            color: rgb(63, 63, 63);
+            background: rgb(255, 236, 204);
+            background: linear-gradient(180deg, rgba(255, 236, 204, 1) 0%, rgba(254, 227, 174, 0.47942927170868344) 35%, rgba(255, 226, 148, 1) 100%);
+            height: 100%;
+        }
+
+        section {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 75px;
+            padding: 0;
+        }
+
+        /* NAVIGATION */
+
+        .navbar {
+            position: fixed;
+            top: 0px;
+            height: 1em;
+            width: 100%;
+            background-color: rgba(255, 225, 173, .9);
+            padding-bottom: 20px;
+            z-index: 1;
+        }
+
+        .name {
+            position: fixed;
+            left: 18px;
+            top: 8px;
+            font-weight: 300;
+            text-transform: uppercase;
+            font-size: 1em;
+        }
+
+        nav {
+            position: fixed;
+            right: 15px;
+            top: 7px;
+        }
+
+        nav li {
+            width: 10px;
+            height: 10px;
+            list-style: none;
+            /* border: 2px solid rgb(121, 121, 121);
+            border-radius: 50%; */
+            display: inline;
+            margin: .5em;
+            cursor: pointer;
+            padding: .1em .4em;
+        }
+
+        nav li.active {
+            text-decoration: underline;
+        }
+
+        nav li:hover {
+            color: rgba(105, 105, 104, 0.7)
+        }
+
+        /* INTRO */
+        h1 {
+            font-size: 3em;
+            width: 100%;
+            opacity: 0;
+            color: rgb(4, 87, 83);
+            position: absolute;
+            top: 150px;
+            left: 75px;
+        }
+
+        #screen1 p {
+            font-size: 1.25em;
+            width: 55%;
+            opacity: 0;
+            color: rgb(156, 57, 0);
+            position: absolute;
+            top: 275px;
+            left: 125px;
+        }
+
+        #screen1 ul {
+            font-size: 1em;
+            width: 100%;
+            opacity: 1;
+            color: rgb(4, 87, 83);
+            /* position: absolute;
+            top: 375px;
+            left: 175px; */
+            list-style: none;
+        }
+
+
+        #skill1,
+        #skill2,
+        #skill3 {
+            position: absolute;
+            top: 375px;
+            left: 175px;
+            opacity: 0;
+        }
+
+        .checkOut {
+            position: absolute;
+            bottom: 125px;
+            right: 175px;
+        }
+
+        /* PORTFOLIO SOCIAL DISTANCING */
+
+        #designTitle {
+            position: fixed;
+            /* right: 0px; */
+            top: 20%;
+            background-color: rgba(26, 26, 26, .95);
+            padding: 15px 15px;
+            color: rgb(253, 239, 230);
+            font-weight: 300;
+            z-index: 1;
+            max-width: 8%;
+            text-align: right;
+            font-size: 1em;
+        }
+
+        .right {
+            right: 0px;
+            text-align: right;
+        }
+
+        .left {
+            text-align: left;
+            padding: 25px;
+        }
+
+        #penguin {
+            position: relative;
+            margin: auto;
+            max-width: 75%;
+            max-height: 75%;
+            box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+        }
+
+        #polarbear {
+            max-height: 88%;
+            box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+        }
+
+        /* PORTFOLIO INFOGRAPHICS */
+        #electricVehicle {
+            max-height: 92%;
+            box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+            /* display: flex;
+            flex-wrap: nowrap;
+            align-content: space-around; */
+        }
+
+        #median {
+            max-width: 75%;
+            box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+
+
+        }
+
+        /* PORTFOLIO TESLA BOOKLET */
+    </style>
+</head>
+
+<body>
+    <div id="preloader">
+        <img src="img/loading-circle.png" alt="loading circle" />
+    </div>
+    <div class="navbar">
+        <h2 class="name">Beth Klassen</h1>
+            <nav>
+                <ul>
+                    <li data-screen="#screen1" class="active">About</li>
+                    <li data-screen="#screen2">Portfolio</li>
+                    <!-- <li data-screen="#screen3"></li>
+            <li data-screen="#screen4"></li> -->
+                </ul>
+            </nav>
+    </div>
+    <section id="screen1">
+        <h1>hi there.</h1>
+        <p class="intro">I am a graphic designer based in Austin, Texas. I create informative and eye-catching designs.
+            I specialize in:
+        </p>
+        <ul id="skills">
+            <li id="skill1"> <img src="img/checkmark.png" /> web design</li>
+            <li id="skill2"><img src="img/checkmark.png" /> infographics</li>
+            <li id="skill3"><img src="img/checkmark.png" /> motion graphics and animation</li>
+        </ul>
+
+        <div class="checkOut">Check out my Portfolio</div>
+    </section>
+
+    <div id="designTitle" class="right" data-400="opacity:0" data-500="opacity:1" data-2300="right:0%; opacity:1"
+        data-2350="opacity:0" data-2400="right:90%; opacity:1">
+        Social Distancing Campaign</div>
+    <section id="screen2" data-start="right:150%; transform: scale(1)"
+        data-300-bottom="right: -10%; transform: scale(1)">
+        <object id="penguin" type="image/svg+xml" data="img/penguinsSocialDistancing.svg"></object>
+    </section>
+    <section id="screen3" data-start="left:150%; transform: scale(.6)" data-300-bottom="left:25%; transform: scale(1)">
+        <object id="polarbear" type="image/svg+xml" data="img/polarBearsMask.svg"></object>
+    </section>
+    <section id="screen4" data-start="right:200%" data-300-bottom="right:-35%">
+        <img id="electricVehicle" src="img/infographic_EV.jpg"
+            alt="infographic about electric vehicles vs internal combustion engines" />
+    </section>
+    <section id="screen5" data-start="left:150%; transform: scale(.6); transform:rotate(30deg)"
+        data-300-bottom="left:15%; transform: scale(1)">
+        <img id="median" src="img/meanmedianaverage.png" alt="infographic for mean versus median versus average" />
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script>
+        var s = skrollr.init({ mobileCheck: function () { return false; } });
+        $(window).load(function () {
+            $('#preloader').fadeOut(500, introAnimation);
+        });
+
+        function introAnimation() {
+            $('h1').animate({ opacity: 1 }, 1000, 'easeInQuad');
+            $('#screen1 p').animate({ opacity: 1 }, 1000, 'easeInQuad');
+            $('#skill1').animate({ left: "+=50", opacity: "1" }, 2500);
+            $('#skill2').animate({ left: "+=50", top: "+=50", opacity: "1" }, 2500);
+            $('#skill3').animate({ left: "+=50", top: "+=100", opacity: "1" }, 2500);
+        }
+        function sunrise() {
+            $('#shine, #glow').css({ opacity: 1 });
+            $('#shine').animate({ width: '900px', marginLeft: '-450px' }, 200, 'easeInOutSine');
+        }
+        $('nav li').click(function () {
+            var destination = $(this).data('screen');
+            $('html, body').animate({ scrollTop: $(destination).offset().top }, 2000, 'easeOutCubic');
+        });
+
+        $(document).scroll(function () {
+            var activeScreen = Math.round($(document).scrollTop() / $(window).height()) + 1;
+            $('nav li').removeClass('active');
+            $('nav li:nth-child(' + activeScreen + ')').addClass('active');
+            $('')
+        })
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 2350) {
+                    $('#designTitle').html('Infographics');
+                    $('#designTitle').removeClass('left');
+                    $('#designTitle').addClass('right');
+                }
+                else {
+                    $('#designTitle').html('Social Distancing Campaign');
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
