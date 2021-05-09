@@ -2,14 +2,14 @@
 	<defs>
 		<style>
 			#topArrow {
-			animation: fadeIn 2s linear infinite;
+			animation: fadeIn 1.5s linear infinite;
 			}
 			
 			#middleArrow {
-			animation: fadeIn 2s .2s linear infinite;
+			animation: fadeIn 1.5s .2s linear infinite;
 			}
 			#bottomArrow {
-			animation: fadeIn 2s .4s linear infinite;
+			animation: fadeIn 1.5s .4s linear infinite;
 			}
 			
 			

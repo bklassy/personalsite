@@ -44,6 +44,7 @@
             background-image: url("img/cardboard.png");
             height: 100%;
             text-shadow: 1px 1px 2px rgba(39, 37, 37, .2);
+            overflow-x: hidden;
         }
 
         section {
@@ -51,8 +52,9 @@
             width: 100%;
             position: relative;
             overflow: hidden;
-            margin-bottom: 75px;
-            padding: 0;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
         }
 
         /* NAVIGATION */
@@ -127,9 +129,6 @@
             width: 100%;
             opacity: 1;
             color: rgb(4, 87, 83);
-            /* position: absolute;
-            top: 375px;
-            left: 175px; */
             list-style: none;
         }
 
@@ -145,7 +144,7 @@
 
         #arrows {
             position: absolute;
-            bottom: 20px;
+            bottom: 50px;
             right: 175px;
             opacity: 0;
         }
@@ -155,30 +154,17 @@
         #designTitle {
             position: fixed;
             /* right: 0px; */
-            top: 20%;
+            top: 10%;
             background-color: rgba(26, 26, 26, .95);
-            padding: 15px 15px;
+            padding: 1em;
+            max-width: 5em;
             color: rgb(253, 239, 230);
             font-weight: 300;
-            z-index: 4;
-            max-width: 8%;
             text-align: right;
             font-size: 1em;
         }
 
-        .right {
-            right: 0px;
-            text-align: right;
-        }
-
-        .left {
-            text-align: left;
-            padding: 25px;
-        }
-
         #penguin {
-            position: relative;
-            margin: auto;
             max-width: 75%;
             max-height: 88%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
@@ -187,21 +173,17 @@
         #polarbear {
             max-height: 88%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
-            position: absolute;
         }
 
         /* PORTFOLIO INFOGRAPHICS */
         #electricVehicle {
             max-height: 92%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
-            position: absolute;
         }
 
         #median {
             max-width: 75%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
-            position: absolute;
-
         }
 
         /* PORTFOLIO TESLA BOOKLET */
@@ -209,7 +191,6 @@
         #tesla {
             max-height: 88%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
-            position: absolute;
         }
 
         /* SOCIAL MEDIA LINKS */
@@ -221,6 +202,8 @@
             background-color: rgba(199, 143, 98, 0.95);
             background-image: url("img/cardboard.png");
             padding: .7em 0em;
+            position: relative;
+            bottom: 0%;
         }
 
         .bottomBar li {
@@ -258,21 +241,24 @@
             <li id="skill2"><img src="img/checkmark.png" /> infographics</li>
             <li id="skill3"><img src="img/checkmark.png" /> motion graphics and animation</li>
         </ul>
-
         <div id="arrows"><img src="img/arrows.svg"></div>
     </section>
 
-    <div id="designTitle" class="right" data-400="opacity:0" data-500="opacity:1" data-2000="right:0%; opacity:1"
-        data-2350="opacity:0" data-2450="right[sqrt]:90%; opacity:1" data-3750="right[sqrt]:90%;"
-        data-3950="opacity[sqrt]:0;" data-4100="right[sqrt]: 0%; opacity[sqrt]: 1;">
+    <div id="designTitle" data-400="opacity:0" data-500="opacity:1">
         Social Distancing Campaign</div>
+    <!-- data-2000="right:0%; opacity:1"
+        data-2350="opacity:0" data-2450="right[sqrt]:90%; opacity:1" data-3750="right[sqrt]:90%;"
+        data-3950="opacity[sqrt]:0;" data-4100="right[sqrt]: 0%; opacity[sqrt]: 1;" -->
     <section id="screen2" data-start="right[sqrt]:100%; transform: scale(.6); transform:rotate(-30deg)"
-        data-300-bottom="right[sqrt]: -10%; transform[sqrt]: scale(1)">
-        <object id="penguin" type="image/svg+xml" data="img/penguinsSocialDistancing.svg"></object>
+        data-300-bottom="right[sqrt]: -20%; transform[sqrt]: scale(1)">
+        <div>
+            <object id="penguin" type="image/svg+xml" data="img/penguinsSocialDistancing.svg"></object>
+        </div>
     </section>
     <section id="screen3" data-start="left[sqrt]:150%; transform[sqrt]: scale(.6)"
         data-300-bottom="left[sqrt]:25%; transform[sqrt]: scale(1)">
-        <object id="polarbear" type="image/svg+xml" data="img/polarBearsMask.svg"></object>
+        <div><object id="polarbear" style="height:50em;" type="image/svg+xml" data="img/polarBearsMask.svg"></object>
+        </div>
     </section>
     <section id="screen4" data-start="right:300%" data-300-bottom="right:-30%">
         <img id="electricVehicle" src="img/infographic_EV.jpg"
@@ -325,23 +311,51 @@
             $('html, body').animate({ scrollTop: $(destination).offset().top }, 2000, 'easeOutCubic');
         });
 
+        function isScrolledIntoView(elem) {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
+
+            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        }
+
+
+
         $(document).scroll(function () {
-            var activeScreen = Math.round($(document).scrollTop() / $(window).height()) + 1;
+            var activeScreen = isScrolledIntoView('#screen1') ? 1 : 2;
+            // var activeScreen = Math.round($(document).scrollTop() / $(window).height()) + 1;
+            console.log(activeScreen);
             $('nav li').removeClass('active');
             $('nav li:nth-child(' + activeScreen + ')').addClass('active');
             $('')
         })
 
+        function isImageInView(elem) {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height() * .5;
+
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
+
+            return ((elemTop >= docViewTop) && (elemTop < docViewBottom));
+        }
+
         $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 4000) {
+            $(document).scroll(function () {
+                if (isImageInView('#tesla')) {
                     $('#designTitle').html('Tesla Booklet');
+                    console.log(6);
                 }
-                else if ($(this).scrollTop() > 2400) {
-                    $('#designTitle').html('Infographics');
+                if (isImageInView('#electricVehicle') || isImageInView('#median')) {
+                    $('#designTitle').html('Infographic');
+                    console.log('4 or 5');
                 }
-                else {
+
+                if (isImageInView('#penguin') || isImageInView('#polarbear')) {
                     $('#designTitle').html('Social Distancing Campaign');
+                    console.log('2 or 3');
                 }
             });
         });
