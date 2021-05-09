@@ -40,9 +40,10 @@
         body {
             font-family: 'Raleway', sans-serif;
             color: rgb(39, 37, 37);
-            background-color: rgb(214, 195, 158);
-            background-image: url("img/blizzard.png");
+            background-color: rgb(236, 201, 161);
+            background-image: url("img/cardboard.png");
             height: 100%;
+            text-shadow: 1px 1px 2px rgba(39, 37, 37, .2);
         }
 
         section {
@@ -56,38 +57,35 @@
 
         /* NAVIGATION */
 
-        .navbar {
+        #navigation {
             position: fixed;
+            color: rgb(61, 61, 61);
             top: 0px;
             height: 1em;
             width: 100%;
-            background-color: rgba(199, 163, 100, 0.9);
-            background-image: url("img/blizzard.png");
+            background-color: rgba(199, 143, 98, 0.95);
+            background-image: url("img/cardboard.png");
             padding-bottom: 20px;
             z-index: 1;
         }
 
-        .name {
-            position: fixed;
-            left: 18px;
-            top: 8px;
-            font-weight: 300;
+        #navigation .name {
+            float: left;
+            margin: 7px 15px;
+            font-weight: 400;
             text-transform: uppercase;
             font-size: 1em;
         }
 
         nav {
-            position: fixed;
-            right: 15px;
-            top: 7px;
+            float: right;
+            margin: 7px 15px;
         }
 
         nav li {
             width: 10px;
             height: 10px;
             list-style: none;
-            /* border: 2px solid rgb(121, 121, 121);
-            border-radius: 50%; */
             display: inline;
             margin: .5em;
             cursor: pointer;
@@ -99,7 +97,7 @@
         }
 
         nav li:hover {
-            color: rgba(105, 105, 104, 0.7)
+            color: rgba(235, 235, 235, 0.7)
         }
 
         /* INTRO */
@@ -145,10 +143,11 @@
             opacity: 0;
         }
 
-        .checkOut {
+        #arrows {
             position: absolute;
-            bottom: 125px;
+            bottom: 20px;
             right: 175px;
+            opacity: 0;
         }
 
         /* PORTFOLIO SOCIAL DISTANCING */
@@ -161,7 +160,7 @@
             padding: 15px 15px;
             color: rgb(253, 239, 230);
             font-weight: 300;
-            z-index: 1;
+            z-index: 4;
             max-width: 8%;
             text-align: right;
             font-size: 1em;
@@ -188,25 +187,51 @@
         #polarbear {
             max-height: 88%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+            position: absolute;
         }
 
         /* PORTFOLIO INFOGRAPHICS */
         #electricVehicle {
             max-height: 92%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
-            /* display: flex;
-            flex-wrap: nowrap;
-            align-content: space-around; */
+            position: absolute;
         }
 
         #median {
             max-width: 75%;
             box-shadow: 1px 1px 10px black, -2px -2px 10px black;
-
+            position: absolute;
 
         }
 
         /* PORTFOLIO TESLA BOOKLET */
+
+        #tesla {
+            max-height: 88%;
+            box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+            position: absolute;
+        }
+
+        /* SOCIAL MEDIA LINKS */
+
+        .bottomBar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(199, 143, 98, 0.95);
+            background-image: url("img/cardboard.png");
+            padding: .7em 0em;
+        }
+
+        .bottomBar li {
+            list-style: none;
+            display: inline;
+            margin: 0em 3em;
+        }
+
+        .bottomBar img {
+            max-height: 25px;
+        }
     </style>
 </head>
 
@@ -214,21 +239,19 @@
     <div id="preloader">
         <img src="img/loading-circle.png" alt="loading circle" />
     </div>
-    <div class="navbar">
+    <div id="navigation" class="navbar">
         <h2 class="name">Beth Klassen</h1>
             <nav>
                 <ul>
                     <li data-screen="#screen1" class="active">About</li>
                     <li data-screen="#screen2">Portfolio</li>
-                    <!-- <li data-screen="#screen3"></li>
-            <li data-screen="#screen4"></li> -->
                 </ul>
             </nav>
     </div>
     <section id="screen1">
         <h1>hi there.</h1>
         <p class="intro">I am a graphic designer based in Austin, Texas. I create informative and eye-catching designs.
-            I specialize in:
+            Ask me about:
         </p>
         <ul id="skills">
             <li id="skill1"> <img src="img/checkmark.png" /> web design</li>
@@ -236,20 +259,22 @@
             <li id="skill3"><img src="img/checkmark.png" /> motion graphics and animation</li>
         </ul>
 
-        <div class="checkOut">Check out my Portfolio</div>
+        <div id="arrows"><img src="img/arrows.svg"></div>
     </section>
 
-    <div id="designTitle" class="right" data-400="opacity:0" data-500="opacity:1" data-2300="right:0%; opacity:1"
-        data-2350="opacity:0" data-2400="right:90%; opacity:1" data-3800="right:90%;" data-3900="right: 0%;">
+    <div id="designTitle" class="right" data-400="opacity:0" data-500="opacity:1" data-2000="right:0%; opacity:1"
+        data-2350="opacity:0" data-2450="right[sqrt]:90%; opacity:1" data-3750="right[sqrt]:90%;"
+        data-3950="opacity[sqrt]:0;" data-4100="right[sqrt]: 0%; opacity[sqrt]: 1;">
         Social Distancing Campaign</div>
-    <section id="screen2" data-start="right:100%; transform: scale(.6); transform:rotate(-30deg)"
-        data-300-bottom="right: -10%; transform: scale(1)">
+    <section id="screen2" data-start="right[sqrt]:100%; transform: scale(.6); transform:rotate(-30deg)"
+        data-300-bottom="right[sqrt]: -10%; transform[sqrt]: scale(1)">
         <object id="penguin" type="image/svg+xml" data="img/penguinsSocialDistancing.svg"></object>
     </section>
-    <section id="screen3" data-start="left:150%; transform: scale(.6)" data-300-bottom="left:25%; transform: scale(1)">
+    <section id="screen3" data-start="left[sqrt]:150%; transform[sqrt]: scale(.6)"
+        data-300-bottom="left[sqrt]:25%; transform[sqrt]: scale(1)">
         <object id="polarbear" type="image/svg+xml" data="img/polarBearsMask.svg"></object>
     </section>
-    <section id="screen4" data-start="right:200%" data-300-bottom="right:-35%">
+    <section id="screen4" data-start="right:300%" data-300-bottom="right:-30%">
         <img id="electricVehicle" src="img/infographic_EV.jpg"
             alt="infographic about electric vehicles vs internal combustion engines" />
     </section>
@@ -257,26 +282,43 @@
         data-300-bottom="left:15%; transform: scale(1)">
         <img id="median" src="img/meanmedianaverage.png" alt="infographic for mean versus median versus average" />
     </section>
-
+    <section id="screen6" data-start="right:200%" data-300-bottom="right:-25%">
+        <img id="tesla" src="img/Teslacover.jpg" alt="Tesla booklet cover" />
+    </section>
+    <div class="bottomBar">
+        <ul>
+            <li><img src="img/instagram.png" />
+            </li>
+            <li><img src="img/behance.png" />
+            </li>
+            <li><img src="img/linkedin.png" />
+            </li>
+            <li><img src="img/github.png" />
+            </li>
+        </ul>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.js"></script>
     <script src="js/skrollr.min.js"></script>
     <script>
         var s = skrollr.init({ mobileCheck: function () { return false; } });
         $(window).load(function () {
-            $('#preloader').fadeOut(500, introAnimation);
+            $('#preloader').fadeOut(500, introAnimation1);
         });
 
-        function introAnimation() {
-            $('h1').animate({ opacity: 1 }, 1000, 'easeInQuad');
-            $('#screen1 p').animate({ opacity: 1 }, 1000, 'easeInQuad');
-            $('#skill1').animate({ left: "+=50", opacity: "1" }, 2500);
-            $('#skill2').animate({ left: "+=50", top: "+=50", opacity: "1" }, 2500);
-            $('#skill3').animate({ left: "+=50", top: "+=100", opacity: "1" }, 2500);
+        function introAnimation1() {
+            $('h1').animate({ opacity: 1 }, 1000, 'easeInQuad', introAnimation2);
+
         }
-        function sunrise() {
-            $('#shine, #glow').css({ opacity: 1 });
-            $('#shine').animate({ width: '900px', marginLeft: '-450px' }, 200, 'easeInOutSine');
+        function introAnimation2() {
+            $('#screen1 p').delay(500).animate({ opacity: 1 }, 1000, 'easeInQuad', introAnimation3);
+
+        }
+        function introAnimation3() {
+            $('#skill1').delay(1000).animate({ left: "+=50", opacity: "1" }, 1500);
+            $('#skill2').delay(2000).animate({ left: "+=50", top: "+=50", opacity: "1" }, 1500);
+            $('#skill3').delay(3000).animate({ left: "+=50", top: "+=100", opacity: "1" }, 1500);
+            $('#arrows').delay(5000).animate({ opacity: "1" }, 1500);
         }
         $('nav li').click(function () {
             var destination = $(this).data('screen');
@@ -292,7 +334,10 @@
 
         $(document).ready(function () {
             $(window).scroll(function () {
-                if ($(this).scrollTop() > 2350) {
+                if ($(this).scrollTop() > 4000) {
+                    $('#designTitle').html('Tesla Booklet');
+                }
+                else if ($(this).scrollTop() > 2400) {
                     $('#designTitle').html('Infographics');
                 }
                 else {
@@ -301,6 +346,16 @@
             });
         });
 
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navigation").style.top = "0";
+            } else {
+                document.getElementById("navigation").style.top = "-45px";
+            }
+            prevScrollpos = currentScrollPos;
+        };
     </script>
 </body>
 
