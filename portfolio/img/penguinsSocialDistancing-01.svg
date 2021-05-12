@@ -3,19 +3,19 @@
 		<style>
 			#upperLine {
 			stroke-dasharray: 5;
-			animation: dash 1000s linear;
+			animation: dash 1000000s linear;
 			animation-iteration-count: infinite;
 			}
 			
 			#lowerLine {
 			stroke-dasharray: 5;
-			animation: dash 1000s linear;
+			animation: dash 1000000s linear;
 			animation-iteration-count: infinite;
 			}
 			
 			@keyframes dash {
 			to {
-			stroke-dashoffset: 15000;
+			stroke-dashoffset: 15000000;
 			}
 			}
 		</style>
