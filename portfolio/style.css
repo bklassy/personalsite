@@ -1,0 +1,304 @@
+ 
+ 
+ 
+ /* PRELOADER */
+ #preloader {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: #000;
+    text-align: center;
+    padding-top: 30%;
+    z-index: 2;
+
+}
+
+#preloader img {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* GENERAL LAYOUT */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(39, 37, 37);
+    background: rgb(255,231,202);
+    background: linear-gradient(90deg, rgba(255,231,202,1) 0%, rgba(255,237,215,1) 45%, rgba(255,234,209,1) 100%);
+    height: 100%;
+    text-shadow: 1px 1px 2px rgba(39, 37, 37, .2);
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* NAVIGATION */
+
+#navigation {
+    position: fixed;
+    color: rgb(61, 61, 61);
+    top: 0px;
+    height: 1em;
+    width: 100%;
+    background-color: rgba(199, 178, 153, .33);
+    /* background-image: url("img/cardboard.png"); */
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+#navigation .name {
+    float: left;
+    margin: 7px 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+nav {
+    float: right;
+    margin: 7px 15px;
+}
+
+nav li {
+    width: 10px;
+    height: 10px;
+    list-style: none;
+    display: inline;
+    margin: .5em;
+    cursor: pointer;
+    padding: .1em .4em;
+}
+
+nav li.active {
+    text-decoration: underline;
+}
+
+nav li:hover {
+    color: rgba(235, 235, 235, 0.7)
+}
+
+/* INTRO */
+h1 {
+    font-size: 3em;
+    width: 100%;
+    opacity: 0;
+    color: rgb(4, 87, 83);
+    position: absolute;
+    top: 150px;
+    left: 75px; 
+}
+
+#screen1 p {
+    font-size: 1.25em;
+    font-weight: 500;
+    width: 55%;
+    opacity: 0;
+    color: rgb(156, 57, 0);
+    position: absolute;
+    top: 275px;
+    left: 125px;
+}
+
+#screen1 ul {
+    font-size: 1em;
+    width: 100%;
+    opacity: 1;
+    color: rgb(4, 87, 83);
+    list-style: none;
+}
+
+
+#skill1,
+#skill2,
+#skill3 {
+    position: absolute;
+    top: 375px;
+    left: 175px;
+    opacity: 0;
+}
+
+#arrows {
+    position: absolute;
+    bottom: 50px;
+    right: 175px;
+    opacity: 0;
+}
+
+/* PORTFOLIO SOCIAL DISTANCING */
+
+#designTitle {
+    position: fixed;
+    /* right: 0px; */
+    top: 10%;
+    background-color: rgba(26, 26, 26, .9);
+    padding: 1em;
+    max-width: 5em;
+    color: rgb(253, 239, 230);
+    font-weight: 300;
+    text-align: right;
+    font-size: 1em;
+    z-index: 4;
+    opacity: 0;
+}
+
+#penguin {
+    max-width: 75%;
+    max-height: 88%;
+    box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+}
+
+#polarbear {
+    max-height: 88%;
+    box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+}
+
+/* PORTFOLIO INFOGRAPHICS */
+#electricVehicle {
+    max-height: 92%;
+    box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+}
+
+#median {
+    max-width: 75%;
+    box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+}
+
+/* PORTFOLIO TESLA BOOKLET */
+
+#tesla {
+    max-height: 88%;
+    box-shadow: 1px 1px 10px black, -2px -2px 10px black;
+}
+
+/* ANIMATED LOGO */
+
+
+video {
+    max-width: 75%;
+    max-height: 75%;
+    position: static;
+    margin: auto;
+
+}
+
+/* SOCIAL MEDIA LINKS */
+
+.bottomBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(199, 178, 153, .33);
+    /* background-image: url("img/cardboard.png"); */
+    padding: .7em 0em;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
+
+.bottomBar li {
+    list-style: none;
+    display: inline;
+    margin: 0em 3em;
+}
+
+.bottomBar img {
+    max-height: 25px;
+}
+
+/* RESPONSIVE ADJUSTMENTS */
+@media screen and (max-width: 650px) {
+  
+    #designTitle {
+        opacity: 1;
+        /* background-color: rgba(199, 143, 98, 0); */
+        /* color: brown; */
+        position: fixed;
+        margin: auto;
+        text-align: center;
+        padding: .2em;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 100%;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    #navigation {
+        height: 1em;
+        font-size: 1em;
+    }
+    nav {
+
+        float: center;
+        margin-right: 40px;
+    }
+    
+    nav li {
+        width: fit-content;
+        
+        font-size: .7em;
+        padding: 0em;
+        float: center;
+    }
+ 
+    h1 {
+        font-size: 2em;
+        width: 100%;
+        opacity: 0;
+        color: rgb(4, 87, 83);
+        position: absolute;
+        top: 100px;
+        left: 50px; 
+    }
+    
+    #screen1 p {
+        font-size: 1.1em;
+        font-weight: 500;
+        width: 55%;
+        opacity: 0;
+        color: rgb(156, 57, 0);
+        position: absolute;
+        top: 145px;
+        left: 60px;
+    }
+    
+    #screen1 ul {
+        font-size: .9em;
+        margin: 0;
+        width: 100%;
+        opacity: 1;
+        color: rgb(4, 87, 83);
+        list-style: none;
+        position: absolute;
+        top: -100px;
+        left: -140px;
+    } 
+
+    #skills img {max-height: 18px;}
+
+
+}
