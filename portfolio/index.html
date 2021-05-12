@@ -136,32 +136,7 @@
             return ((elemTop >= docViewTop) && (elemTop < docViewBottom));
         }
 
-        $(document).ready(function () {
-            $(document).scroll(function () {
-                if (isScrolledIntoView('#screen1')) {
-                    console.log('screen1');
-                    $('#designTitle').animate({ opacity: "0" }, 100);
-                }
-                if (isImageInView('#tesla')) {
-                    $('#designTitle').html('Tesla Booklet');
-                }
-                if (isImageInView('#electricVehicle') || isImageInView('#median')) {
-                    $('#designTitle').html('Infographics');
-                }
 
-                if (isImageInView('#penguin') || isImageInView('#polarbear')) {
-                    console.log('screen2');
-                    $('#designTitle').html('Social Distancing Campaign');
-                    $('#designTitle').animate({ opacity: "1" }, 0);
-                }
-
-                if (isImageInView('#screen7')) {
-                    $('#designTitle').html('2D animation');
-                }
-
-
-            });
-        });
 
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
@@ -184,9 +159,33 @@
 
         if (w > 640) {
             var s = skrollr.init({ mobileCheck: function () { return false; } });
+            $(document).ready(function () {
+                $(document).scroll(function () {
+                    if (isScrolledIntoView('#screen1')) {
+                        $('#designTitle').animate({ opacity: "0" }, 100);
+                    }
+                    if (isImageInView('#tesla')) {
+                        $('#designTitle').html('Tesla Booklet');
+                    }
+                    if (isImageInView('#electricVehicle') || isImageInView('#median')) {
+                        $('#designTitle').html('Infographics');
+                    }
 
+                    if (isImageInView('#penguin') || isImageInView('#polarbear')) {
+                        $('#designTitle').html('Social Distancing Campaign');
+                        $('#designTitle').animate({ opacity: "1" }, 0);
+                    }
+
+                    if (isImageInView('#screen7')) {
+                        $('#designTitle').html('2D animation');
+                    }
+
+
+                });
+            });
 
         }
+
     </script>
 </body>
 

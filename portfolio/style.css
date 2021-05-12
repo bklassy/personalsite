@@ -233,10 +233,10 @@ video {
 @media screen and (max-width: 650px) {
   
     #designTitle {
-        opacity: 1;
+        opacity: 0;
         /* background-color: rgba(199, 143, 98, 0); */
         /* color: brown; */
-        position: fixed;
+        /* position: fixed;
         margin: auto;
         text-align: center;
         padding: .2em;
@@ -244,7 +244,7 @@ video {
         transform: translateX(-50%);
         max-width: 100%;
         z-index: -1;
-        opacity: 0;
+        opacity: 0; */
     }
 
     #navigation {
@@ -298,7 +298,22 @@ video {
         left: -140px;
     } 
 
-    #skills img {max-height: 18px;}
+    #skills img {max-height: 15px;}
 
+   
+    /* section img, object {
+        position: static;
+        max-width: 90%;
+        max-height: 90%;
+        margin: 30px;
+    }
+ */
 
+    #penguin, #polarbear, #electricVehicle, #median, #tesla {
+        max-width: 75%;
+        max-height: 88%;
+        box-shadow: none;
+        margin: 30px;
+    }
+    
 }
