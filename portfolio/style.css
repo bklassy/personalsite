@@ -37,8 +37,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     color: rgb(39, 37, 37);
-    background: rgb(255,231,202);
-    background: linear-gradient(90deg, rgba(255,231,202,1) 0%, rgba(255,237,215,1) 45%, rgba(255,234,209,1) 100%);
+    background: rgb(255,239,232);
+background: linear-gradient(169deg, rgba(255,239,232,1) 0%, rgba(255,228,219,1) 45%, rgba(255,217,198,1) 100%);
     height: 100%;
     text-shadow: 1px 1px 2px rgba(39, 37, 37, .2);
     overflow-x: hidden;
