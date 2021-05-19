@@ -13,7 +13,7 @@
         <img src="img/loading-circle.png" alt="loading circle" />
     </div>
     <div id="navigation" class="navbar">
-        <h2 class="name">Beth Klassen</h1>
+        <h2 class="name">BK</h1>
             <nav>
                 <ul>
                     <li data-screen="#screen1" class="active">About</li>
@@ -21,9 +21,9 @@
                 </ul>
             </nav>
     </div>
-    <section id="screen1">
-        <h1>hi there.</h1>
-        <p class="intro">And welcome! I am a graphic designer based in Austin, Texas. I create informative and
+    <main id="screen1">
+        <h1>I'm Beth.</h1>
+        <p class="intro">I am a graphic designer based in Austin, Texas. I create informative and
             eye-catching designs. Ask me about:
         </p>
         <ul id="skills">
@@ -32,43 +32,43 @@
             <li id="skill3"><img src="img/checkmark.png" /> motion graphics and animation</li>
         </ul>
         <div id="arrows"><img src="img/arrows.svg"></div>
-    </section>
+    </main>
 
     <div id="designTitle">
-        <!-- data-400="opacity:0" data-500="opacity:1" -->
         Social Distancing Campaign
     </div>
-    <!-- data-2000="right:0%; opacity:1"
-        data-2350="opacity:0" data-2450="right[sqrt]:90%; opacity:1" data-3750="right[sqrt]:90%;"
-        data-3950="opacity[sqrt]:0;" data-4100="right[sqrt]: 0%; opacity[sqrt]: 1;" -->
-    <section id="screen2" data-start="right[sqrt]:100%; transform: scale(.6); transform:rotate(-30deg)"
-        data-300-bottom="right[sqrt]: -20%; transform[sqrt]: scale(1)">
-        <div>
+    <section class="portfolioContent" id="screen2">
+        <div data-bottom-top="transform:translateY(30%)" data-top-bottom="transform:translateY(-30%)">
             <object id="penguin" type="image/svg+xml" data="img/penguinsSocialDistancing.svg"></object>
         </div>
     </section>
-    <section id="screen3" data-start="left[sqrt]:150%; transform[sqrt]: scale(.6)"
-        data-300-bottom="left[sqrt]:25%; transform[sqrt]: scale(1)">
-        <div><object id="polarbear" style="height:50em;" type="image/svg+xml" data="img/polarbear.svg"></object>
+    <section class="portfolioContent" id="screen3">
+        <div data-bottom-top="transform:translateY(40%)" data-top-bottom="transform:translateY(-30%)"><object
+                id="polarbear" type="image/svg+xml" data="img/polarbear.svg"></object>
         </div>
     </section>
-    <section id="screen4" data-start="right:300%" data-300-bottom="right:-30%">
-        <img id="electricVehicle" src="img/infographic_EV.jpg"
-            alt="infographic about electric vehicles vs internal combustion engines" />
+    <section class="portfolioContent" id="screen4">
+        <div data-bottom-top="transform:translateY(30%)" data-top-bottom="transform:translateY(-30%)">
+            <img id="electricVehicle" src="img/infographic_EV.jpg"
+                alt="infographic about electric vehicles vs internal combustion engines" />
+        </div>
     </section>
-    <section id="screen5" data-start="left:150%; transform: scale(.6); transform:rotate(30deg)"
-        data-300-bottom="left:15%; transform: scale(1)">
-        <img id="median" style="width:60em" src="img/meanmedianaverage.png"
-            alt="infographic for mean versus median versus average" />
+    <section class="portfolioContent" id="screen5">
+        <div data-bottom-top="transform:translateY(30%)" data-top-bottom="transform:translateY(-30%)">
+            <img id="median" src="img/meanmedianaverage.png" alt="infographic for mean versus median versus average" />
+        </div>
     </section>
-    <section id="screen6" data-start="right:200%" data-300-bottom="right:-25%">
-        <img id="tesla" src="img/Teslacover.jpg" alt="Tesla booklet cover" />
+    <section class="portfolioContent" id="screen6">
+        <div>
+            <img id="tesla" src="img/Teslacover.jpg" alt="Tesla booklet cover" />
+        </div>
     </section>
-    <section id="screen7">
-        <video controls poster="img/animatedLogo.png">
-            <source id="animatedLogo" src="videos/animatedLogo.mp4" type="video/mp4" />
+    <section class="portfolioContent" id="screen7">
+        <div><video controls poster="img/animatedLogo.png">
+                <source id="animatedLogo" src="videos/animatedLogo.mp4" type="video/mp4" />
+        </div>
     </section>
-    <div class="bottomBar">
+    <span class="bottomBar">
         <ul>
             <li><a href="https://www.instagram.com/beth_sketches/" target="_blank"><img src="img/instagram.png"
                         alt="socialMedia" /></a>
@@ -81,7 +81,7 @@
             <li><a href="https://github.com/bklassy" target="_blank"><img src="img/github.png" alt="github" /></a>
             </li>
         </ul>
-    </div>
+    </span>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.js"></script>
     <script src="js/skrollr.min.js"></script>
@@ -101,7 +101,7 @@
             $('#skill1').delay(1000).animate({ left: "+=50", opacity: "1" }, 1500);
             $('#skill2').delay(1500).animate({ left: "+=50", top: "+=50", opacity: "1" }, 1000);
             $('#skill3').delay(2000).animate({ left: "+=50", top: "+=100", opacity: "1" }, 1000);
-            $('#arrows').delay(4000).animate({ opacity: "1" }, 1500);
+            $('#arrows').delay(3000).animate({ opacity: "1" }, 2000);
         }
         $('nav li').click(function () {
             var destination = $(this).data('screen');
