@@ -3,17 +3,17 @@
 		<style>
 			#upperLine {
 			stroke-dasharray: 5;
-			animation: dash 100s linear;
+			animation: dash 1000000000s linear;
 			}
 			
 			#lowerLine {
 			stroke-dasharray: 5;
-			animation: dash 100s linear;
+			animation: dash 1000000000s linear;
 			}
 			
 			@keyframes dash {
 			to {
-			stroke-dashoffset: 1500;
+			stroke-dashoffset: 15000000000;
 			}
 			}
 		</style>
