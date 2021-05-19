@@ -24,5 +24,5 @@
 	</g>
 	<rect id="upperMask" x="30.78" y="121" width="69.33" height="52.44" fill="#29b8ef" />
 	<rect id="lowerMask" x="321.44" y="273.89" width="117.33" height="30.22" fill="#29b8ef" />
-	<image width="1400" height="2000" transform="translate(-3 -2.56) scale(0.36)" xlink:href="polarbear.png" />
+	<image width="1400" height="2000" transform=" scale(0.36)" xlink:href="polarbear.png" />
 </svg>
