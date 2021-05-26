@@ -61,6 +61,6 @@
 		</style>
 	</defs>
 	<polyline id="bottomArrow" points="55.5 93.6 28 118.78 0.5 93.6" fill="none" stroke="#005161" stroke-miterlimit="10" stroke-width="1.48" />
-	<polyline id="middleArrow" points="55.5 47.07 28 72.26 0.5 47.07" fill="none" stroke="#992400" stroke-miterlimit="10" stroke-width="1.48" />
+	<polyline id="middleArrow" points="55.5 47.07 28 72.26 0.5 47.07" fill="none" stroke="#0b9cb9" stroke-miterlimit="10" stroke-width="1.48" />
 	<polyline id="topArrow" points="55.5 0.55 28 25.73 0.5 0.55" fill="none" stroke="#005161" stroke-miterlimit="10" stroke-width="1.48" />
 </svg>
